@@ -1,1 +1,96 @@
-<h4>TESTING BASIC HTML</h4>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="html_title">
+    Mamono-chan Library
+  </title>
+
+  <!-- IMPORT CSS -->
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/datatable/datatables.bootstrap5.min.css">
+
+  <!-- IMPORT SCRIPTS -->
+  <script src="./assets/jquery/jquery-3.5.1.min.js"></script>
+  <script src="./assets/jquery/jquery.form.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/datatable/datatables.min.js"></script>
+  <script src="./assets/jquery-validation/jquery.validate.min.js"></script>
+  <script src="./assets/jquery-validation/additional-methods.min.js"></script>
+  <script src="./assets/notifyjs/notify.min.js"></script>
+
+</head>
+
+<body style="background-color: #343434; color: #efefef;">
+  <h3>TESTING SIMPLE HTML</h3>
+</body>
+
+<script>
+  setTimeout(() => {
+    alert('the page title should be changed now!');
+    $('#html_title').text('WEE WOO WEE WOO');
+  }, 2000);
+
+  $.notify.addStyle("mynotif", {
+    html:
+      "<div>" + '<div class="message"><span data-notify-html/></div>' + "</div>",
+    classes: {
+      base: {
+        "min-width": "230px",
+        "max-width": "300px",
+        "background-color": "white",
+        padding: "10px",
+        "border-radius": "4px",
+        border: "2px solid #777777",
+      },
+      success: {
+        "background-color": "#5cb85c",
+        border: "2px solid #217921",
+        color: "white",
+      },
+      error: {
+        "background-color": "#d9534f",
+        border: "2px solid #862522",
+        color: "white",
+      },
+      info: {
+        "background-color": "#337ab7",
+        border: "2px solid #1c466b",
+        color: "white",
+      },
+    },
+  });
+
+  $.notify.defaults({
+    autoHide: true,
+    autoHideDelay: 10000,
+    style: "mynotif",
+    gap: 4,
+  });
+
+  function show_notify(status, message) {
+    let icon, title;
+    switch (status) {
+      case "success": {
+        icon = '<i class="fas fa-check-circle me-1"></i>';
+        title = "Sukses!";
+        break;
+      }
+      case "info": {
+        icon = '<i class="fas fa-info-circle me-1"></i>';
+        title = "Info";
+        break;
+      }
+      default: {
+        title = "Gagal!";
+        icon = '<i class="fas fa-exclamation-triangle me-1"></i>';
+        break;
+      }
+    }
+    $.notify("<b>" + icon + title + "</b><br>" + message, status);
+  }
+</script>
+
+</html>
