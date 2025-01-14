@@ -68,7 +68,7 @@ body {
   list-style-type: circle;
 }
 
-.bg-LR {
+.bgr-LR {
   min-width: 80px;
   background: linear-gradient(55deg, #cbd3ff, #a1d9ff, #b78eff, #a1fffd, #d7ceff);
   display: flex;
@@ -79,7 +79,7 @@ body {
   text-shadow: 0px 1px 2px rgb(0, 0, 0);
 }
 
-.bg-UR {
+.bgr-UR {
   min-width: 80px;
   background: linear-gradient(55deg, #8effa7, #f2ffa1, #ffa1a1, #ffa7f5, #a1acff);
   display: flex;
@@ -90,7 +90,7 @@ body {
   text-shadow: 0px 1px 2px rgb(0, 0, 0);
 }
 
-.bg-SR {
+.bgr-SR {
   min-width: 80px;
   background: linear-gradient(55deg, #ebffa1, #ffdf8e);
   display: flex;
@@ -101,7 +101,7 @@ body {
   text-shadow: 0px 1px 2px rgb(0, 0, 0);
 }
 
-.bg-R {
+.bgr-R {
   min-width: 80px;
   background: linear-gradient(55deg, #ffffff, #a1d2ff);
   display: flex;
@@ -112,7 +112,7 @@ body {
   text-shadow: 0px 1px 2px rgb(0, 0, 0);
 }
 
-.bg-N {
+.bgr-N {
   min-width: 80px;
   background: linear-gradient(55deg, #ffd49c, #caa074);
   display: flex;
