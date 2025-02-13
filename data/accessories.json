@@ -241,7 +241,7 @@
 				{
 					"id": 2,
 					"name": null,
-					"desc": "Buff Duration 999 seconds",
+					"desc": "Buff duration: 999 seconds",
 					"list": ["Triggers extra damage according to Fire ATK"],
 					"condition": "Activated the first time you attack in a battle"
 				}
@@ -266,7 +266,7 @@
 				{
 					"id": 2,
 					"name": null,
-					"desc": "Buff Duration 999 seconds",
+					"desc": "Buff duration: 999 seconds",
 					"list": ["Triggers extra damage according to Wind ATK"],
 					"condition": "Activated the first time you attack in a battle"
 				}
@@ -319,7 +319,7 @@
 				{
 					"id": 2,
 					"name": null,
-					"desc": "Buff Duration 999 seconds",
+					"desc": "Buff duration: 999 seconds",
 					"list": ["Triggers extra damage according to Water ATK"],
 					"condition": "Activated the first time you attack in a battle"
 				}
@@ -405,7 +405,7 @@
 				{
 					"id": 2,
 					"name": null,
-					"desc": "Buff Duration 999 seconds",
+					"desc": "Buff duration: 999 seconds",
 					"list": ["Triggers extra damage according to Earth ATK"],
 					"condition": "Activated the first time you attack in a battle"
 				}
@@ -525,17 +525,16 @@
 					"desc": null,
 					"list": ["Recovery Power (Resilience) +500"],
 					"condition": "Effective immediately"
-				}
-			],
-			"debuff": [
+				},
 				{
-					"id": 1,
+					"id": 2,
 					"name": null,
 					"desc": null,
 					"list": ["Recover 10% of your HP"],
 					"condition": "15% chance to activate when you get hit (attacked)"
 				}
 			],
+			"debuff": null,
 			"additional_info": null,
 			"year": 2022,
 			"icon": "lr_ear_yellow.png"
@@ -575,7 +574,7 @@
 				{
 					"id": 1,
 					"name": null,
-					"desc": "Buff duration 60 seconds",
+					"desc": "Buff duration: 60 seconds",
 					"list": [
 						"ATK +10,000",
 						"ATK +300%",
@@ -622,7 +621,7 @@
 				{
 					"id": 1,
 					"name": null,
-					"desc": "Buff Duration 30 seconds",
+					"desc": "Buff duration: 30 seconds",
 					"list": [
 						"ATK +100%",
 						"MATK +100%",
@@ -637,7 +636,7 @@
 				{
 					"id": 1,
 					"name": null,
-					"desc": "Debuff Duration 60 seconds",
+					"desc": "Debuff duration: 60 seconds",
 					"list": ["ATK -100%", "MATK -100%", "Skill Cooltime +60"],
 					"condition": "Effective immediately after the buff ends"
 				}
@@ -645,6 +644,1294 @@
 			"additional_info": "The buff can be triggered again as long as the debuff isn't active",
 			"year": 2022,
 			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "burnt_earth_earrings",
+			"name": "Burnt Earth Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Fire ATK +300"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Single Enemy Fire Damage Taken increases (value not specified)"
+					],
+					"condition": "20% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2022,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "storm_weir_earrings",
+			"name": "Storm Weir Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Wind ATK +200", "Wind DEF +100"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Increase Wind DEF further (value not specified)",
+						"Reduce incoming elemental magic damage 3 times"
+					],
+					"condition": "20% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment will not be activated",
+			"year": 2022,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "collector_staff_e",
+			"name": "Collector: Staff E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: Extra Damage",
+					"desc": null,
+					"list": [
+						"Increase extra damage according to the number of staffs equipped (max: 50,000)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: Damage Factor",
+					"desc": null,
+					"list": [
+						"Increase damage factor according to the number of staffs equipped (max: 30%)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Damage Limit",
+					"desc": null,
+					"list": [
+						"Increase damage upper limit according to the number of staffs equipped (max: 450,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2022,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "rough_earrings",
+			"name": "Rough Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Earth ATK +300"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Single Enemy Earth Damage Taken increases (value not specified)"
+					],
+					"condition": "20% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2022,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "redemption_earrings",
+			"name": "Redemption Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Max HP +30%",
+						"Increase extra damage as your current HP goes down (max: 100,000)",
+						"Increase recovery power (resilience) as your current HP goes down (max: 2,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Triggers reverse damage (20% of your current HP)"],
+					"condition": "When doing any action in a battle"
+				}
+			],
+			"additional_info": "The HP increase from certain gear (e.g., HP Up Core or Rare Rune [1H Sword]) will not be considered as an HP decrease",
+			"year": 2022,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "sacrifice_earrings",
+			"name": "Sacrifice Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"ATK +5,000",
+						"ATK + 200%",
+						"Triggers extra damage according to your ATK (max: 50,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MATK -100%", "MDEF -100%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": 2022,
+			"icon": "lr_ear_red.png"
+		},
+		{
+			"id": "enemy_wind_earrings",
+			"name": "Enemy Wind Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Wind ATK +300"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Single Enemy Wind Damage Taken increases (value not specified)"
+					],
+					"condition": "20% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2022,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "collector_spear_e",
+			"name": "Collector: Spear E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: Extra Damage",
+					"desc": null,
+					"list": [
+						"Increase extra damage according to the number of spears equipped (max: 40,000)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: ATK",
+					"desc": null,
+					"list": [
+						"Increase ATK according to the number of spears equipped (max: 40%)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Damage Limit",
+					"desc": null,
+					"list": [
+						"Increase damage upper limit according to the number of spears equipped (max: 600,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2022,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "advanced_earrings",
+			"name": "Advanced Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Increase damage upper limit according to the number of skills used in a battle (max: 3,000,000)",
+						"Increase damage factor according to the number of skills used in a battle (max: 100%)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": "The increased damage limit and damage factor will reset when the battle ends",
+			"year": 2022,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "neutral_atk_necklace",
+			"name": "Neutral ATK Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +20%", "MATK +20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire ATK -100",
+						"Wind ATK -100",
+						"Earth ATK -100",
+						"Water ATK -100"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "transcending_necklace",
+			"name": "Transcending Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Transcending",
+					"desc": null,
+					"list": [
+						"ATK +20%",
+						"Reduces MATK by 40% and the reduced value increases damage upper limit (max: 40,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "wisdom_necklace",
+			"name": "Wisdom Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Wisdom",
+					"desc": null,
+					"list": [
+						"MATK +20%",
+						"Reduces ATK by 40% and the reduced value increases damage upper limit (max: 40,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "steel_body_necklace",
+			"name": "Steel Body Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF +200", "MDEF +200", "Max HP +5%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Factor -15%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_blue.png"
+		},
+		{
+			"id": "heavy_def_necklace",
+			"name": "Heavy DEF Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF +300", "Max HP +5%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Critical Damage -20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_blue.png"
+		},
+		{
+			"id": "heavy_mdef_necklace",
+			"name": "Heavy MDEF Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MDEF +300", "Max HP +5%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Critical Damage -20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_blue.png"
+		},
+		{
+			"id": "hard_power_necklace",
+			"name": "Hard Power Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Hard Power",
+					"desc": null,
+					"list": [
+						"For every 5% HP lost in battle, increases DEF and MDEF (max: 500)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_purple.png"
+		},
+		{
+			"id": "heavens_gift_necklace",
+			"name": "Heaven's Gift Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Recover 5% of your HP"],
+					"condition": "15% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_green.png"
+		},
+		{
+			"id": "strong_def_necklace",
+			"name": "Strong DEF Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"For every 10% HP lost in battle, increases DEF (max: 1,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_purple.png"
+		},
+		{
+			"id": "tenacious_necklace",
+			"name": "Tenacious Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"For every 10% HP lost in battle, increases MDEF (max: 1,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_purple.png"
+		},
+		{
+			"id": "robust_necklace",
+			"name": "Robust Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Max HP +25%", "Max HP +500"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Recovery Power (Resilience) -500",
+						"Recovery Power (Resilience) reduced by 25% of current Max HP"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_green.png"
+		},
+		{
+			"id": "sharp_necklace",
+			"name": "Sharp Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +100%", "MATK +100%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"DEF and MDEF decreases according to the total damage dealt during battle"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": "The reduced DEF and MDEF will reset after the battle ends",
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "furious_necklace",
+			"name": "Furious Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Increase Damage Upper Limit according to the total Damage Taken during battle"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": "The increased Damage Upper Limit will reset after the battle ends",
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "hero_earrings",
+			"name": "Hero Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Upper Limit +25,000", "Damage Factor +10%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_orange.png"
+		},
+		{
+			"id": "holy_earrings",
+			"name": "Holy Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Max HP +2,000", "Recovery Power (Resilience) +100"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_pink.png"
+		},
+		{
+			"id": "atk_earrings",
+			"name": "ATK Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +3,000", "MATK +3,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_red.png"
+		},
+		{
+			"id": "def_earrings",
+			"name": "DEF Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF +150", "MDEF +150"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_blue.png"
+		},
+		{
+			"id": "fire_earrings",
+			"name": "Fire Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Fire ATK +100", "Fire DEF +50"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_green.png"
+		},
+		{
+			"id": "water_earrings",
+			"name": "Water Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Water ATK +100", "Water DEF +50"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_green.png"
+		},
+		{
+			"id": "earth_earrings",
+			"name": "Earth Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Earth ATK +100", "Earth DEF +50"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_green.png"
+		},
+		{
+			"id": "wind_earrings",
+			"name": "Wind Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Wind ATK +100", "Wind DEF +50"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_green.png"
+		},
+		{
+			"id": "crimson_earrings",
+			"name": "Crimson Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Having 1 Red core slot already open"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_red.png"
+		},
+		{
+			"id": "blue_sky_earrings",
+			"name": "Blue Sky Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Having 1 Blue core slot already open"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_blue.png"
+		},
+		{
+			"id": "golden_earrings",
+			"name": "Golden Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Having 1 Yellow core slot already open"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_orange.png"
+		},
+		{
+			"id": "greenery_earrings",
+			"name": "Greenery Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Having 1 Green core slot already open"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "sun_ear_green.png"
+		},
+		{
+			"id": "inner_eye_necklace",
+			"name": "Inner Eye Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Critical Damage +20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Critical Time -500"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_pink.png"
+		},
+		{
+			"id": "triggering_necklace",
+			"name": "Triggering Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Upper Limit +25,000", "Increased Hate Bonus +1,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_purple.png"
+		},
+		{
+			"id": "elemental_atk_necklace",
+			"name": "Elemental ATK Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire ATK +200",
+						"Wind ATK +200",
+						"Earth ATK +200",
+						"Water ATK +200"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire DEF -100",
+						"Wind DEF -100",
+						"Earth DEF -100",
+						"Water DEF -100"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "bloody_tears_necklace",
+			"name": "Bloody Tears Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Factor +20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Max HP -10%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "courage_necklace",
+			"name": "Courage Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +20%", "MATK +20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Skill Cooltime +20"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "strong_muscles_necklace",
+			"name": "Strong Muscles Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Max HP +20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Factor -10%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_yellow.png"
+		},
+		{
+			"id": "control_necklace",
+			"name": "Control Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF +5%", "MDEF +5%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK -20%", "MATK -20%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_purple.png"
+		},
+		{
+			"id": "elemental_def_necklace",
+			"name": "Elemental DEF Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire DEF +200",
+						"Wind DEF +200",
+						"Earth DEF +200",
+						"Water DEF +200"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire ATK -100",
+						"Wind ATK -100",
+						"Earth ATK -100",
+						"Water ATK -100"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "heavy_atk_necklace",
+			"name": "Heavy ATK Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +500%", "MATK +500%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Skill Cooltime +600"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "vision_necklace",
+			"name": "Vision Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Critical Damage +100%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Critical Time is drastically reduced"],
+					"condition": "100% chance to activate when you get hit (attacked)"
+				}
+			],
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment will not be activated",
+			"year": null,
+			"icon": "heart_neck_purple.png"
+		},
+		{
+			"id": "light_necklace",
+			"name": "Light Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Skill Cooltime -30"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF -15%", "MDEF -15%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_pink.png"
+		},
+		{
+			"id": "adversity_necklace",
+			"name": "Adversity Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Adversity",
+					"desc": null,
+					"list": ["Your ATK increases as your current HP decreases"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "convert_f_necklace",
+			"name": "Convert: F Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Increases ATK according to your Fire ATK (max: 10,000)",
+						"Increases Max HP according to your Fire DEF (max: 1,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "convert_w_necklace",
+			"name": "Convert: W Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Increases MATK according to your Water ATK (max: 10,000)",
+						"Increases MDEF according to your Water DEF (max: 500)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "convert_e_necklace",
+			"name": "Convert: E Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Increases Damage Upper Limit according to your Earth ATK (max: 100,000)",
+						"Increases DEF according to your Earth DEF (max: 500)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "convert_a_necklace",
+			"name": "Convert: A Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Reduces Skill Cooltime according to your Wind ATK (max: -25)",
+						"Increases Recovery Power (Resilience) according to your Wind DEF (max: 500)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "devotion_necklace",
+			"name": "Devotion Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Recovery Power (Resilience) +700"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF -1,500", "MDEF -1,500"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_pink.png"
+		},
+		{
+			"id": "fierce_necklace",
+			"name": "Fierce Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +50%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Reduces ATK according to the total of Damage Taken during battle"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": "The reduced ATK will reset after the battle ends",
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "pursuit_necklace",
+			"name": "Pursuit Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Increases extra damage according to the target's Max HP (max: 30,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "unbending_necklace",
+			"name": "Unbending Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Max HP +5,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF -50%", "MDEF -50%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_yellow.png"
 		}
 	]
 }
