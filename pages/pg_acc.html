@@ -3,54 +3,294 @@
 
     <div class="col-12">
       <div class="panel">
-        <div class="header">Accessories Page Test</div>
+        <div class="header">Accessories</div>
         <div class="content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, molestias atque accusamus natus quae minus
-          nihil nisi eos error culpa voluptatibus aspernatur aut deserunt ex beatae adipisci quod voluptates quasi?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci perferendis dignissimos veritatis
-          asperiores. Nihil maiores error numquam at optio expedita tempore asperiores pariatur ea perspiciatis.
-          Provident fugiat beatae placeat nihil! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
-          maiores iusto magni earum quia aliquam nemo a iure ut distinctio quibusdam cupiditate, quod laboriosam
-          officiis repellat rem, blanditiis, nobis alias!
+          <div class="row g-2">
 
-          <ul class="buff-text mb-0">
-            <li>ATK + 30,000</li>
-            <li>MATK + 30,000</li>
-            <li>DUL + 500,000</li>
-          </ul>
+            <div class="col-12">
+              <input id="search_bar" type="text" class="form-control" placeholder="Enter Search Keyword...">
+            </div>
 
-          <ul class="debuff-text mb-0">
-            <li>DEF - 1,000</li>
-            <li>MDEF - 1,000</li>
-            <li>DF -2</li>
-          </ul>
+            <div class="col-12">
+              <table id="exampleTable" class="custom_datatable" style="width:100%">
+                <thead>
+                  <tr>
+                    <th>Accessories</th>
+                    <th>Icon</th>
+                    <th>Name</th>
+                    <th>Rarity</th>
+                    <th>Buff</th>
+                    <th>Debuff</th>
+                    <th>Year</th>
+                    <th>Additional Info</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Data will be populated dynamically -->
+                </tbody>
+              </table>
+            </div>
 
-          <div class="item-container mt-2">
-            <div class="btn btn-sm bgr-LR">LR 5&starf;</div>
-            <div class="btn btn-sm bgr-UR inactive">UR 4&starf;</div>
-            <div class="btn btn-sm bgr-SR inactive">SR 3&starf;</div>
-            <div class="btn btn-sm bgr-R inactive">R 2&starf;</div>
-            <div class="btn btn-sm bgr-N inactive">N 1&starf;</div>
-            <div class="btn btn-sm btn-success">Button #1</div>
-            <div class="btn btn-sm btn-primary">Button #2</div>
-            <div class="btn btn-sm btn-danger">Button #3</div>
-            <div class="btn btn-sm btn-warning">Button #4</div>
-            <div class="btn btn-sm btn-danger">Button #5</div>
-            <div class="btn btn-sm btn-info">Button #6</div>
-            <div class="btn btn-sm btn-secondary">Button #7</div>
-            <div class="btn btn-sm btn-success">Button #8</div>
-            <div class="btn btn-sm btn-primary">Button #9</div>
-            <div class="btn btn-sm btn-warning">Button #10</div>
-            <div class="btn btn-sm btn-info">Button #11</div>
-            <div class="btn btn-sm btn-danger">Button #12</div>
           </div>
-        </div>
-        <div class="footer text-end">
-          <div class="btn btn-sm btn-danger me-1">Cancel Button</div>
-          <div class="btn btn-sm btn-success">Success Button</div>
         </div>
       </div>
     </div>
 
   </div>
 </div>
+
+<script>
+  var datatable = null;
+
+  var acc_img_scale = 1;
+  var acc_img = $("#fullscreen_image");
+
+  function init_acc_img_zoom() {
+    $(".explain_image").click(function () {
+      acc_img_scale = 1;
+      let imgSrc = $(this).attr("src");
+      $("#fullscreen_image").attr("src", imgSrc);
+      $("#fullscreen_container").addClass('show').show();
+    });
+
+    $(".close-btn").click(function () {
+      $("#fullscreen_container").removeClass('show').hide()
+    });
+
+    $("#fullscreen_container").click(function (e) {
+      if (e.target.id === "fullscreen_container") {
+        $(this).hide();
+      }
+    });
+
+    $("#fullscreen_container").on("wheel", function (e) {
+      e.preventDefault(); // Prevent page scroll
+
+      let zoomFactor = 0.1;
+
+      // Adjust scale
+      if (e.originalEvent.deltaY < 0) {
+        acc_img_scale += zoomFactor; // Zoom in
+      } else {
+        acc_img_scale -= zoomFactor; // Zoom out
+        if (acc_img_scale < 1) acc_img_scale = 1; // Prevent zooming out too much
+      }
+
+      // Apply zoom with center origin
+      acc_img.css({
+        "transform": `scale(${acc_img_scale})`,
+        "transform-origin": "center center" // Always zoom from center
+      });
+    });
+  }
+
+  $(document).ready(function () {
+    // Initialize DataTable
+    datatable = $('#exampleTable').DataTable({
+      ajax: function (data, callback, settings) {
+        $.ajax({
+          url: './data/accessories.json', // Path to JSON file
+          type: 'GET',
+          dataType: 'json',
+          success: function (response) {
+            // Pass the data to DataTables
+            callback(response);
+          },
+          error: function (xhr, status, error) {
+            // Display the error in the console
+            show_notify('error', status + ' - ' + error);
+          }
+        });
+      },
+      columns: [
+        {
+          data: 'id',
+          className: '',
+          render: function (data, type, row) {
+            let html_icon = '';
+            let html_content = '';
+
+            /// |----------------------------------------
+            /// | CREATING ICON
+            /// |----------------------------------------
+            let release_year_badge = (row.year != null)
+              ? '<div class="mt-2 badge bg-secondary d-block px-2 py-1">' + row.year + '</div>'
+              : '';
+            let img_url = (row.icon != null) ? './assets/images/' + row.icon : './assets/images/default.jpg';
+            html_icon = '<div><div class="icon_block">' +
+              '<img class="explain_image" src="' + img_url + '" alt="item_icon">' +
+              '</div>' + release_year_badge + '</div>';
+
+            /// |----------------------------------------
+            /// | CREATING CONTENT
+            /// |----------------------------------------
+            // rarity badge
+            let rarity_badge = (row.rarity != null) ? get_rarity_badge(row.rarity) : '';
+
+            // name
+            let item_name = (row.name != null)
+              ? '<h4 class="mt-1">' + rarity_badge + row.name + '</h4>'
+              : '<h4 class="mt-1">- Unset Item Name -</h4>';
+
+
+            // buff
+            let buff_text = '';
+            if (row.buff != null) {
+              let buff_array = row.buff;
+              $.each(buff_array, function (index, buff) {
+                // check for name value if exist
+                buff_text += (buff.name != null)
+                  ? '<hr><div>Buff: ' + buff.name + '</div>'
+                  : '<hr><div>Buff #' + (parseInt(index) + 1) + '</div>';
+
+                // check for desc value if exist
+                if (buff.desc != null) buff_text += '<div class="my-1">' + buff.desc + '</div>';
+
+                // output buff condition
+                if (buff.condition != null) buff_text += '<div class="my-1" style="opacity: 0.8;"><i>CONDITION: ' + buff.condition + '</i></div>';
+
+                // output buff listing if exist
+                if (buff.list != null) {
+                  buff_text += '<ul class="buff-text">';
+
+                  let blist = buff.list;
+                  $.each(blist, function (blist_index, blist_item) {
+                    // check if it has debuff bundled in it
+                    let isDebuff = is_debuff(blist_item);
+                    let col_change = (isDebuff) ? 'class="debuff-text"' : '';
+                    // output buff item
+                    buff_text += '<li ' + col_change + '>' + blist_item + '</li>';
+                  });
+                }
+
+                buff_text += '</ul>';
+              });
+            }
+
+            // debuff
+            let debuff_text = '';
+            if (row.debuff != null) {
+              let debuff_array = row.debuff;
+              $.each(debuff_array, function (index, debuff) {
+                // check for name value if exist
+                debuff_text += (debuff.name != null)
+                  ? '<hr><div>' + debuff.name + '</div>'
+                  : '<hr><div>Debuff #' + (parseInt(index) + 1) + '</div>';
+
+                // check for desc value if exist
+                if (debuff.desc != null) debuff_text += '<div class="my-1">' + debuff.desc + '</div>';
+
+                // output buff condition
+                if (debuff.condition != null) debuff_text += '<div class="my-1" style="opacity: 0.8;"><i>CONDITION: ' + debuff.condition + '</i></div>';
+
+                // output buff listing if exist
+                if (debuff.list != null) {
+                  debuff_text += '<ul class="debuff-text">';
+
+                  let dlist = debuff.list;
+                  $.each(dlist, function (dlist_index, dlist_item) {
+                    // check if it has buff bundled in it
+                    let isBuff = is_debuff(dlist_item);
+                    let col_change = (isBuff) ? 'class="buff-text"' : '';
+                    // output debuff item
+                    debuff_text += '<li ' + col_change + '>' + dlist_item + '</li>';
+                  });
+                }
+
+                debuff_text += '</ul>';
+              });
+            }
+
+            // additional info
+            let additional_info = (row.additional_info != null)
+              ? '<div style="width: 360px; opacity: 0.6;">' + output_as_list(row.additional_info) + '</div>'
+              : '';
+
+            html_content = '<div class="text_block">' +
+              '<div>' + buff_text + '</div>' +
+              '<div>' + debuff_text + '</div>' +
+              '</div>';
+
+            return '<div>' + item_name + '</div>' +
+              '<div class="d-flex justify-content-start align-items-top">' + html_icon + html_content + '</div>' +
+              additional_info;
+          }
+        },
+        {
+          data: 'icon',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'name',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'rarity',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'buff',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'debuff',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'year',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'additional_info',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        }
+      ],
+      dom: '<"row g-2"' +
+        '<"col-12.text-center"i>' +
+        '<"col-12"t>' +
+        '<"col-12.col-md-6"l>' +
+        '<"col-12.col-md-6"p>' +
+        '>',
+      drawCallback: function (settings) {
+        init_acc_img_zoom();
+      }
+    });
+  });
+
+  // Run script after DataTable initialization
+  $('#exampleTable').on('init.dt', function () {
+
+    // redraw length selectbox
+    let length_select = $('.custom-select.custom-select-sm.form-control.form-control-sm');
+    length_select.addClass('form-select form-select-sm');
+
+    // use custom search bar instead
+    $('#search_bar').on('keyup', function () {
+      datatable.search(this.value).draw();
+    });
+
+    // debug message
+    // show_notify('success', 'Datatable initialized!');
+  });
+</script>

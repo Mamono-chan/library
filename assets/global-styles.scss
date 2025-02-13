@@ -76,11 +76,12 @@ body {
 @mixin bg-rarity($background) {
 	min-width: 80px;
 	background: $background;
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	color: white !important;
 	font-weight: 800;
+	border-radius: 4px;
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, 1.5);
 }
 
@@ -109,12 +110,68 @@ body {
 }
 
 /// |----------------------------------------
+/// | CUSTOM DATATABLE STYLES
+/// |----------------------------------------
+table.custom_datatable {
+	thead {
+		display: none;
+	}
+	tbody {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		tr {
+			display: block;
+			padding: 5px 10px;
+			margin: 5px;
+			border: 1px solid #a1d9ff;
+			border-radius: 4px;
+
+			td {
+				display: grid;
+				gap: 1;
+
+				.icon_block {
+					display: block;
+					position: relative;
+					width: 80px;
+					height: 80px;
+					overflow: hidden;
+					margin: 2px;
+					border-radius: 4px;
+
+					img {
+						width: 100%;
+						object-fit: cover;
+					}
+				}
+
+				.text_block {
+					display: block;
+					position: relative;
+					width: 280px;
+					word-break: break-word;
+					height: auto;
+					padding: 5px 10px;
+
+					hr {
+						margin: 0 0 10px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+/// |----------------------------------------
 /// | TYPOGRAPHY
 /// |----------------------------------------
 .buff-text {
 	color: #7aef91;
 
-	li {
+	li,
+	li.buff-text {
 		list-style-type: disc;
 	}
 }
@@ -122,7 +179,8 @@ body {
 .debuff-text {
 	color: #fd9a9a;
 
-	li {
+	li,
+	li.debuff-text {
 		list-style-type: circle;
 	}
 }
@@ -200,6 +258,52 @@ body {
 		padding: 0 10px 0 10px;
 		font-size: 2.5rem;
 	}
+}
+
+/// |----------------------------------------
+/// | IMAGE ZOOM
+/// |----------------------------------------
+.explain_image {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #cecece;
+	border-radius: 4px;
+	overflow: hidden;
+	cursor: zoom-in;
+}
+
+#fullscreen_container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	overflow: hidden;
+	z-index: 25999;
+
+	&.show {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+#fullscreen_container img {
+	max-width: 90%;
+	max-height: 90%;
+}
+
+.close-btn {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: white;
+	cursor: pointer;
 }
 
 /// |----------------------------------------

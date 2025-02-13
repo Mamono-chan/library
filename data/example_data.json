@@ -1,0 +1,22 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"name": "John Doe",
+			"position": "Developer",
+			"office": "New York",
+			"age": 30,
+			"start_date": "2015-03-25",
+			"salary": "$3200"
+		},
+		{
+			"id": 2,
+			"name": "Jane Smith",
+			"position": "Designer",
+			"office": "London",
+			"age": 27,
+			"start_date": "2017-10-15",
+			"salary": "$2900"
+		}
+	]
+}
