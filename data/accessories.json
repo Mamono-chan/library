@@ -2571,8 +2571,24 @@
 					"name": "Weapon Boost: HP",
 					"desc": null,
 					"list": [
-						"Increases Max HP based on the number of 2H Sword equipped (600 Max HP for each 2H Sword, max: 3,000)",
-						"Increases Damage Upper Limit based on the number of 2H Sword equipped (100,000 Damage Upper Limit for each 2H Sword, max: 500,000)",
+						"Increases Max HP based on the number of 2H Sword equipped (600 Max HP for each 2H Sword, max: 3,000)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 1,
+					"name": "Weapon Boost: Damage Limit",
+					"desc": null,
+					"list": [
+						"Increases Damage Upper Limit based on the number of 2H Sword equipped (100,000 Damage Upper Limit for each 2H Sword, max: 500,000)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 1,
+					"name": "Weapon Boost: Damage Factor",
+					"desc": null,
+					"list": [
 						"Increases Damage Factor based on the number of 2H Sword equipped (6% Damage Factor for each 2H Sword, max: 35%)"
 					],
 					"condition": "Effective immediately"
