@@ -243,7 +243,7 @@
 					"name": null,
 					"desc": "Buff duration: 999 seconds",
 					"list": [
-						"Triggers extra damage according to Fire ATK (Base Fire ATK x20)"
+						"Triggers Extra Damage according to Fire ATK (Base Fire ATK x20)"
 					],
 					"condition": "Activated the first time you attack in battle"
 				}
@@ -273,7 +273,7 @@
 					"name": null,
 					"desc": "Buff duration: 999 seconds",
 					"list": [
-						"Triggers extra damage according to Wind ATK (Base Wind ATK x20)"
+						"Triggers Extra Damage according to Wind ATK (Base Wind ATK x20)"
 					],
 					"condition": "Activated the first time you attack in battle"
 				}
@@ -331,7 +331,7 @@
 					"name": null,
 					"desc": "Buff duration: 999 seconds",
 					"list": [
-						"Triggers extra damage according to Water ATK (Base Water ATK x20)"
+						"Triggers Extra Damage according to Water ATK (Base Water ATK x20)"
 					],
 					"condition": "Activated the first time you attack in battle"
 				}
@@ -422,7 +422,7 @@
 					"name": null,
 					"desc": "Buff duration: 999 seconds",
 					"list": [
-						"Triggers extra damage according to Earth ATK (Base Earth ATK x20)"
+						"Triggers Extra Damage according to Earth ATK (Base Earth ATK x20)"
 					],
 					"condition": "Activated the first time you attack in battle"
 				}
@@ -727,7 +727,7 @@
 					"name": "Weapon Boost: Extra Damage",
 					"desc": null,
 					"list": [
-						"Increase extra damage based on the number of staff equipped (10,000 for each staff, max: 50,000)"
+						"Increase Extra Damage based on the number of Staff equipped (10,000 for each Staff, max: 50,000)"
 					],
 					"condition": "Effective immediately"
 				},
@@ -736,7 +736,7 @@
 					"name": "Weapon Boost: Damage Factor",
 					"desc": null,
 					"list": [
-						"Increase damage factor based on the number of staff equipped (5% for each staff, max: 30%)"
+						"Increase Damage Factor based on the number of Staff equipped (5% for each Staff, max: 30%)"
 					],
 					"condition": "Effective immediately"
 				},
@@ -745,7 +745,7 @@
 					"name": "Weapon Boost: Damage Limit",
 					"desc": null,
 					"list": [
-						"Increase damage upper limit based on the number of staff equipped (80,000 for each staff, max: 450,000)"
+						"Increase Damage Upper Limit based on the number of Staff equipped (80,000 for each Staff, max: 450,000)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -793,7 +793,7 @@
 					"desc": null,
 					"list": [
 						"Max HP +30%",
-						"Increase extra damage as your current HP decreases (1 base HP lost → 10 extra damage, max: 100,000)",
+						"Increase Extra Damage as your current HP decreases (1 base HP lost → 10 Extra Damage, max: 100,000)",
 						"Increase recovery power (resilience) as your current HP decreases (5 base HP lost → 1 resilience, max: 2,000)"
 					],
 					"condition": "Effective immediately"
@@ -824,7 +824,7 @@
 					"list": [
 						"ATK +5,000",
 						"ATK + 200%",
-						"Triggers extra damage according to your ATK (20% base ATK -> extra damage, max: 50,000)"
+						"Triggers Extra Damage according to your ATK (20% base ATK -> Extra Damage, max: 50,000)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -877,7 +877,7 @@
 					"name": "Weapon Boost: Extra Damage",
 					"desc": null,
 					"list": [
-						"Increase extra damage based on the number of spear equipped (8,000 extra damage for each spear, max: 40,000)"
+						"Increase Extra Damage based on the number of Spear equipped (8,000 Extra Damage for each Spear, max: 40,000)"
 					],
 					"condition": "Effective immediately"
 				},
@@ -886,7 +886,7 @@
 					"name": "Weapon Boost: ATK",
 					"desc": null,
 					"list": [
-						"Increase ATK based on the number of spear equipped (8% ATK for each spear, max: 40%)"
+						"Increase ATK based on the number of Spear equipped (8% ATK for each Spear, max: 40%)"
 					],
 					"condition": "Effective immediately"
 				},
@@ -895,7 +895,7 @@
 					"name": "Weapon Boost: Damage Limit",
 					"desc": null,
 					"list": [
-						"Increase damage upper limit based on the number of spear equipped (100,000 damage upper limit for each spear, max: 600,000)"
+						"Increase Damage Upper Limit based on the number of Spear equipped (100,000 Damage Upper Limit for each Spear, max: 600,000)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -915,14 +915,14 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increase damage upper limit according to the number of skills used in battle (10,000 damage upper limit per skill use, max: 3,000,000)",
-						"Increase damage factor according to the number of skills used in battle (1% damage factor per skill use, max: 100%)"
+						"Increase Damage Upper Limit according to the number of skills used in battle (10,000 Damage Upper Limit per skill use, max: 3,000,000)",
+						"Increase Damage Factor according to the number of skills used in battle (1% Damage Factor per skill use, max: 100%)"
 					],
 					"condition": "Effective immediately"
 				}
 			],
 			"debuff": null,
-			"additional_info": "The increased damage limit and damage factor will reset when the battle ends",
+			"additional_info": "The increased damage limit and Damage Factor will reset when the battle ends",
 			"year": 2022,
 			"icon": "lr_ear_yellow.png"
 		},
@@ -968,7 +968,7 @@
 					"desc": null,
 					"list": [
 						"ATK +20%",
-						"Reduces MATK by 40% and the reduced value increases damage upper limit (max: 40,000)"
+						"Reduces MATK by 40% and the reduced value increases Damage Upper Limit (max: 40,000)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -989,7 +989,7 @@
 					"desc": null,
 					"list": [
 						"MATK +20%",
-						"Reduces ATK by 40% and the reduced value increases damage upper limit (max: 40,000)"
+						"Reduces ATK by 40% and the reduced value increases Damage Upper Limit (max: 40,000)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -1912,7 +1912,7 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increases extra damage according to the target's Max HP (max: 30,000)"
+						"Increases Extra Damage according to the target's Max HP (max: 30,000)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -2571,9 +2571,9 @@
 					"name": "Weapon Boost: HP",
 					"desc": null,
 					"list": [
-						"Increases Max HP based on the number of 2H sword equipped (600 Max HP for each 2H sword, max: 3,000)",
-						"Increases damage upper limit based on the number of 2H sword equipped (100,000 damage upper limit for each 2H sword, max: 500,000)",
-						"Increases damage factor based on the number of 2H sword equipped (6% damage factor for each 2H sword, max: 35%)"
+						"Increases Max HP based on the number of 2H Sword equipped (600 Max HP for each 2H Sword, max: 3,000)",
+						"Increases Damage Upper Limit based on the number of 2H Sword equipped (100,000 Damage Upper Limit for each 2H Sword, max: 500,000)",
+						"Increases Damage Factor based on the number of 2H Sword equipped (6% Damage Factor for each 2H Sword, max: 35%)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -2680,6 +2680,499 @@
 			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
 			"year": 2023,
 			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "collector_bow_earrings",
+			"name": "Collector: Bow Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: Damage Limit",
+					"desc": null,
+					"list": [
+						"Increases Damage Upper Limit based on the number of Bow equipped (70,000 Damage Upper Limit for each Bow, max: 350,000)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: Critical Effect",
+					"desc": null,
+					"list": [
+						"Increases Critical Damage based on the number of Bow equipped (6% Critical Damage for each Bow, max: 30%)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Extra Damage",
+					"desc": null,
+					"list": [
+						"Increases Extra Damage based on the number of Bow equipped (10,000 Extra Damage for each Bow, max: 60,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "collector_l_axe_e",
+			"name": "Collector: L Axe E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: ATK",
+					"desc": null,
+					"list": [
+						"Increases ATK based on the number of 2H Axe equipped (4% ATK for each 2H Axe, max: 20%)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: Damage Factor",
+					"desc": null,
+					"list": [
+						"Increases Damage Factor based on the number of 2H Axe equipped (4% Damage Factor for each 2H Axe, max: 20%)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Damage Limit",
+					"desc": null,
+					"list": [
+						"Increases Damage Upper Limit based on the number of 2H Axe equipped (150,000 Damage Upper Limit for each 2H Axe, max: 900,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "dual_curse_earrings",
+			"name": "Dual Curse Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Max HP +5,000",
+						"During battle, DEF increases as HP decreases (max: 200)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Single Enemy Damage Taken increase (value not specified)",
+						"(Debuff) Your Damage Taken increase (value not specified)"
+					],
+					"condition": "20% chance to activate when using a debuff skill"
+				}
+			],
+			"debuff": null,
+			"additional_info": [
+				"The HP increase from certain gear (e.g., HP Up Core or Rare Rune [1H Sword]) will not be considered as an HP decrease",
+				"Increased DEF is reset when the battle ends"
+			],
+			"year": 2023,
+			"icon": "lr_ear_blue.png"
+		},
+		{
+			"id": "grudge_earrings",
+			"name": "Grudge Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "This effect only applied before you get hit by any debuff",
+					"list": [
+						"Recovery Power (Resilience) +300",
+						"Increases ATK as HP decreases (4 ATK per 1 base HP lost, max: 30,000)",
+						"Increases MATK as HP decreases (4 MATK per 1 base HP lost, max: 30,000)"
+					],
+					"condition": "Effective immediately when battle start"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": "Buff duration: 35 seconds",
+					"list": [
+						"ATK +50%",
+						"Increases ATK based on the total damage taken in battle (1 ATK per 1 damage taken, max: 100,000)",
+						"Increases MATK based on the total damage taken in battle (1 MATK per 1 damage taken, max: 100,000)",
+						"Increases Damage Upper Limit based on the total damage taken in battle (30 Damage Upper Limit per 1 damage taken, max: 3,000,000)",
+						"Number of attacks +1"
+					],
+					"condition": "100% chance to activate when the debuff listed below (Debuff #1) ends"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "Debuff duration: 20 seconds",
+					"list": ["Damage taken increases by 20%", "DEF -50%"],
+					"condition": "When being hit with a debuff skill"
+				}
+			],
+			"additional_info": [
+				"Debuff #1 can't re-activate when Buff #2 is still active",
+				"While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+				"The HP increase from certain gear (e.g., HP Up Core or Rare Rune [1H Sword]) will not be considered as an HP decrease",
+				"Some debuff may not activated. (e.g., attack skills that can inflict debuff along with damage to the target, debuffs that have probability of activating due to equipments, etc.)"
+			],
+			"year": 2023,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "collector_knuckles_e",
+			"name": "Collector: Knuckles E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: ATK",
+					"desc": null,
+					"list": [
+						"Increase ATK based on the number of Knuckles equipped (max: 30%)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: Critical Effect",
+					"desc": null,
+					"list": [
+						"Increase Critical Damage based on the number of Knuckles equipped (max: 40%)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Damage Factor",
+					"desc": null,
+					"list": [
+						"Increase Damage Factor based on the number of Knuckles equipped (max: 30%)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "barrier_earrings",
+			"name": "Barrier Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire ATK +100",
+						"Water ATK +100",
+						"Earth ATK +100",
+						"Wind ATK +100",
+						"Fire DEF +100",
+						"Water DEF +100",
+						"Earth DEF +100",
+						"Wind DEF +100"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": ["Reduces incoming elemental damage"],
+					"condition": "When taking damage below a certain level"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_blue.png"
+		},
+		{
+			"id": "passionate_earrings",
+			"name": "Passionate Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Factor +20%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Damage Factor +80%",
+						"Number of attacks +1",
+						"Increase Damage Upper Limit based on the total of damage dealt (max: 2,000,000)",
+						"(Debuff) Reverse Damage during any action"
+					],
+					"condition": "20% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "collector_dagger_e",
+			"name": "Collector: Dagger E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: Extra Damage",
+					"desc": null,
+					"list": [
+						"Increase Extra Damage based on the number of dagger equipped (value not specified)"
+					],
+					"condition": "condition_value"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: Damage Factor",
+					"desc": null,
+					"list": [
+						"Increase Damage Factor based on the number of dagger equipped (max: 30%)"
+					],
+					"condition": "condition_value"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Critical Effect",
+					"desc": null,
+					"list": [
+						"Increase Critical Damage based on the number of dagger equipped (max: 50%)"
+					],
+					"condition": "condition_value"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "sword_shield_earrings",
+			"name": "Sword Shield Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Base Effect",
+					"desc": null,
+					"list": ["ATK +30%", "MATK +30%", "DEF +30%", "MDEF +30%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Effect (1)",
+					"desc": null,
+					"list": [
+						"Damage Factor +50%",
+						"Number of attacks +1",
+						"(Debuff) DEF -80%",
+						"(Debuff) MDEF -80%"
+					],
+					"condition": "When attacking, switch between Buff: Effect (1) and Buff: Effect (2)"
+				},
+				{
+					"id": 2,
+					"name": "Effect (2)",
+					"desc": null,
+					"list": [
+						"DEF +50%",
+						"MDEF +50%",
+						"Reduce incoming Elemental Damage (value not specified)",
+						"(Debuff) Damage Factor -50%"
+					],
+					"condition": "When attacking, switch between Buff: Effect (1) and Buff: Effect (2)"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_red.png"
+		},
+		{
+			"id": "struggle_earrings",
+			"name": "Struggle Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Upper Limit +5,000,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Upper Limit -1,000,000", "Damage Taken +10%"],
+					"condition": "60% chance to activate when you attack"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Upper Limit -3,000,000", "Damage Taken +30%"],
+					"condition": "40% chance to activate when you attack while Debuff #1 is active"
+				},
+				{
+					"id": 3,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Upper Limit -5,000,000", "Damage Taken +100%"],
+					"condition": "20% chance to activate when you attack while Debuff #1 or Debuff #2 is active"
+				}
+			],
+			"additional_info": "I heard you like to struggle...",
+			"year": 2023,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "firm_resolve_earrings",
+			"name": "Firm Resolve Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "Buff duration: 9,999 seconds",
+					"list": [
+						"ATK +10,000",
+						"MATK +10,000",
+						"ATK +300%",
+						"MATK +300%",
+						"Number of attacks +1",
+						"Damage Upper Limit +5,000,000",
+						"Critical Damage +100%"
+					],
+					"condition": "100% chance to activate when attacking"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "Debuff duration: 9,999 seconds",
+					"list": [
+						"DEF -99,999",
+						"MDEF -99,999",
+						"Recovery Power (Resilience) -9,999",
+						"Triggers 3,000 Reverse Damage each time a skill is used"
+					],
+					"condition": "100% chance to activate when attacking"
+				}
+			],
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "elemental_atk_earrings",
+			"name": "Elemental ATK Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire ATK +500",
+						"Water ATK +500",
+						"Earth ATK +500",
+						"Wind ATK +500"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire DEF -1,000",
+						"Water DEF -1,000",
+						"Earth DEF -1,000",
+						"Wind DEF -1,000"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "collector_sword_e",
+			"name": "Collector: Sword E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: HP",
+					"desc": null,
+					"list": [
+						"Increases Max HP based on the number of 1H Sword equipped (800 Max HP for each 1H Sword, max: 4,000)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: Extra Damage",
+					"desc": null,
+					"list": [
+						"Triggers Extra Damage based on the number of 1H Sword equipped (11,000 Extra Damage for each 1H Sword)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Damage Factor",
+					"desc": null,
+					"list": [
+						"Increases Damage Factor based on the number of 1H Sword equipped (5% Damage Factor for each 1H Sword, max: 30%)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2023,
+			"icon": "lr_ear_purple.png"
 		}
 	]
 }
