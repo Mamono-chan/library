@@ -2576,7 +2576,7 @@
 					"condition": "Effective immediately"
 				},
 				{
-					"id": 1,
+					"id": 2,
 					"name": "Weapon Boost: Damage Limit",
 					"desc": null,
 					"list": [
@@ -2585,7 +2585,7 @@
 					"condition": "Effective immediately"
 				},
 				{
-					"id": 1,
+					"id": 3,
 					"name": "Weapon Boost: Damage Factor",
 					"desc": null,
 					"list": [
