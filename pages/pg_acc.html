@@ -141,8 +141,8 @@
               $.each(buff_array, function (index, buff) {
                 // check for name value if exist
                 buff_text += (buff.name != null)
-                  ? '<hr><div>Buff: ' + buff.name + '</div>'
-                  : '<hr><div>Buff #' + (parseInt(index) + 1) + '</div>';
+                  ? '<hr><div class="buff-text"><b>Buff: ' + buff.name + '</b></div>'
+                  : '<hr><div class="buff-text"><b>Buff #' + (parseInt(index) + 1) + '</b></div>';
 
                 // check for desc value if exist
                 if (buff.desc != null) buff_text += '<div class="my-1">' + buff.desc + '</div>';
@@ -175,8 +175,8 @@
               $.each(debuff_array, function (index, debuff) {
                 // check for name value if exist
                 debuff_text += (debuff.name != null)
-                  ? '<hr><div>' + debuff.name + '</div>'
-                  : '<hr><div>Debuff #' + (parseInt(index) + 1) + '</div>';
+                  ? '<hr><div class="debuff-text"><b>Debuff: ' + debuff.name + '</b></div>'
+                  : '<hr><div class="debuff-text"><b>Debuff #' + (parseInt(index) + 1) + '</b></div>';
 
                 // check for desc value if exist
                 if (debuff.desc != null) debuff_text += '<div class="my-1">' + debuff.desc + '</div>';

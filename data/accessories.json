@@ -304,7 +304,7 @@
 					"desc": "Buff duration: 60 seconds",
 					"list": [
 						"Increase MDEF further (MDEF +50)",
-						"Reduce incoming elemental magic damage 3 times"
+						"Reduce incoming Elemental Magic Damage 3 times"
 					],
 					"condition": "50% chance to activate when you get hit (attacked)"
 				}
@@ -698,7 +698,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Wind ATK +200", "Wind DEF +100"],
+					"list": ["Wind DEF +200", "Wind DEF +100 (base stat)"],
 					"condition": "Effective immediately"
 				},
 				{
@@ -706,8 +706,8 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increase Wind DEF further (value not specified)",
-						"Reduce incoming elemental magic damage 3 times"
+						"Reduce incoming Elemental Magic Damage by 500% of your Wind DEF (3 times)",
+						"Wind DEF +10% for 50 seconds"
 					],
 					"condition": "20% chance to activate when you attack"
 				}
@@ -2658,7 +2658,7 @@
 					"name": null,
 					"desc": null,
 					"list": ["HP Recovery"],
-					"condition": "After a certain period of time following Buff #1's activation"
+					"condition": "After a certain period of time following [Buff #1]'s activation"
 				}
 			],
 			"debuff": null,
@@ -2678,7 +2678,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Earth DEF +200", "Earth DEF +100"],
+					"list": ["Earth DEF +200", "Earth DEF +100 (base stat)"],
 					"condition": "Effective immediately"
 				},
 				{
@@ -2686,8 +2686,8 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increases Earth DEF further (value not specified)",
-						"Reduces incoming elemental magic damage 3 times"
+						"Reduces incoming Elemental Magic Damage by 500% of your Earth DEF (3 times)",
+						"Earth DEF +10% for 50 seconds"
 					],
 					"condition": "20% chance to activate when you attack"
 				}
@@ -2815,7 +2815,7 @@
 				{
 					"id": 1,
 					"name": null,
-					"desc": "This effect only applied before you get hit by any debuff",
+					"desc": "This effect only applied before you get hit by any debuff (or by using specified debuff skill listed below)",
 					"list": [
 						"Recovery Power (Resilience) +300",
 						"Increases ATK as HP decreases (4 ATK per 1 base HP lost, max: 30,000)",
@@ -2834,7 +2834,7 @@
 						"Increases Damage Upper Limit based on the total damage taken in battle (30 Damage Upper Limit per 1 damage taken, max: 3,000,000)",
 						"Number of attacks +1"
 					],
-					"condition": "100% chance to activate when the debuff listed below (Debuff #1) ends"
+					"condition": "100% chance to activate when [Debuff #1] ends"
 				}
 			],
 			"debuff": [
@@ -2843,14 +2843,15 @@
 					"name": null,
 					"desc": "Debuff duration: 20 seconds",
 					"list": ["Damage taken increases by 20%", "DEF -50%"],
-					"condition": "When being hit with a debuff skill"
+					"condition": "When being hit with a debuff skill OR by using specified debuff skill listed below"
 				}
 			],
 			"additional_info": [
-				"Debuff #1 can't re-activate when Buff #2 is still active",
+				"[Debuff #1] can't re-activate when [Buff #2] is still active",
 				"While the effect is active, the same buff effect from another piece of equipment cannot be activated",
 				"The HP increase from certain gear (e.g., HP Up Core or Rare Rune [1H Sword]) will not be considered as an HP decrease",
-				"Some debuff may not activated. (e.g., attack skills that can inflict debuff along with damage to the target, debuffs that have probability of activating due to equipments, etc.)"
+				"Some debuff may not activated. (e.g., attack skills that can inflict debuff along with damage to the target, debuffs that have probability of activating due to equipments, etc.)",
+				"List of player skills that can trigger [Debuff #1] : [Saint: Discourage] [Shaman: Moonless Dawn] [Shaman: Weeping Soul] [Sorcerer: Undulation] [Receptor: Daunting Pose] *thanks to <b>@lotus</b> from Super Spammer Discord for the info and testing"
 			],
 			"year": 2023,
 			"icon": "lr_ear_yellow.png"
@@ -2918,7 +2919,7 @@
 					"id": 2,
 					"name": null,
 					"desc": null,
-					"list": ["Reduces incoming elemental damage"],
+					"list": ["Reduces incoming Elemental Damage"],
 					"condition": "When taking damage below a certain level"
 				}
 			],
@@ -3017,7 +3018,7 @@
 						"(Debuff) DEF -80%",
 						"(Debuff) MDEF -80%"
 					],
-					"condition": "When attacking, switch between Buff: Effect (1) and Buff: Effect (2)"
+					"condition": "When attacking, switch between [Buff: Effect (1)] and [Buff: Effect (2)]"
 				},
 				{
 					"id": 2,
@@ -3029,7 +3030,7 @@
 						"Reduce incoming Elemental Damage (value not specified)",
 						"(Debuff) Damage Factor -50%"
 					],
-					"condition": "When attacking, switch between Buff: Effect (1) and Buff: Effect (2)"
+					"condition": "When attacking, switch between [Buff: Effect (1)] and [Buff: Effect (2)]"
 				}
 			],
 			"debuff": null,
@@ -3063,14 +3064,14 @@
 					"name": null,
 					"desc": null,
 					"list": ["Damage Upper Limit -3,000,000", "Damage Taken +30%"],
-					"condition": "40% chance to activate when you attack while Debuff #1 is active"
+					"condition": "40% chance to activate when you attack while [Debuff #1] is active"
 				},
 				{
 					"id": 3,
 					"name": null,
 					"desc": null,
 					"list": ["Damage Upper Limit -5,000,000", "Damage Taken +100%"],
-					"condition": "20% chance to activate when you attack while Debuff #1 or Debuff #2 is active"
+					"condition": "20% chance to activate when you attack while [Debuff #1] or [Debuff #2] is active"
 				}
 			],
 			"additional_info": "I heard you like to struggle...",
@@ -3095,7 +3096,7 @@
 						"Damage Upper Limit +5,000,000",
 						"Critical Damage +100%"
 					],
-					"condition": "100% chance to activate when attacking"
+					"condition": "100% chance to activate when you attack"
 				}
 			],
 			"debuff": [
@@ -3109,7 +3110,7 @@
 						"Recovery Power (Resilience) -9,999",
 						"Triggers 3,000 Reverse Damage each time a skill is used"
 					],
-					"condition": "100% chance to activate when attacking"
+					"condition": "100% chance to activate when you attack"
 				}
 			],
 			"additional_info": null,
@@ -3189,6 +3190,535 @@
 			"additional_info": null,
 			"year": 2023,
 			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "weir_earrings",
+			"name": "Weir Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Fire DEF +200", "Fire DEF +100 (base stat)"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Reduce incoming Elemental Magic Damage by 500% of your base Fire DEF (3 times)",
+						"Fire DEF +10% for 50 seconds"
+					],
+					"condition": "20% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+			"year": 2024,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "collector_axe_e",
+			"name": "Collector: Axe E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Weapon Boost: Elemental ATK",
+					"desc": null,
+					"list": [
+						"Increases Elemental ATK based on the number of 1H Axe equipped (40 Elemental ATK for each 1H Axe, max: 200)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Weapon Boost: Elemental DEF",
+					"desc": null,
+					"list": [
+						"Triggers Elemental DEF based on the number of 1H Axe equipped (40 Elemental DEF for each 1H Axe, max: 200)"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 3,
+					"name": "Weapon Boost: Damage Limit",
+					"desc": null,
+					"list": [
+						"Increases Damage Upper Limit based on the number of 1H Axe equipped (100,000 Damage Upper Limit for each 1H Axe, max: 550,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2024,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "cursed_sword_earrings",
+			"name": "Cursed Sword Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Critical Damage +20%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": "Debuff only last for the next hit",
+					"list": ["Single Enemy Damage Taken increased by 50%"],
+					"condition": "100% chance to activate when you attack"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "Debuff duration: 50 seconds",
+					"list": [
+						"Reverse Damage (3% of your current HP) for every skill use"
+					],
+					"condition": "Once the debuff on the enemy is gone, there is a 100% chance to activate this debuff on yourself."
+				}
+			],
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+			"year": 2024,
+			"icon": "lr_ear_red.png"
+		},
+		{
+			"id": "explosive_power_e",
+			"name": "Explosive Power E",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Max HP +5,000"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": "Buff duration: next hit only",
+					"list": [
+						"Number of attacks +2",
+						"Critical Damage +100%",
+						"Damage Upper Limit +5,000,000"
+					],
+					"condition": "100% chance to activate when you attack"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "Debuff duration: 30 seconds",
+					"list": ["Increase your Damage Taken by 15,000"],
+					"condition": "100% chance to activate when you attack"
+				}
+			],
+			"additional_info": [
+				"While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+				"[Debuff #1] applied to Reverse Damage as well",
+				"[Debuff #1] does not apply to Reverse Damage caused by [Accessories: Strike Earrings]",
+				"[Buff #2] can be re-activated again when you attack after [Debuff #1] duration ends."
+			],
+			"year": 2024,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "wave_dam_earrings",
+			"name": "Wave Dam Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Water DEF +200", "Water DEF +100 (base stat)"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Reduce incoming Elemental Magic Damage by 500% of your base Water DEF (3 times)",
+						"Water DEF +10% for 50 seconds"
+					],
+					"condition": "20% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2024,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "versatile_earrings",
+			"name": "Versatile Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Base",
+					"desc": null,
+					"list": ["ATK +2,000", "MATK +2,000"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Effect (1)",
+					"desc": null,
+					"list": [
+						"ATK +400% for 30 seconds",
+						"MATK +400% for 30 seconds",
+						"(Debuff) Damage Taken increases by 10% for 10 seconds"
+					],
+					"condition": "When attacking, there is a 100% chance to activate if no buff provided by these earrings is currently active OR if [Buff: Effect (3)] is active and Damage Taken debuff duration ends"
+				},
+				{
+					"id": 3,
+					"name": "Effect (2)",
+					"desc": null,
+					"list": [
+						"Damage Upper Limit +5,000,000 for 30 seconds",
+						"(Debuff) Damage Taken increases by 10% for 10 seconds"
+					],
+					"condition": "When attacking, there is a 100% chance to activate if [Buff: Effect (1)] is active and Damage Taken debuff duration ends"
+				},
+				{
+					"id": 4,
+					"name": "Effect (3)",
+					"desc": null,
+					"list": [
+						"Number of attacks +1",
+						"(Debuff) Damage Taken increases by 10% for 10 seconds"
+					],
+					"condition": "When attacking, there is a 100% chance to activate if [Buff: Effect (2)] is active and Damage Taken debuff duration ends"
+				}
+			],
+			"debuff": null,
+			"additional_info": [
+				"While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+				"When [Buff: Effect (1)] activated, [Buff: Effect (3)] is erased",
+				"When [Buff: Effect (2)] activated, [Buff: Effect (1)] is erased",
+				"When [Buff: Effect (3)] activated, [Buff: Effect (2)] is erased",
+				"Buff switching only occurs after the (Debuff) Damage Taken duration ends"
+			],
+			"year": 2024,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "giant_earrings",
+			"name": "Giant Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"ATK +20,000",
+						"MATK +20,000",
+						"ATK +300%",
+						"MATK +300%",
+						"Critical Damage +50%",
+						"Damage Upper Limit +1,000,000",
+						"(Debuff) Number of attacks -99 (basically, you only perform 1 hit even when using multi-hit skills)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2024,
+			"icon": "lr_ear_red.png"
+		},
+		{
+			"id": "unarmed_earrings",
+			"name": "Unarmed Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"ATK +200,000 when you don't have any equipment OR when using Knuckles",
+						"Damage Upper Limit +5,000,000 when you don't have any equipment OR when using Knuckles",
+						"Number of attacks +2 when you don't have any equipment OR when using Knuckles",
+						"Maximum Number of attacks +2 when you don't have any equipment OR when using Knuckles"
+					],
+					"condition": "100% chance to activate at the start of the battle"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Gear ATK -1,000%",
+						"Gear MATK -1,000%",
+						"Gear DEF -1,000%",
+						"Gear MDEF -1,000%",
+						"Damage Upper Limit -500,000"
+					],
+					"condition": "Debuff below will be applied for each weapon / shield equipped in main / sub gear slot"
+				}
+			],
+			"additional_info": [
+				"Note: For example, if you equip 2 Spear with an ATK value of 1,000 and an MATK value of 450, your Total ATK will be reduced by 20,000, and your Total MATK will be reduced by 9,000",
+				"Note: For example if you equip 2 Shield with DEF value of 200 and MDEF value of 150, your Total DEF will be reduced by 4,000 and MDEF will be reduced by 3,000",
+				"Note: For example if you equip 2 weapon / shield, your Total Damage Upper Limit will be reduced by 1,000,000"
+			],
+			"year": 2024,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "777_earrings",
+			"name": "777 Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Effect (1)",
+					"desc": "Buff duration: 7 seconds",
+					"list": ["Extra Damage +7"],
+					"condition": "7% chance to activate when you attack while no other effect from these earrings is active"
+				},
+				{
+					"id": 2,
+					"name": "Effect (2)",
+					"desc": "Buff duration: 7 seconds",
+					"list": ["Extra Damage +77"],
+					"condition": "7% chance to activate when you attack while [Buff: Effect (1)] is active"
+				},
+				{
+					"id": 3,
+					"name": "Effect (3)",
+					"desc": "Buff duration: 77 seconds",
+					"list": [
+						"ATK +777%",
+						"MATK +777%",
+						"Damage Upper Limit +7,770,000",
+						"Critical Damage +777%"
+					],
+					"condition": "7% chance to activate when you attack while [Buff: Effect (2)] is active"
+				}
+			],
+			"debuff": null,
+			"additional_info": [
+				"When [Buff: Effect (2)] is activated, [Buff: Effect (1)] is erased",
+				"When [Buff: Effect (3)] is activated, [Buff: Effect (2)] is erased",
+				"so i heard you like to gamble..."
+			],
+			"year": 2024,
+			"icon": "lr_ear_yellow.png"
+		},
+		{
+			"id": "ahimsa_earrings",
+			"name": "Ahimsa Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Base",
+					"desc": null,
+					"list": ["Max HP +2,000", "Recovery Power (Resilience) +300"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Effect (1)",
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"DEF +500",
+						"MDEF +500",
+						"Reduce incoming Elemental Damage below 30,000 by 25%"
+					],
+					"condition": "100% chance to activate at the start of the battle"
+				}
+			],
+			"debuff": [
+				{
+					"id": 3,
+					"name": "Effect (2)",
+					"desc": "Debuff duration: 1,200 seconds",
+					"list": [
+						"DEF -1,000",
+						"MDEF -1,000",
+						"Damage taken increases by 50%"
+					],
+					"condition": "100% chance to activate when you attack while [Buff: Effect (1)] is active"
+				}
+			],
+			"additional_info": [
+				"While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+				"When [Debuff: Effect (2)] activated, [Buff: Effect (1)] is erased",
+				"[Debuff: Effect (2)] will not trigger if you only use non-attacking skills while [Buff: Effect (1)] is active"
+			],
+			"year": 2024,
+			"icon": "lr_ear_blue.png"
+		},
+		{
+			"id": "progressive_earrings",
+			"name": "Progressive Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": "Buff duration: 30 seconds",
+					"list": [
+						"Damage Factor +50%",
+						"Damage Upper Limit +2,000,000",
+						"Damage Factor +50% for each skill use",
+						"Damage Upper Limit +2,000,000 for each skill use",
+						"(Debuff) DEF -100 for each skill use",
+						"(Debuff) MDEF -100 for each skill use"
+					],
+					"condition": "100% chance to activate at the start of the battle"
+				}
+			],
+			"debuff": null,
+			"additional_info": [
+				"While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+				"[Buff #1] can only be activated 1 time per battle"
+			],
+			"year": 2024,
+			"icon": "lr_ear_red.png"
+		},
+		{
+			"id": "contradiction_earrings",
+			"name": "Contradiction Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Contradiction Effect (Spear)",
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"ATK increases by 500% of equipped Spear ATK (main gear only) (max: 100,000)",
+						"MATK increases by 500% of equipped Spear MATK (main gear only) (max: 100,000)",
+						"Damage Upper Limit increases by 2000% of equipped Spear (main gear and sub gear) (max: 5,000,000)",
+						"Critical Damage increases by 20% for each equipped Spear (main gear and sub gear) (max: 200%)"
+					],
+					"condition": "100% chance to activate at the start of the battle while equipping a Spear in the main gear slot"
+				},
+				{
+					"id": 2,
+					"name": "Contradiction Effect (Shield)",
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"DEF increases by 100% of equipped Shield DEF (main gear only) (max: 1,500)",
+						"MDEF increases by 100% of equipped Shield MDEF (main gear only) (max: 1,500)",
+						"Reduce incoming Elemental Damage by 200% of equipped Shield DEF (main gear only)"
+					],
+					"condition": "100% chance to activate at the start of the battle while equipping a Shield in the main gear slot"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2024,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "raging_fire_earrings",
+			"name": "Raging Fire Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Fire ATK +500", "Fire ATK +10%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": "Buff duration: 300 seconds",
+					"list": [
+						"Fire Skill Power +20%",
+						"Damage Upper Limit increases by 150,000% of Fire ATK (max: 3,000,000)"
+					],
+					"condition": "100% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+			"year": 2024,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "swordbow_earrings",
+			"name": "Swordbow Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Sword",
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"Extra Damage +500,000 for each equipped 1H Sword (main gear and sub gear)",
+						"Damage Upper Limit +2,000,000 for each equipped 1H Sword (main gear and sub gear) (max: 20,000,000)"
+					],
+					"condition": "100% chance to activate at the start of the battle while equipping a 1H Sword in the main gear slot"
+				},
+				{
+					"id": 2,
+					"name": "Bow",
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"ATK increases by 200% of the equipped Bows' ATK (main gear and sub gear) (max: 300,000)",
+						"Damage Upper Limit +2,000,000 for each equipped Bow (main gear and sub gear) (max: 20,000,000)"
+					],
+					"condition": "100% chance to activate at the start of the battle while equipping a Bow in the main gear slot"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2024,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "inhalation_earrings",
+			"name": "Inhalation Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +5,000", "MATK +5,000", "ATK +10%", "MATK +10%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Recover 10% of your HP",
+						"Damage Factor +100% for the next attack (buff duration: 11 seconds)",
+						"Single Enemy Damage Dealt -10% for 11 seconds"
+					],
+					"condition": "10% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2024,
+			"icon": "lr_ear_red.png"
 		}
 	]
 }
