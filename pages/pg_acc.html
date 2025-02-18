@@ -8,11 +8,22 @@
           <div class="row g-2">
 
             <div class="col-12">
-              <input id="search_bar" type="text" class="form-control" placeholder="Enter Search Keyword...">
+              <table style="width: 100%;">
+                <tr>
+                  <td style="width: 100%;">
+                    <input id="search_bar" type="text" class="form-control" placeholder="Enter Search Keyword...">
+                  </td>
+                  <td style="min-width: 140px;" class="text-end">
+                    <button id="btnAdvFilterAcc" onclick="wip()" class="btn btn-outline-warning">
+                      <i class="fas fa-filter me-2"></i>Adv. Filters
+                    </button>
+                  </td>
+                </tr>
+              </table>
             </div>
 
             <div class="col-12">
-              <table id="exampleTable" class="custom_datatable" style="width:100%">
+              <table id="accTable" class="custom_datatable" style="width:100%">
                 <thead>
                   <tr>
                     <th>Accessories</th>
@@ -86,7 +97,7 @@
 
   $(document).ready(function () {
     // Initialize DataTable
-    datatable = $('#exampleTable').DataTable({
+    datatable = $('#accTable').DataTable({
       ajax: function (data, callback, settings) {
         $.ajax({
           url: './data/accessories.json', // Path to JSON file
@@ -275,23 +286,24 @@
         '>',
       drawCallback: function (settings) {
         init_acc_img_zoom();
+      },
+      initComplete: function () {
+        // redraw length selectbox
+        let length_select = $('.custom-select.custom-select-sm.form-control.form-control-sm');
+        length_select.addClass('form-select form-select-sm');
+
+        // use datatable api for data filtering
+        let api = this.api();
+
+        // Text search inputs for Name only
+        api.columns([2]).every(function () { // Name (2)
+          let column = this;
+          let input = $('#search_bar');
+          input.on('input', function () {
+            column.search($(this).val()).draw();
+          })
+        });
       }
     });
-  });
-
-  // Run script after DataTable initialization
-  $('#exampleTable').on('init.dt', function () {
-
-    // redraw length selectbox
-    let length_select = $('.custom-select.custom-select-sm.form-control.form-control-sm');
-    length_select.addClass('form-select form-select-sm');
-
-    // use custom search bar instead
-    $('#search_bar').on('keyup', function () {
-      datatable.search(this.value).draw();
-    });
-
-    // debug message
-    // show_notify('success', 'Datatable initialized!');
   });
 </script>

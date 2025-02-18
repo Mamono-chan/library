@@ -45,7 +45,7 @@
 				}
 			],
 			"debuff": null,
-			"additional_info": "The Elemental ATK increases provided by this equipment are not considered base stats",
+			"additional_info": "The Elemental ATK increases provided by this equipment are not considered Base Stats",
 			"year": 2021,
 			"icon": "lr_ear_green.png"
 		},
@@ -68,7 +68,7 @@
 				}
 			],
 			"debuff": null,
-			"additional_info": "The Elemental DEF increases provided by this equipment are not considered base stats",
+			"additional_info": "The Elemental DEF increases provided by this equipment are not considered Base Stats",
 			"year": 2021,
 			"icon": "lr_ear_green.png"
 		},
@@ -86,7 +86,7 @@
 				}
 			],
 			"debuff": null,
-			"additional_info": "The ATK +1,000 provided by this equipment counts as a base stat",
+			"additional_info": "The ATK +1,000 provided by this equipment counts as a Base Stat",
 			"year": 2021,
 			"icon": "lr_ear_red.png"
 		},
@@ -104,7 +104,7 @@
 				}
 			],
 			"debuff": null,
-			"additional_info": "The MATK +1,000 provided by this equipment counts as a base stat",
+			"additional_info": "The MATK +1,000 provided by this equipment counts as a Base Stat",
 			"year": 2021,
 			"icon": "lr_ear_red.png"
 		},
@@ -250,7 +250,7 @@
 			],
 			"debuff": null,
 			"additional_info": [
-				"The Fire ATK +250 provided by this equipment is considered a base stat",
+				"The Fire ATK +250 provided by this equipment is considered a Base Stat",
 				"While the effect is active, the same buff effect from another piece of equipment cannot be activated"
 			],
 			"year": 2021,
@@ -280,7 +280,7 @@
 			],
 			"debuff": null,
 			"additional_info": [
-				"The Wind ATK +250 provided by this equipment is considered a base stat",
+				"The Wind ATK +250 provided by this equipment is considered a Base Stat",
 				"While the effect is active, the same buff effect from another piece of equipment cannot be activated"
 			],
 			"year": 2021,
@@ -338,7 +338,7 @@
 			],
 			"debuff": null,
 			"additional_info": [
-				"The Water ATK +250 provided by this equipment is considered a base stat",
+				"The Water ATK +250 provided by this equipment is considered a Base Stat",
 				"While the effect is active, the same buff effect from another piece of equipment cannot be activated"
 			],
 			"year": 2021,
@@ -429,7 +429,7 @@
 			],
 			"debuff": null,
 			"additional_info": [
-				"The Earth ATK +250 provided by this equipment is considered a base stat",
+				"The Earth ATK +250 provided by this equipment is considered a Base Stat",
 				"While the effect is active, the same buff effect from another piece of equipment cannot be activated"
 			],
 			"year": 2022,
@@ -619,13 +619,13 @@
 						"Damage Taken increases by 1.5 times",
 						"During any action, it triggers reverse damage equal to 30% of your current HP"
 					],
-					"condition": "Effective immediately after the buff ends"
+					"condition": "Effective immediately after [Buff #1] duration ends"
 				}
 			],
 			"additional_info": [
-				"Activates only once in battle",
-				"The ATK/MATK +10,000 provided by this equipment is considered base stats",
-				"The effect activates only on one part, even if you equip multiple pieces of gear with the same name"
+				"[Buff #1] activates only once in battle",
+				"The ATK/MATK +10,000 provided by this equipment is considered Base Stats",
+				"While the effect is active, the same buff effect from another piece of equipment cannot be activated"
 			],
 			"year": 2022,
 			"icon": "lr_ear_yellow.png"
@@ -655,7 +655,7 @@
 					"name": null,
 					"desc": "Debuff duration: 60 seconds",
 					"list": ["ATK -100%", "MATK -100%", "Skill Cooltime +60"],
-					"condition": "Effective immediately after the buff ends"
+					"condition": "Effective immediately after [Buff #1] duration ends"
 				}
 			],
 			"additional_info": "The buff can be triggered again as long as the debuff isn't active",
@@ -698,7 +698,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Wind DEF +200", "Wind DEF +100 (base stat)"],
+					"list": ["Wind DEF +200", "Wind DEF +100 (Base Stat)"],
 					"condition": "Effective immediately"
 				},
 				{
@@ -777,7 +777,7 @@
 			],
 			"debuff": null,
 			"additional_info": [
-				"The Earth ATK +300 provided by this equipment doesn't count as a base stat"
+				"The Earth ATK +300 provided by this equipment doesn't count as a Base Stat"
 			],
 			"year": 2022,
 			"icon": "lr_ear_green.png"
@@ -838,7 +838,7 @@
 					"condition": "Effective immediately"
 				}
 			],
-			"additional_info": "The ATK +5,000 provided by this equipment is considered a base stat",
+			"additional_info": "The ATK +5,000 provided by this equipment is considered a Base Stat",
 			"year": 2022,
 			"icon": "lr_ear_red.png"
 		},
@@ -863,7 +863,7 @@
 				}
 			],
 			"debuff": null,
-			"additional_info": "The Wind ATK +300 provided by this equipment doesn't count as a base stat",
+			"additional_info": "The Wind ATK +300 provided by this equipment doesn't count as a Base Stat",
 			"year": 2022,
 			"icon": "lr_ear_green.png"
 		},
@@ -1106,7 +1106,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Recover 5% of your HP"],
+					"list": ["Recover HP by 5% of your Base HP"],
 					"condition": "15% chance to activate when you attack"
 				}
 			],
@@ -1164,7 +1164,10 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Max HP +25%", "Max HP +500"],
+					"list": [
+						"Max HP increases by 25% of your Base HP",
+						"Max HP +500 (not base stat)"
+					],
 					"condition": "Effective immediately"
 				}
 			],
@@ -1175,7 +1178,7 @@
 					"desc": null,
 					"list": [
 						"Recovery Power (Resilience) -500",
-						"Recovery Power (Resilience) reduced by 25% of current Max HP"
+						"Recovery Power (Resilience) reduced by 25% of Base HP"
 					],
 					"condition": "Effective immediately"
 				}
@@ -1203,7 +1206,8 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"DEF and MDEF decreases according to the total damage dealt during battle"
+						"DEF decreases by 1 for each 100 Damage you dealt (no limit specified)",
+						"MDEF decreases by 1 for each 100 Damage you dealt (no limit specified)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -1222,13 +1226,16 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increase Damage Upper Limit according to the total Damage Taken during battle"
+						"Increase Damage Upper Limit by 1 for each 1 Damage Taken (max: 1,000,000)"
 					],
 					"condition": "Effective immediately"
 				}
 			],
 			"debuff": null,
-			"additional_info": "The increased Damage Upper Limit will reset after the battle ends",
+			"additional_info": [
+				"The increased Damage Upper Limit will reset after the battle ends",
+				"Reverse Damage caused by [Accessories: Strike Earrings] is also counted"
+			],
 			"year": null,
 			"icon": "dragon_neck_red.png"
 		},
@@ -1712,7 +1719,9 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Critical Time is drastically reduced"],
+					"list": [
+						"Critical Time is drastically reduced (value not specified)"
+					],
 					"condition": "100% chance to activate when you get hit (attacked)"
 				}
 			],
@@ -1755,12 +1764,14 @@
 					"id": 1,
 					"name": "Adversity",
 					"desc": null,
-					"list": ["Your ATK increases as your current HP decreases"],
+					"list": [
+						"ATK increases by 7 for each 1 Base HP lost (no limit stated)"
+					],
 					"condition": "Effective immediately"
 				}
 			],
 			"debuff": null,
-			"additional_info": null,
+			"additional_info": "The HP increase from certain gear (e.g., HP Up Core or Rare Rune [1H Sword]) will not be considered as an HP decrease",
 			"year": null,
 			"icon": "heart_neck_red.png"
 		},
@@ -1795,8 +1806,8 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increases MATK according to your Water ATK (max: 10,000)",
-						"Increases MDEF according to your Water DEF (max: 500)"
+						"Increases MATK by 300% of your Water ATK (max: 10,000)",
+						"Increases MDEF by 70% of your Water DEF (max: 500)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -1816,8 +1827,8 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increases Damage Upper Limit according to your Earth ATK (max: 100,000)",
-						"Increases DEF according to your Earth DEF (max: 500)"
+						"Increases Damage Upper Limit 3,000% of your Base Earth ATK (max: 100,000)",
+						"Increases DEF by 70% of your Earth DEF (max: 500)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -1837,8 +1848,8 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Reduces Skill Cooltime according to your Wind ATK (max: -25)",
-						"Increases Recovery Power (Resilience) according to your Wind DEF (max: 500)"
+						"Reduces Skill Cooltime 0,1% of your Base Wind ATK (max: -25)",
+						"Increases Recovery Power (Resilience) by 30% of your Base Wind DEF (max: 500)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -1912,7 +1923,7 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Increases Extra Damage according to the target's Max HP (max: 30,000)"
+						"Extra Damage increases by 10% of target's current HP (max: 30,000)"
 					],
 					"condition": "Effective immediately"
 				}
@@ -2557,7 +2568,7 @@
 				}
 			],
 			"debuff": null,
-			"additional_info": "The Water ATK +300 provided by this equipment doesn't count as a base stat",
+			"additional_info": "The Water ATK +300 provided by this equipment doesn't count as a Base Stat",
 			"year": 2023,
 			"icon": "lr_ear_green.png"
 		},
@@ -2678,7 +2689,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Earth DEF +200", "Earth DEF +100 (base stat)"],
+					"list": ["Earth DEF +200", "Earth DEF +100 (Base Stat)"],
 					"condition": "Effective immediately"
 				},
 				{
@@ -2970,7 +2981,7 @@
 					"list": [
 						"Increase Extra Damage based on the number of dagger equipped (value not specified)"
 					],
-					"condition": "condition_value"
+					"condition": "Effective immediately"
 				},
 				{
 					"id": 2,
@@ -2979,7 +2990,7 @@
 					"list": [
 						"Increase Damage Factor based on the number of dagger equipped (max: 30%)"
 					],
-					"condition": "condition_value"
+					"condition": "Effective immediately"
 				},
 				{
 					"id": 3,
@@ -2988,7 +2999,7 @@
 					"list": [
 						"Increase Critical Damage based on the number of dagger equipped (max: 50%)"
 					],
-					"condition": "condition_value"
+					"condition": "Effective immediately"
 				}
 			],
 			"debuff": null,
@@ -3200,7 +3211,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Fire DEF +200", "Fire DEF +100 (base stat)"],
+					"list": ["Fire DEF +200", "Fire DEF +100 (Base Stat)"],
 					"condition": "Effective immediately"
 				},
 				{
@@ -3343,7 +3354,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["Water DEF +200", "Water DEF +100 (base stat)"],
+					"list": ["Water DEF +200", "Water DEF +100 (Base Stat)"],
 					"condition": "Effective immediately"
 				},
 				{
@@ -3719,6 +3730,417 @@
 			"additional_info": null,
 			"year": 2024,
 			"icon": "lr_ear_red.png"
+		},
+		{
+			"id": "bold_necklace",
+			"name": "Bold Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["ATK +10,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MATK -20,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "faith_necklace",
+			"name": "Faith Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Recovery Power (Resilience) +10 for each skill use (max: 500)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_pink.png"
+		},
+		{
+			"id": "naughty_necklace",
+			"name": "Naughty Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"ATK increases by 100% of your current HP (max: 30,000)",
+						"MATK increases by 100% of your current HP (max: 30,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"DEF reduces by 10% of your current HP (max: -3,000)",
+						"MDEF reduces by 10% of your current HP (max: -3,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "association_earrings",
+			"name": "Association Earrings",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Recovery Power (Resilience) +150 for each ally in battle (max: 1,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Damage Factor -3% for each ally in battle (max: -20%)"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_pink.png"
+		},
+		{
+			"id": "changing_e_necklace",
+			"name": "Changing E Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Earth ATK +100",
+						"ATK increases by 1,000% of Base Earth ATK (max: 20,000)",
+						"MATK increases by 1,000% of Base Earth ATK (max: 20,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_green.png"
+		},
+		{
+			"id": "improvement_necklace",
+			"name": "Improvement Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Damage Upper Limit increases by 1% of Total Damage Dealt (max: 1,000,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "steel_necklace",
+			"name": "Steel Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"DEF increases by the total of Damage Taken in battle (max: 1,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"ATK reduces by the total of Damage Taken in battle (max: -10,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_blue.png"
+		},
+		{
+			"id": "changing_wind_necklace",
+			"name": "Changing Wind Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Wind ATK +100",
+						"ATK increases by 1,000% of Base Wind ATK (max: 20,000)",
+						"MATK increases by 1,000% of Base Wind ATK (max: 20,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_green.png"
+		},
+		{
+			"id": "erosion_necklace",
+			"name": "Erosion Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"ATK increases based on the number of skill use (no info on the rate)",
+						"Damage Factor increases based on the number of skill use (no info on the rate)",
+						"Damage Upper Limit increases based on the number of skill use (no info on the rate)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Reverse Damage increases based on the number of skill use (no info on the rate)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": [
+				"Increased ATK, Damage Factor, and Damage Upper Limit will reset after the battle ends",
+				"Increased Reverse Damage will reset after the battle ends"
+			],
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "changing_w_necklace",
+			"name": "Changing W Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Water ATK +100",
+						"ATK increases by 1,000% of Base Water ATK (max: 20,000)",
+						"MATK increases by 1,000% of Base Water ATK (max: 20,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_green.png"
+		},
+		{
+			"id": "soul_necklace",
+			"name": "Sould Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"ATK +2,500 (Base Stat)",
+						"MATK +2,500 (Base Stat)",
+						"Damage Upper Limit increases based on your Base ATK (max: 50,000)",
+						"Damage Upper Limit increases based on your Base MATK (max: 50,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "changing_f_necklace",
+			"name": "Changing F Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Fire ATK +100",
+						"ATK increases by 1,000% of Base Fire ATK (max: 20,000)",
+						"MATK increases by 1,000% of Base Fire ATK (max: 20,000)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_green.png"
+		},
+		{
+			"id": "live_or_die_necklace",
+			"name": "Live or Die Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Potentiality",
+					"desc": null,
+					"list": [
+						"Damage Factor increases as your current HP decreases (max: 80%)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Reverse Damage by 20% of your Base HP for each skill use"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_purple.png"
+		},
+		{
+			"id": "balloon_necklace",
+			"name": "Balloon Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Max HP +100%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["DEF -99,999", "MDEF -99,999"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "dragon_neck_red.png"
+		},
+		{
+			"id": "reckless_necklace",
+			"name": "Reckless Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": [
+						"ATK increases by 100 for each skill use (max: 10,000)",
+						"DEF increase by 20 for each skill use (max: 500)"
+					],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["debuff_1"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_pink.png"
+		},
+		{
+			"id": "argument_necklace",
+			"name": "Argument Necklace",
+			"rarity": "UR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MATK +200%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MATK reduces for each enemy in the battle"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": "Reduced MATK will reset when the battle ends",
+			"year": null,
+			"icon": "heart_neck_red.png"
 		}
 	]
 }

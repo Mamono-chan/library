@@ -190,7 +190,7 @@
     let small_closer = (use_small_tag) ? '</small>' : '';
 
     if (typeof data === 'string') {
-      // If it's a string, output it as is
+      // If it's a string, output as a single list
       return small_opener + '<ul class="mb-0"><li>' + data + '</li></ul>' + small_closer;
     } else if (Array.isArray(data)) {
       // If it's an array, create an unordered list
@@ -247,7 +247,7 @@
       $(window).scrollTop(target);
     });
 
-    // add some delay before going to homepage
+    // add some delay before going to the starting page
     setTimeout(() => {
       navigate_to('pg_acc');
     }, 300);

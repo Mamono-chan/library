@@ -139,7 +139,6 @@ table.custom_datatable tbody tr {
 }
 table.custom_datatable tbody tr td {
   display: grid;
-  gap: 1;
 }
 table.custom_datatable tbody tr td .icon_block {
   display: block;
