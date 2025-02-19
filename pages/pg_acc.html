@@ -13,13 +13,62 @@
                   <td style="width: 100%;">
                     <input id="search_bar" type="text" class="form-control" placeholder="Enter Search Keyword...">
                   </td>
-                  <td style="min-width: 140px;" class="text-end">
-                    <button id="btnAdvFilterAcc" onclick="wip()" class="btn btn-outline-warning">
+                  <td style="min-width: 180px;" class="text-end">
+                    <button id="btnAdvFilterAcc" onclick="toggle_acc_adv_filter()" class="btn btn-outline-warning"
+                      style="width: calc(100% - 6px);">
                       <i class="fas fa-filter me-2"></i>Adv. Filters
+                      <div id="adv_filter_active_counter" class="counter-badge top-right">0</div>
                     </button>
                   </td>
                 </tr>
               </table>
+            </div>
+
+            <div id="acc_adv_filter_container" class="col-12">
+              <div class="panel">
+                <div class="header mini"><small>Advanced Filter for Accessories</small></div>
+                <div class="content">
+                  <!-- HIDDEN INPUT TO STORE THE FILTER VALUE -->
+                  <input type="hidden" id="accf_hi_rarity" value="all">
+                  <input type="hidden" id="accf_hi_year" value="all">
+                  <input type="hidden" id="accf_hi_rating" value="all">
+                  <!-- FILTER TOGGLE TO DISPLAY ACTIVE VALUE -->
+                  <div class="mb-1">Rarity :</div>
+                  <div class="d-inline-block">
+                    <div onclick="taaf_badge(`rarity`,`all`)"
+                      class="accf_g_rarity all clickable badge bg-warning text-dark px-2 py-1">ALL</div>
+                    <div onclick="taaf_badge(`rarity`,`LR`)"
+                      class="accf_g_rarity LR clickable badge bg-secondary px-2 py-1">LR</div>
+                    <div onclick="taaf_badge(`rarity`,`UR`)"
+                      class="accf_g_rarity UR clickable badge bg-secondary px-2 py-1">UR</div>
+                    <div onclick="taaf_badge(`rarity`,`SR`)"
+                      class="accf_g_rarity SR clickable badge bg-secondary px-2 py-1">SR</div>
+                    <div onclick="taaf_badge(`rarity`,`R`)"
+                      class="accf_g_rarity R clickable badge bg-secondary px-2 py-1">R</div>
+                    <div onclick="taaf_badge(`rarity`,`N`)"
+                      class="accf_g_rarity N clickable badge bg-secondary px-2 py-1">N</div>
+                  </div>
+                </div>
+                <div class="footer">
+                  <div class="mb-1">Year :</div>
+                  <div class="d-inline-block">
+                    <div onclick="taaf_badge(`year`,`all`)"
+                      class="accf_g_year all clickable badge bg-warning text-dark px-2 py-1">ALL</div>
+                    <div onclick="taaf_badge(`year`, 2021)"
+                      class="accf_g_year 2021 clickable badge bg-secondary px-2 py-1">2021
+                    </div>
+                    <div onclick="taaf_badge(`year`, 2022)"
+                      class="accf_g_year 2022 clickable badge bg-secondary px-2 py-1">2022
+                    </div>
+                    <div onclick="taaf_badge(`year`, 2023)"
+                      class="accf_g_year 2023 clickable badge bg-secondary px-2 py-1">2023
+                    </div>
+                    <div onclick="taaf_badge(`year`, 2024)"
+                      class="accf_g_year 2024 clickable badge bg-secondary px-2 py-1">2024
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="col-12">
@@ -51,10 +100,73 @@
 </div>
 
 <script>
-  var datatable = null;
+  var acc_datatable = null;
+  var acc_adv_filter_counter = 0;
 
   var acc_img_scale = 1;
   var acc_img = $("#fullscreen_image");
+
+  $('#acc_adv_filter_container').hide();
+
+  function check_acc_adv_filter_counter() {
+    // if there's non `all` value, increase counter by 1
+    acc_adv_filter_counter = 0;
+    if ($('#accf_hi_rarity').val() != 'all') acc_adv_filter_counter++;
+    if ($('#accf_hi_year').val() != 'all') acc_adv_filter_counter++;
+    if ($('#accf_hi_rating').val() != 'all') acc_adv_filter_counter++;
+
+    // if counter > 0, display badge on acc adv filter button
+    if (acc_adv_filter_counter > 0) {
+      $('#adv_filter_active_counter')
+        .html(acc_adv_filter_counter)
+        .addClass('shown');
+    } else {
+      $('#adv_filter_active_counter')
+        .html(acc_adv_filter_counter)
+        .removeClass('shown');
+    }
+  }
+
+  function toggle_acc_adv_filter() {
+    let acc_adv_filter_container = $('#acc_adv_filter_container');
+    if (acc_adv_filter_container.hasClass('shown')) {
+      acc_adv_filter_container.removeClass('shown').slideUp();
+    } else {
+      acc_adv_filter_container.addClass('shown').slideDown();
+    }
+  }
+
+  function taaf_badge(section, value) {
+    toggle_acc_adv_filter_badge(section, value);
+  }
+
+  function toggle_acc_adv_filter_badge(section = null, value = null) {
+    if (!section || !value) return;
+
+    const sectionMap = {
+      'rarity': { groupClass: '.accf_g_rarity', hiddenInput: '#accf_hi_rarity', columnIndex: 3 },
+      'year': { groupClass: '.accf_g_year', hiddenInput: '#accf_hi_year', columnIndex: 6 }
+    };
+
+    if (!(section in sectionMap)) return;
+
+    let { groupClass, hiddenInput, columnIndex } = sectionMap[section];
+
+    // Set display toggle
+    $(groupClass).removeClass('bg-warning text-dark bg-secondary').addClass('bg-secondary');
+    $(`${groupClass}.${value}`).addClass('bg-warning text-dark');
+
+    // Set hidden input value
+    $(hiddenInput).val(value);
+
+    // Refresh DataTable
+    if (acc_datatable) {
+      let searched_value = (value === 'all') ? '' : value;
+      acc_datatable.column(columnIndex).search(searched_value).draw();
+    }
+
+    check_acc_adv_filter_counter();
+  }
 
   function init_acc_img_zoom() {
     $(".explain_image").click(function () {
@@ -97,7 +209,7 @@
 
   $(document).ready(function () {
     // Initialize DataTable
-    datatable = $('#accTable').DataTable({
+    acc_datatable = $('#accTable').DataTable({
       ajax: function (data, callback, settings) {
         $.ajax({
           url: './data/accessories.json', // Path to JSON file
@@ -141,8 +253,8 @@
 
             // name
             let item_name = (row.name != null)
-              ? '<h4 class="mt-1">' + rarity_badge + row.name + '</h4>'
-              : '<h4 class="mt-1">- Unset Item Name -</h4>';
+              ? '<h4 class="mt-1" style="width: 340px;">' + rarity_badge + row.name + '</h4>'
+              : '<h4 class="mt-1" style="width: 340px;">- Unset Item Name -</h4>';
 
 
             // buff

@@ -38,6 +38,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.panel .header.mini {
+  font-size: 0.8rem;
+}
 .panel .content {
   display: block;
   position: relative;
@@ -180,6 +183,49 @@ table.custom_datatable tbody tr td .text_block hr {
 .debuff-text li,
 .debuff-text li.debuff-text {
   list-style-type: circle;
+}
+
+.counter-badge {
+  font-size: 0.65rem;
+  padding: 4px 8px;
+  background-color: #c13d3d;
+  color: white;
+  position: absolute;
+  top: auto;
+  left: 5px;
+  right: auto;
+  bottom: 5px;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.431372549);
+}
+.counter-badge.top-left {
+  top: 5px;
+  left: 5px;
+  right: auto;
+  bottom: auto;
+}
+.counter-badge.top-right {
+  top: 5px;
+  left: auto;
+  right: 5px;
+  bottom: auto;
+}
+.counter-badge.bottom-left {
+  top: auto;
+  left: 5px;
+  right: auto;
+  bottom: 5px;
+}
+.counter-badge.bottom-right {
+  top: auto;
+  left: 5px;
+  right: auto;
+  bottom: 5px;
+}
+.counter-badge.shown {
+  opacity: 1;
 }
 
 .lds-ring,
@@ -326,4 +372,8 @@ table.custom_datatable tbody tr td .text_block hr {
 .go_top.show {
   opacity: 1;
   pointer-events: all;
+}
+
+.clickable {
+  cursor: pointer;
 }/*# sourceMappingURL=global-styles.css.map */
