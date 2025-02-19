@@ -31,7 +31,7 @@
                   <!-- HIDDEN INPUT TO STORE THE FILTER VALUE -->
                   <input type="hidden" id="accf_hi_rarity" value="all">
                   <input type="hidden" id="accf_hi_year" value="all">
-                  <input type="hidden" id="accf_hi_rating" value="all">
+                  <input type="hidden" id="accf_hi_effects" value="all">
                   <!-- FILTER TOGGLE TO DISPLAY ACTIVE VALUE -->
                   <div class="mb-1">Rarity :</div>
                   <div class="d-inline-block">
@@ -68,35 +68,54 @@
                     </div>
                   </div>
                 </div>
+                <div class="footer">
+                  <div class="mb-1">Effects :</div>
+                  <div class="d-inline-block">
+                    <div onclick="taaf_badge(`effects`,`all`)"
+                      class="accf_g_effects all clickable badge bg-warning text-dark px-2 py-1">ALL
+                    </div>
+                    <div onclick="taaf_badge(`effects`, `buff_only`)"
+                      class="accf_g_effects buff_only clickable badge bg-secondary px-2 py-1">Buff Only
+                    </div>
+                    <div onclick="taaf_badge(`effects`, `debuff_only`)"
+                      class="accf_g_effects debuff_only clickable badge bg-secondary px-2 py-1">Debuff Only
+                    </div>
+                    <div onclick="taaf_badge(`effects`, `buff_and_debuff`)"
+                      class="accf_g_effects buff_and_debuff clickable badge bg-secondary px-2 py-1">Both Buff and Debuff
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-
-            <div class="col-12">
-              <table id="accTable" class="custom_datatable" style="width:100%">
-                <thead>
-                  <tr>
-                    <th>Accessories</th>
-                    <th>Icon</th>
-                    <th>Name</th>
-                    <th>Rarity</th>
-                    <th>Buff</th>
-                    <th>Debuff</th>
-                    <th>Year</th>
-                    <th>Additional Info</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <!-- Data will be populated dynamically -->
-                </tbody>
-              </table>
-            </div>
-
           </div>
+
+          <div class="col-12">
+            <table id="accTable" class="custom_datatable" style="width:100%">
+              <thead>
+                <tr>
+                  <th>Accessories</th>
+                  <th>Icon</th>
+                  <th>Name</th>
+                  <th>Rarity</th>
+                  <th>Buff</th>
+                  <th>Debuff</th>
+                  <th>Year</th>
+                  <th>Additional Info</th>
+                  <th>Effects</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Data will be populated dynamically -->
+              </tbody>
+            </table>
+          </div>
+
         </div>
       </div>
     </div>
-
   </div>
+
+</div>
 </div>
 
 <script>
@@ -113,7 +132,7 @@
     acc_adv_filter_counter = 0;
     if ($('#accf_hi_rarity').val() != 'all') acc_adv_filter_counter++;
     if ($('#accf_hi_year').val() != 'all') acc_adv_filter_counter++;
-    if ($('#accf_hi_rating').val() != 'all') acc_adv_filter_counter++;
+    if ($('#accf_hi_effects').val() != 'all') acc_adv_filter_counter++;
 
     // if counter > 0, display badge on acc adv filter button
     if (acc_adv_filter_counter > 0) {
@@ -145,7 +164,8 @@
 
     const sectionMap = {
       'rarity': { groupClass: '.accf_g_rarity', hiddenInput: '#accf_hi_rarity', columnIndex: 3 },
-      'year': { groupClass: '.accf_g_year', hiddenInput: '#accf_hi_year', columnIndex: 6 }
+      'year': { groupClass: '.accf_g_year', hiddenInput: '#accf_hi_year', columnIndex: 6 },
+      'effects': { groupClass: '.accf_g_effects', hiddenInput: '#accf_hi_effects', columnIndex: 8 }
     };
 
     if (!(section in sectionMap)) return;
@@ -384,6 +404,13 @@
         },
         {
           data: 'additional_info',
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'effects',
           className: 'd-none',
           render: function (data, type, row) {
             return data;
