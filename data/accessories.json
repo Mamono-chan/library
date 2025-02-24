@@ -4325,6 +4325,7 @@
 			"id": "one_strike_earrings",
 			"name": "One Strike Earrings",
 			"rarity": "LR",
+			"effects": "buff_and_debuff",
 			"buff": [
 				{
 					"id": 1,
