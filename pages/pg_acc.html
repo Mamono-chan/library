@@ -66,6 +66,9 @@
                     <div onclick="taaf_badge(`year`, 2024)"
                       class="accf_g_year 2024 clickable badge bg-secondary px-2 py-1">2024
                     </div>
+                    <div onclick="taaf_badge(`year`, 2025)"
+                      class="accf_g_year 2025 clickable badge bg-secondary px-2 py-1">2025
+                    </div>
                   </div>
                 </div>
                 <div class="footer">
@@ -181,8 +184,13 @@
 
     // Refresh DataTable
     if (acc_datatable) {
-      let searched_value = (value === 'all') ? '' : value;
-      acc_datatable.column(columnIndex).search(searched_value).draw();
+      // regular search
+      // let searched_value = (value === 'all') ? '' : value;
+      // acc_datatable.column(columnIndex).search(searched_value).draw();
+
+      // exact value search (using regex)
+      let searched_value = (value === 'all') ? '' : '^' + value + '$';
+      acc_datatable.column(columnIndex).search(searched_value, true, false).draw();
     }
 
     check_acc_adv_filter_counter();

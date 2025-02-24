@@ -4291,6 +4291,86 @@
 			"additional_info": "Reduced MATK will reset when the battle ends",
 			"year": null,
 			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "stormy_sea_earrings",
+			"name": "Stormy Sea Earrings",
+			"rarity": "LR",
+			"effects": "buff_only",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Water ATK +500", "Water ATK +10%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": "Buff duration: 300 seconds",
+					"list": [
+						"Water Skill Power +20%",
+						"Damage Upper Limit increases by 150,000% of Water ATK (max: 3,000,000)"
+					],
+					"condition": "100% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+			"year": 2025,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "one_strike_earrings",
+			"name": "One Strike Earrings",
+			"rarity": "LR",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MATK +1,700%", "Damage Upper Limit +2,000,000"],
+					"condition": "Effective immediately while equipping Staff in the main gear slot"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": "Buff Duration 1,200 seconds",
+					"list": [
+						"MATK +800%",
+						"Damage Upper Limit +20,000,000",
+						"Damage Factor +200%",
+						"(Debuff) Skill Cooltime +15"
+					],
+					"condition": "100% chance to activate at the start of the battle while equipping Staff in the main gear slot"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Number of attacks -99"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": null,
+					"desc": null,
+					"list": [
+						"Gear ATK -1,000%",
+						"Gear MATK -1,000%",
+						"Gear DEF -1,000%",
+						"Gear MDEF -1,000%",
+						"Damage Upper Limit -1,000,000"
+					],
+					"condition": "Effective immediately for each equipped Weapon or Shield (main gear and sub gear slot)"
+				}
+			],
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+			"year": 2025,
+			"icon": "lr_ear_purple.png"
 		}
 	]
 }
