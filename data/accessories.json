@@ -4372,6 +4372,118 @@
 			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
 			"year": 2025,
 			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "counterattack_earrings",
+			"name": "Counterattack Earrings",
+			"rarity": "LR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Base",
+					"desc": null,
+					"list": ["ATK +50%", "MATK +50%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Effect (1)",
+					"desc": "Buff Duration 60 seconds",
+					"list": [
+						"ATK increases by 100% of Total Damage Taken (max: 200,000)",
+						"MATK increases by 100% of Total Damage Taken (max: 200,000)",
+						"Damage Upper Limit increases by 10,000% of Total Damage Taken (max: 1,000,000)",
+						"(Debuff) Damage Taken increases by 100%"
+					],
+					"condition": "50% chance to activate when you get hit (attacked) while not having any [Buff: Effect (1) / (2) / (3)] active"
+				},
+				{
+					"id": 2,
+					"name": "Effect (2)",
+					"desc": "Buff Duration 60 seconds",
+					"list": [
+						"ATK increases by 200% of Total Damage Taken (max: 200,000)",
+						"MATK increases by 200% of Total Damage Taken (max: 200,000)",
+						"Damage Upper Limit increases by 50,000% of Total Damage Taken (max: 5,000,000)",
+						"(Debuff) Damage Taken increases by 500%"
+					],
+					"condition": "50% chance to activate when you get hit (attacked) while [Buff: Effect (1)] is active"
+				},
+				{
+					"id": 3,
+					"name": "Effect (3)",
+					"desc": "Buff Duration 60 seconds",
+					"list": [
+						"ATK increases by 400% of Total Damage Taken (max: 400,000)",
+						"MATK increases by 400% of Total Damage Taken (max: 400,000)",
+						"Damage Upper Limit increases by 200,000% of Total Damage Taken (max: 20,000,000)",
+						"(Debuff) Damage Taken increases by 2,000%"
+					],
+					"condition": "50% chance to activate when you get hit (attacked) while [Buff: Effect (2)] is active"
+				}
+			],
+			"debuff": null,
+			"additional_info": [
+				"When [Buff: Effect (2)] is activated, [Buff: Effect (1)] is erased",
+				"When [Buff: Effect (3)] is activated, [Buff: Effect (2)] is erased"
+			],
+			"year": 2025,
+			"icon": "lr_ear_red.png"
+		},
+		{
+			"id": "m_flame_necklace",
+			"name": "M: Flame Necklace",
+			"rarity": "UR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Fire DEF +400"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["Water DEF -200", "Wind DEF -200", "Earth DEF -200"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "ws_crack_necklace",
+			"name": "WS: Crack Necklace",
+			"rarity": "UR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MATK +150,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": null,
+					"desc": null,
+					"list": ["MATK -10,000 for each skill use (max: -150,000)"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
 		}
 	]
 }
