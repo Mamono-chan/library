@@ -4342,7 +4342,7 @@
 						"MATK +800%",
 						"Damage Upper Limit +20,000,000",
 						"Damage Factor +200%",
-						"(Debuff) Skill Cooltime +15"
+						"(Debuff) Skill Cooltime +15 seconds"
 					],
 					"condition": "100% chance to activate at the start of the battle while equipping Staff in the main gear slot"
 				}
