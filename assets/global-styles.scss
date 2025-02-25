@@ -8,12 +8,17 @@ body {
 	font-size: 0.9rem;
 }
 
-#page_content {
+#page_content,
+.page_content {
 	display: block;
 	position: relative;
-	padding: 75px 0 0 0;
+	padding: 75px 25px 25px 25px;
 	width: 100%;
 	min-height: 250px;
+}
+
+.page_navbar {
+	padding: 0 25px 0 25px;
 }
 
 /// |----------------------------------------
@@ -121,19 +126,15 @@ table.custom_datatable {
 		display: none;
 	}
 	tbody {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-
 		tr {
-			display: block;
-			padding: 5px 10px;
-			margin: 5px;
-			border: 1px solid #a1d9ff;
-			border-radius: 4px;
+			height: auto;
 
 			td {
-				display: grid;
+				display: block;
+				border: 1px solid #a1d9ff;
+				border-radius: 4px;
+				padding: 8px 10px;
+				height: calc(100% - 16px);
 
 				.icon_block {
 					display: block;
@@ -153,7 +154,6 @@ table.custom_datatable {
 				.text_block {
 					display: block;
 					position: relative;
-					width: 280px;
 					word-break: break-word;
 					height: auto;
 					padding: 5px 10px;
