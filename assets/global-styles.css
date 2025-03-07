@@ -426,5 +426,5 @@ table.custom_datatable tbody tr td .text_block hr {
 }
 
 .clickable {
-  cursor: pointer;
+  cursor: pointer !important;
 }/*# sourceMappingURL=global-styles.css.map */
