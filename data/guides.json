@@ -1,0 +1,22 @@
+{
+	"data": [
+		{
+			"id": "r1_job_item_requirements",
+			"posted_on": "2025-03-06 15:43:00",
+			"update_on": null,
+			"title": "List of Item Requirements for Rank 1 (R1) Job Quest",
+			"desc": "This list contains all the necessary items required to complete the Rank 1 (R1) Job Quest. Ensure you have all the items ready before attempting the quest.",
+			"image": "alsto-r1-image.jpg",
+			"tags": ["quest", "job", "item"]
+		},
+		{
+			"id": "r2_job_item_requirements",
+			"posted_on": "2025-03-07 09:48:00",
+			"update_on": null,
+			"title": "List of Item Requirements for Rank 2 (R2) Job Quest",
+			"desc": "This list contains all the necessary items required to complete the Rank 2 (R2) Job Quest. Ensure you have all the items ready before attempting the quest.",
+			"image": "alsto-r1-image.jpg",
+			"tags": ["quest", "job", "item"]
+		}
+	]
+}
