@@ -104,6 +104,7 @@
                     <th>Year</th>
                     <th>Additional Info</th>
                     <th>Effects</th>
+                    <th>Posted On</th>
                   </tr>
                 </thead>
                 <tbody class="row g-2 justify-content-center">
@@ -252,7 +253,7 @@
           }
         });
       },
-      order: [[2, 'asc']],
+      order: [[9, 'desc']],
       createdRow: function (row, data, dataIndex) {
         // Add a class to the <tr> based on some condition
         $(row).addClass('col-12 col-lg-6 col-xxl-4');
@@ -422,6 +423,13 @@
         },
         {
           data: 'effects', // index 8
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'posted_on', // index 9
           className: 'd-none',
           render: function (data, type, row) {
             return data;
