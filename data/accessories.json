@@ -916,7 +916,7 @@
 					"desc": null,
 					"list": [
 						"ATK +5,000",
-						"ATK + 200%",
+						"ATK +200%",
 						"Triggers Extra Damage according to your ATK (20% base ATK -> Extra Damage, max: 50,000)"
 					],
 					"condition": "Effective immediately"
@@ -2547,7 +2547,7 @@
 					"id": 1,
 					"name": null,
 					"desc": null,
-					"list": ["DEF + 100"],
+					"list": ["DEF +100"],
 					"condition": "Effective immediately"
 				}
 			],
@@ -4913,7 +4913,7 @@
 			"id": "harmony_earrings",
 			"name": "Harmony Earrings",
 			"posted_on": "2025-04-25 12:02:00",
-			"update_on": null,
+			"update_on": "2025-04-25 15:37:00",
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4923,8 +4923,8 @@
 					"desc": null,
 					"list": [
 						"Increase ATK by 1,000% of your current HP (max: 100,000)",
-						"Incresae MATK by 300% of your current HP (max: 100,000)",
-						"DEF +2,400"
+						"Incresae MATK by 1,000% of your current HP (max: 100,000)",
+						"DEF +2,000"
 					],
 					"condition": "Effective immediately"
 				},
@@ -4969,7 +4969,7 @@
 					"id": 1,
 					"name": "Passive",
 					"desc": null,
-					"list": ["MATK + 10,000"],
+					"list": ["MATK +10,000"],
 					"condition": "Effective immediately"
 				},
 				{
@@ -5000,7 +5000,7 @@
 					"id": 1,
 					"name": "Passive",
 					"desc": null,
-					"list": ["ATK + 20,000", "Damage Factor +4%"],
+					"list": ["ATK +20,000", "Damage Factor +4%"],
 					"condition": "Effective immediately"
 				}
 			],
