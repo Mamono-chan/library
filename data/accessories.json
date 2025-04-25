@@ -3,6 +3,8 @@
 		{
 			"id": "lr_dash_earrings",
 			"name": "Dash Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -30,6 +32,8 @@
 		{
 			"id": "four_atk_earrings",
 			"name": "Four ATK Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -54,6 +58,8 @@
 		{
 			"id": "four_def_earrings",
 			"name": "Four DEF Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -78,6 +84,8 @@
 		{
 			"id": "strength_earrings",
 			"name": "Strength Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -97,6 +105,8 @@
 		{
 			"id": "wise_earrings",
 			"name": "Wise Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -116,6 +126,8 @@
 		{
 			"id": "almighty_earrings",
 			"name": "Almighty Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -137,6 +149,8 @@
 		{
 			"id": "exertion_earrings",
 			"name": "Exertion Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -168,6 +182,8 @@
 		{
 			"id": "rebirth_earrings",
 			"name": "Rebirth Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -194,6 +210,8 @@
 		{
 			"id": "auto_fix_earrings",
 			"name": "Auto-Fix Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -213,6 +231,8 @@
 		{
 			"id": "limit_earrings",
 			"name": "Limit Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -239,6 +259,8 @@
 		{
 			"id": "red_flame_earrings",
 			"name": "Red Flame Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -270,6 +292,8 @@
 		{
 			"id": "green_storm_earrings",
 			"name": "Green Storm Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -301,6 +325,8 @@
 		{
 			"id": "vivid_wall_earrings",
 			"name": "Vivid Wall Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -330,6 +356,8 @@
 		{
 			"id": "frost_earrings",
 			"name": "Frost Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -361,6 +389,8 @@
 		{
 			"id": "devotion_earrings",
 			"name": "Devotion Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -390,6 +420,8 @@
 		{
 			"id": "regain_earrings",
 			"name": "Regain Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -424,6 +456,8 @@
 		{
 			"id": "flowery_earrings",
 			"name": "Flowery Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -455,6 +489,8 @@
 		{
 			"id": "barrage_earrings",
 			"name": "Barrage Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -474,6 +510,8 @@
 		{
 			"id": "booster_earrings",
 			"name": "Booster Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -503,6 +541,8 @@
 		{
 			"id": "quick_earrings",
 			"name": "Quick Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -530,6 +570,8 @@
 		{
 			"id": "enmity_earrings",
 			"name": "Enmity Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -556,6 +598,8 @@
 		{
 			"id": "blessed_earrings",
 			"name": "Blessed Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -582,6 +626,8 @@
 		{
 			"id": "scar_earrings",
 			"name": "Scar Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -608,6 +654,8 @@
 		{
 			"id": "super_earrings",
 			"name": "Super Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -657,6 +705,8 @@
 		{
 			"id": "dance_earrings",
 			"name": "Dance Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -690,6 +740,8 @@
 		{
 			"id": "burnt_earth_earrings",
 			"name": "Burnt Earth Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -718,6 +770,8 @@
 		{
 			"id": "storm_weir_earrings",
 			"name": "Storm Weir Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -747,6 +801,8 @@
 		{
 			"id": "collector_staff_e",
 			"name": "Collector: Staff E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -786,6 +842,8 @@
 		{
 			"id": "rough_earrings",
 			"name": "Rough Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -814,6 +872,8 @@
 		{
 			"id": "redemption_earrings",
 			"name": "Redemption Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -845,6 +905,8 @@
 		{
 			"id": "sacrifice_earrings",
 			"name": "Sacrifice Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -876,6 +938,8 @@
 		{
 			"id": "enemy_wind_earrings",
 			"name": "Enemy Wind Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -902,6 +966,8 @@
 		{
 			"id": "collector_spear_e",
 			"name": "Collector: Spear E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -941,6 +1007,8 @@
 		{
 			"id": "advanced_earrings",
 			"name": "Advanced Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -963,6 +1031,8 @@
 		{
 			"id": "neutral_atk_necklace",
 			"name": "Neutral ATK Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -995,6 +1065,8 @@
 		{
 			"id": "transcending_necklace",
 			"name": "Transcending Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1017,6 +1089,8 @@
 		{
 			"id": "wisdom_necklace",
 			"name": "Wisdom Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1039,6 +1113,8 @@
 		{
 			"id": "steel_body_necklace",
 			"name": "Steel Body Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1066,6 +1142,8 @@
 		{
 			"id": "heavy_def_necklace",
 			"name": "Heavy DEF Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1093,6 +1171,8 @@
 		{
 			"id": "heavy_mdef_necklace",
 			"name": "Heavy MDEF Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1120,6 +1200,8 @@
 		{
 			"id": "hard_power_necklace",
 			"name": "Hard Power Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1141,6 +1223,8 @@
 		{
 			"id": "heavens_gift_necklace",
 			"name": "Heaven's Gift Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1160,6 +1244,8 @@
 		{
 			"id": "strong_def_necklace",
 			"name": "Strong DEF Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1181,6 +1267,8 @@
 		{
 			"id": "tenacious_necklace",
 			"name": "Tenacious Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1202,6 +1290,8 @@
 		{
 			"id": "robust_necklace",
 			"name": "Robust Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1235,6 +1325,8 @@
 		{
 			"id": "sharp_necklace",
 			"name": "Sharp Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1265,6 +1357,8 @@
 		{
 			"id": "furious_necklace",
 			"name": "Furious Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1289,6 +1383,8 @@
 		{
 			"id": "hero_earrings",
 			"name": "Hero Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1308,6 +1404,8 @@
 		{
 			"id": "holy_earrings",
 			"name": "Holy Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1327,6 +1425,8 @@
 		{
 			"id": "atk_earrings",
 			"name": "ATK Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1346,6 +1446,8 @@
 		{
 			"id": "def_earrings",
 			"name": "DEF Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1365,6 +1467,8 @@
 		{
 			"id": "fire_earrings",
 			"name": "Fire Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1384,6 +1488,8 @@
 		{
 			"id": "water_earrings",
 			"name": "Water Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1403,6 +1509,8 @@
 		{
 			"id": "earth_earrings",
 			"name": "Earth Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1422,6 +1530,8 @@
 		{
 			"id": "wind_earrings",
 			"name": "Wind Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1441,6 +1551,8 @@
 		{
 			"id": "crimson_earrings",
 			"name": "Crimson Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1460,6 +1572,8 @@
 		{
 			"id": "blue_sky_earrings",
 			"name": "Blue Sky Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1479,6 +1593,8 @@
 		{
 			"id": "golden_earrings",
 			"name": "Golden Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1498,6 +1614,8 @@
 		{
 			"id": "greenery_earrings",
 			"name": "Greenery Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1517,6 +1635,8 @@
 		{
 			"id": "inner_eye_necklace",
 			"name": "Inner Eye Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1544,6 +1664,8 @@
 		{
 			"id": "triggering_necklace",
 			"name": "Triggering Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1563,6 +1685,8 @@
 		{
 			"id": "elemental_atk_necklace",
 			"name": "Elemental ATK Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1600,6 +1724,8 @@
 		{
 			"id": "bloody_tears_necklace",
 			"name": "Bloody Tears Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1627,6 +1753,8 @@
 		{
 			"id": "courage_necklace",
 			"name": "Courage Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1654,6 +1782,8 @@
 		{
 			"id": "strong_muscles_necklace",
 			"name": "Strong Muscles Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1681,6 +1811,8 @@
 		{
 			"id": "control_necklace",
 			"name": "Control Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1708,6 +1840,8 @@
 		{
 			"id": "elemental_def_necklace",
 			"name": "Elemental DEF Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1745,6 +1879,8 @@
 		{
 			"id": "heavy_atk_necklace",
 			"name": "Heavy ATK Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1772,6 +1908,8 @@
 		{
 			"id": "vision_necklace",
 			"name": "Vision Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1801,6 +1939,8 @@
 		{
 			"id": "light_necklace",
 			"name": "Light Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1828,6 +1968,8 @@
 		{
 			"id": "adversity_necklace",
 			"name": "Adversity Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1849,6 +1991,8 @@
 		{
 			"id": "convert_f_necklace",
 			"name": "Convert: F Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1871,6 +2015,8 @@
 		{
 			"id": "convert_w_necklace",
 			"name": "Convert: W Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1893,6 +2039,8 @@
 		{
 			"id": "convert_e_necklace",
 			"name": "Convert: E Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1915,6 +2063,8 @@
 		{
 			"id": "convert_a_necklace",
 			"name": "Convert: A Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -1937,6 +2087,8 @@
 		{
 			"id": "devotion_necklace",
 			"name": "Devotion Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1964,6 +2116,8 @@
 		{
 			"id": "fierce_necklace",
 			"name": "Fierce Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -1993,6 +2147,8 @@
 		{
 			"id": "pursuit_necklace",
 			"name": "Pursuit Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2014,6 +2170,8 @@
 		{
 			"id": "unbending_necklace",
 			"name": "Unbending Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2041,6 +2199,8 @@
 		{
 			"id": "surpassing_earrings",
 			"name": "Surpassing Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2060,6 +2220,8 @@
 		{
 			"id": "threatening_earrings",
 			"name": "Threatening Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2079,6 +2241,8 @@
 		{
 			"id": "hermit_earrings",
 			"name": "Hermit Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2098,6 +2262,8 @@
 		{
 			"id": "heavens_will_earrings",
 			"name": "Heaven's Will Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2117,6 +2283,8 @@
 		{
 			"id": "daring_earrings",
 			"name": "Daring Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2136,6 +2304,8 @@
 		{
 			"id": "tenacious_earrings",
 			"name": "Tenacious Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2155,6 +2325,8 @@
 		{
 			"id": "congenial_earrings",
 			"name": "Congenial Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2174,6 +2346,8 @@
 		{
 			"id": "sacred_earrings",
 			"name": "Sacred Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2193,6 +2367,8 @@
 		{
 			"id": "hellfire_earrings",
 			"name": "Hellfire Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2212,6 +2388,8 @@
 		{
 			"id": "rime_earrings",
 			"name": "Rime Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2231,6 +2409,8 @@
 		{
 			"id": "cracked_earth_earrings",
 			"name": "Cracked Earth Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2250,6 +2430,8 @@
 		{
 			"id": "storm_earrings",
 			"name": "Storm Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2269,6 +2451,8 @@
 		{
 			"id": "overpower_necklace_ur",
 			"name": "Overpower Necklace [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2296,6 +2480,8 @@
 		{
 			"id": "life_necklace_ur",
 			"name": "Life Necklace [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2323,6 +2509,8 @@
 		{
 			"id": "endure_necklace_ur",
 			"name": "Endure Necklace [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2350,6 +2538,8 @@
 		{
 			"id": "power_necklace_ur",
 			"name": "Power Necklace [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2377,6 +2567,8 @@
 		{
 			"id": "remover_necklace_ur",
 			"name": "Remover Necklace [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2404,6 +2596,8 @@
 		{
 			"id": "enlighting_necklace_ur",
 			"name": "Enlighting Necklace [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2431,6 +2625,8 @@
 		{
 			"id": "dlup_earrings_ur",
 			"name": "DLUp Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2450,6 +2646,8 @@
 		{
 			"id": "hateup_earrings_ur",
 			"name": "HateUp Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2469,6 +2667,8 @@
 		{
 			"id": "hatedown_earrings_ur",
 			"name": "HateDown Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2488,6 +2688,8 @@
 		{
 			"id": "hpup_earrings_ur",
 			"name": "HPUp Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2507,6 +2709,8 @@
 		{
 			"id": "atkup_earrings_ur",
 			"name": "ATKUp Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2526,6 +2730,8 @@
 		{
 			"id": "defup_earrings_ur",
 			"name": "DEFUp Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2545,6 +2751,8 @@
 		{
 			"id": "matkup_earrings_ur",
 			"name": "MATKUp Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2564,6 +2772,8 @@
 		{
 			"id": "mdefup_earrings_ur",
 			"name": "MDEFUp Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2583,6 +2793,8 @@
 		{
 			"id": "fire_atk_earrings_ur",
 			"name": "Fire ATK Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2602,6 +2814,8 @@
 		{
 			"id": "water_atk_earrings_ur",
 			"name": "Water ATK Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2621,6 +2835,8 @@
 		{
 			"id": "earth_atk_earrings_ur",
 			"name": "Earth ATK Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2640,6 +2856,8 @@
 		{
 			"id": "wind_atk_earrings_ur",
 			"name": "Wind ATK Earrings [UR]",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -2659,6 +2877,8 @@
 		{
 			"id": "frozen_earrings",
 			"name": "Frozen Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -2685,6 +2905,8 @@
 		{
 			"id": "collector_blade_e",
 			"name": "Collector: Blade E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -2724,6 +2946,8 @@
 		{
 			"id": "undaunted_earrings",
 			"name": "Undaunted Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2760,6 +2984,8 @@
 		{
 			"id": "high_stakes_earrings",
 			"name": "High Stakes Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2796,6 +3022,8 @@
 		{
 			"id": "sand_weir_earrings",
 			"name": "Sand Weir Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -2825,6 +3053,8 @@
 		{
 			"id": "collector_bow_earrings",
 			"name": "Collector: Bow Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -2864,6 +3094,8 @@
 		{
 			"id": "collector_l_axe_e",
 			"name": "Collector: L Axe E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -2903,6 +3135,8 @@
 		{
 			"id": "dual_curse_earrings",
 			"name": "Dual Curse Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2938,6 +3172,8 @@
 		{
 			"id": "grudge_earrings",
 			"name": "Grudge Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -2988,6 +3224,8 @@
 		{
 			"id": "collector_knuckles_e",
 			"name": "Collector: Knuckles E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3027,6 +3265,8 @@
 		{
 			"id": "barrier_earrings",
 			"name": "Barrier Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3062,6 +3302,8 @@
 		{
 			"id": "passionate_earrings",
 			"name": "Passionate Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3093,6 +3335,8 @@
 		{
 			"id": "collector_dagger_e",
 			"name": "Collector: Dagger E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3132,6 +3376,8 @@
 		{
 			"id": "sword_shield_earrings",
 			"name": "Sword Shield Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3175,6 +3421,8 @@
 		{
 			"id": "struggle_earrings",
 			"name": "Struggle Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3216,6 +3464,8 @@
 		{
 			"id": "firm_resolve_earrings",
 			"name": "Firm Resolve Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3256,6 +3506,8 @@
 		{
 			"id": "elemental_atk_earrings",
 			"name": "Elemental ATK Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3293,6 +3545,8 @@
 		{
 			"id": "collector_sword_e",
 			"name": "Collector: Sword E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3332,6 +3586,8 @@
 		{
 			"id": "weir_earrings",
 			"name": "Weir Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3361,6 +3617,8 @@
 		{
 			"id": "collector_axe_e",
 			"name": "Collector: Axe E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3400,6 +3658,8 @@
 		{
 			"id": "cursed_sword_earrings",
 			"name": "Cursed Sword Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3436,6 +3696,8 @@
 		{
 			"id": "explosive_power_e",
 			"name": "Explosive Power E",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3479,6 +3741,8 @@
 		{
 			"id": "wave_dam_earrings",
 			"name": "Wave Dam Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3508,6 +3772,8 @@
 		{
 			"id": "versatile_earrings",
 			"name": "Versatile Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3564,6 +3830,8 @@
 		{
 			"id": "giant_earrings",
 			"name": "Giant Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3591,6 +3859,8 @@
 		{
 			"id": "unarmed_earrings",
 			"name": "Unarmed Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3633,6 +3903,8 @@
 		{
 			"id": "777_earrings",
 			"name": "777 Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3675,6 +3947,8 @@
 		{
 			"id": "ahimsa_earrings",
 			"name": "Ahimsa Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3721,6 +3995,8 @@
 		{
 			"id": "progressive_earrings",
 			"name": "Progressive Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3750,6 +4026,8 @@
 		{
 			"id": "contradiction_earrings",
 			"name": "Contradiction Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3785,6 +4063,8 @@
 		{
 			"id": "raging_fire_earrings",
 			"name": "Raging Fire Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3814,6 +4094,8 @@
 		{
 			"id": "swordbow_earrings",
 			"name": "Swordbow Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3846,6 +4128,8 @@
 		{
 			"id": "inhalation_earrings",
 			"name": "Inhalation Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -3876,6 +4160,8 @@
 		{
 			"id": "bold_necklace",
 			"name": "Bold Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3903,6 +4189,8 @@
 		{
 			"id": "faith_necklace",
 			"name": "Faith Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -3924,6 +4212,8 @@
 		{
 			"id": "naughty_necklace",
 			"name": "Naughty Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3957,6 +4247,8 @@
 		{
 			"id": "association_earrings",
 			"name": "Association Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3986,6 +4278,8 @@
 		{
 			"id": "changing_e_necklace",
 			"name": "Changing E Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -4009,6 +4303,8 @@
 		{
 			"id": "improvement_necklace",
 			"name": "Improvement Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -4030,6 +4326,8 @@
 		{
 			"id": "steel_necklace",
 			"name": "Steel Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4061,6 +4359,8 @@
 		{
 			"id": "changing_wind_necklace",
 			"name": "Changing Wind Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -4084,6 +4384,8 @@
 		{
 			"id": "erosion_necklace",
 			"name": "Erosion Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4120,6 +4422,8 @@
 		{
 			"id": "changing_w_necklace",
 			"name": "Changing W Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -4143,6 +4447,8 @@
 		{
 			"id": "soul_necklace",
 			"name": "Sould Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -4167,6 +4473,8 @@
 		{
 			"id": "changing_f_necklace",
 			"name": "Changing F Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -4190,6 +4498,8 @@
 		{
 			"id": "live_or_die_necklace",
 			"name": "Live or Die Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4219,6 +4529,8 @@
 		{
 			"id": "balloon_necklace",
 			"name": "Balloon Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4246,6 +4558,8 @@
 		{
 			"id": "reckless_necklace",
 			"name": "Reckless Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -4268,6 +4582,8 @@
 		{
 			"id": "argument_necklace",
 			"name": "Argument Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4295,6 +4611,8 @@
 		{
 			"id": "stormy_sea_earrings",
 			"name": "Stormy Sea Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_only",
 			"buff": [
@@ -4324,6 +4642,8 @@
 		{
 			"id": "one_strike_earrings",
 			"name": "One Strike Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4376,6 +4696,8 @@
 		{
 			"id": "counterattack_earrings",
 			"name": "Counterattack Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4434,6 +4756,8 @@
 		{
 			"id": "m_flame_necklace",
 			"name": "M: Flame Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4461,6 +4785,8 @@
 		{
 			"id": "ws_crack_necklace",
 			"name": "WS: Crack Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
 			"rarity": "UR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -4483,6 +4809,204 @@
 			],
 			"additional_info": null,
 			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "quake_earring",
+			"name": "Quake Earring",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
+			"rarity": "LR",
+			"effects": "buff_only",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["Earth ATK +500", "Earth ATK +10%"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Active",
+					"desc": null,
+					"list": [
+						"Earth Skill Power +20% for 300 seconds",
+						"Increase Damage Upper Limit by 1500 times of Base Earth ATK for 300 seconds (max: 3,000,000)"
+					],
+					"condition": "100% chance to activate when you attack"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2025,
+			"icon": "lr_ear_green.png"
+		},
+		{
+			"id": "hidden_blade_earrings",
+			"name": "Hidden Blade Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
+			"rarity": "LR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": "2H Sword Passive",
+					"desc": null,
+					"list": [
+						"Max HP +50,000",
+						"(Debuff) DEF -99,999",
+						"(Debuff) MDEF -99,999"
+					],
+					"condition": "Effective immediately while equipping 2H Sword in the main gear slot"
+				},
+				{
+					"id": 2,
+					"name": "2H Sword on Battle Start",
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"Increase ATK by 1,000% of equipped 2H Sword Base ATK (including Sub Gear) (max: 500,000)",
+						"Increase Damage Upper Limit by 10,000% of equipped 2H Sword Base ATK (including Sub Gear) (max: 20,000,000)",
+						"Reduce Fire / Wind / Earth / Water / Divine / Spirit Physical Damage Taken by 200% of equipped 2H Sword Base MATK (Main Gear only)"
+					],
+					"condition": "100% chance to activate at the start of the battle while equipping a 2H Sword in the main gear slot"
+				},
+				{
+					"id": 3,
+					"name": "Dagger Passive",
+					"desc": null,
+					"list": [
+						"DEF +300 for each Dagger equipped (including Sub Gear)",
+						"MDEF +300 for each Dagger equipped (including Sub Gear)",
+						"(Debuff) Max HP -1,000 for each Dagger equipped (including Sub Gear)"
+					],
+					"condition": "Effective immediately while equipping Dagger in the main gear slot"
+				},
+				{
+					"id": 4,
+					"name": "Dagger on Debuff Skill",
+					"desc": "Debuff duration: 15 seconds",
+					"list": ["Single Enemy Damage Taken increase by 10%"],
+					"condition": "20% chance to activate when using a debuff skill"
+				},
+				{
+					"id": 5,
+					"name": "Dagger on Battle Start",
+					"desc": "Buff duration: 1,200 seconds",
+					"list": [
+						"Extra Damage +200,000 for each equipped Dagger (including Sub Gear)",
+						"Increase Damage Upper Limit by 10,000% of equipped Dagger Base MATK (including Sub Gear) (max: 10,000,000)"
+					],
+					"condition": "100% chance to activate at the start of the battle while equipping a Dagger in the main gear slot"
+				}
+			],
+			"debuff": null,
+			"additional_info": [
+				"While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+				"The effect will NOT trigger for Dual Wield"
+			],
+			"year": 2025,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "harmony_earrings",
+			"name": "Harmony Earrings",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
+			"rarity": "LR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": [
+						"Increase ATK by 1,000% of your current HP (max: 100,000)",
+						"Incresae MATK by 300% of your current HP (max: 100,000)",
+						"DEF +2,400"
+					],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 1,
+					"name": "Offensive",
+					"desc": null,
+					"list": [
+						"Increase ATK by 1,000% of your current HP (max: 500,000)",
+						"Increase MATK by 1,000% of your current HP (max: 500,000)",
+						"(Debuff) DEF -50%",
+						"(Debuff) MDEF -50%"
+					],
+					"condition": "100% chance to activate when you attack (remove [Buff: Defensive] when triggered)"
+				},
+				{
+					"id": 2,
+					"name": "Defensive",
+					"desc": null,
+					"list": [
+						"Reduce Fire / Wind / Earth / Water / Divine / Spirit Physical Damage Taken by 200% of your Base DEF",
+						"(Debuff) ATK -999,999",
+						"(Debuff) MATK -999,999"
+					],
+					"condition": "100% chance to activate when you get hit (remove [Buff: Offensive] when triggered)"
+				}
+			],
+			"debuff": null,
+			"additional_info": "While the effect is active, the same buff effect from another piece of equipment cannot be activated",
+			"year": 2025,
+			"icon": "lr_ear_purple.png"
+		},
+		{
+			"id": "magicians_necklace",
+			"name": "Magician's Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
+			"rarity": "UR",
+			"effects": "buff_only",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["MATK + 10,000"],
+					"condition": "Effective immediately"
+				},
+				{
+					"id": 2,
+					"name": "Skill Use",
+					"desc": null,
+					"list": [
+						"MATK +1,000 (max: 10,000)",
+						"Damage Upper Limit +10,000 (max: 100,000)"
+					],
+					"condition": "Each time you use a skill"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2025,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "battlelord_necklace",
+			"name": "Battlelord Necklace",
+			"posted_on": "2025-01-01 00:00:00",
+			"update_on": null,
+			"rarity": "UR",
+			"effects": "buff_only",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["ATK + 20,000", "Damage Factor +4%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": null,
+			"additional_info": null,
+			"year": 2025,
 			"icon": "heart_neck_red.png"
 		}
 	]
