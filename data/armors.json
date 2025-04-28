@@ -1,0 +1,73 @@
+{
+	"data": [
+		{
+			"id": "konomi_rg_cape",
+			"name": "UR Konomi Cape RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-04-28 10:26:00",
+			"update_on": null,
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +524", "DEF +37", "MDEF +91", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Fire Base ATK +120",
+					"Fire ATK +15%",
+					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"male_icon": "konomi_rg_cape_male",
+			"female_icon": "konomi_rg_cape_female",
+			"set_preview": "konomi_rg_preview"
+		},
+		{
+			"id": "konomi_rg_jacket",
+			"name": "UR Konomi Jacket RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-04-28 10:37:00",
+			"update_on": null,
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1126", "DEF +95", "MDEF +175", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Fire Base ATK +120",
+					"Fire ATK +15%",
+					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"male_icon": "konomi_rg_jacket_male",
+			"female_icon": "konomi_rg_jacket_female",
+			"set_preview": "konomi_rg_preview"
+		},
+		{
+			"id": "konomi_rg_boots",
+			"name": "UR Konomi Boots RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-04-28 10:41:00",
+			"update_on": null,
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +997", "DEF +99", "MDEF +243", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Fire Base ATK +120",
+					"Fire ATK +15%",
+					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"male_icon": "konomi_rg_boots_male",
+			"female_icon": "konomi_rg_boots_female",
+			"set_preview": "konomi_rg_preview"
+		}
+	]
+}
