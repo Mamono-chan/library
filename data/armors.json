@@ -19,9 +19,9 @@
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
-			"male_icon": "konomi_rg_cape_male",
-			"female_icon": "konomi_rg_cape_female",
-			"set_preview": "konomi_rg_preview"
+			"male_icon": "konomi_rg_cape_male.png",
+			"female_icon": "konomi_rg_cape_female.png",
+			"set_preview": "konomi_rg_preview.png"
 		},
 		{
 			"id": "konomi_rg_jacket",
@@ -42,9 +42,9 @@
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
-			"male_icon": "konomi_rg_jacket_male",
-			"female_icon": "konomi_rg_jacket_female",
-			"set_preview": "konomi_rg_preview"
+			"male_icon": "konomi_rg_jacket_male.png",
+			"female_icon": "konomi_rg_jacket_female.png",
+			"set_preview": "konomi_rg_preview.png"
 		},
 		{
 			"id": "konomi_rg_boots",
@@ -65,9 +65,9 @@
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
-			"male_icon": "konomi_rg_boots_male",
-			"female_icon": "konomi_rg_boots_female",
-			"set_preview": "konomi_rg_preview"
+			"male_icon": "konomi_rg_boots_male.png",
+			"female_icon": "konomi_rg_boots_female.png",
+			"set_preview": "konomi_rg_preview.png"
 		}
 	]
 }

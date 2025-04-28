@@ -147,7 +147,7 @@ table.custom_datatable tbody tr td .icon_block {
   display: block;
   position: relative;
   width: 80px;
-  height: 80px;
+  height: auto;
   overflow: hidden;
   margin: 2px;
   border-radius: 4px;
@@ -161,11 +161,49 @@ table.custom_datatable tbody tr td .text_block {
   display: block;
   position: relative;
   word-break: break-word;
+  width: 100%;
   height: auto;
   padding: 5px 10px;
 }
 table.custom_datatable tbody tr td .text_block hr {
   margin: 0 0 10px 0;
+}
+
+table.regular_table thead {
+  display: auto;
+}
+table.regular_table tbody tr {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.2039215686);
+}
+table.regular_table tbody tr th {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.4666666667);
+  text-align: center;
+  border: 1px solid rgba(161, 217, 255, 0.2862745098);
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 8px 10px;
+  height: auto;
+  color: #efefef;
+}
+table.regular_table tbody tr td {
+  display: table-cell;
+  border: 1px solid rgba(161, 217, 255, 0.2862745098);
+  border-radius: 4px;
+  padding: 8px 10px;
+  height: auto;
+  color: #efefef;
+}
+table.regular_table tbody tr:hover td, table.regular_table tbody tr:hover th {
+  color: #efefef;
+}
+table.regular_table tbody tr.ability {
+  background-color: rgba(55, 11, 88, 0.2039215686);
+}
+table.regular_table tbody tr.stats {
+  background-color: rgba(7, 78, 70, 0.2039215686);
 }
 
 .buff-text {

@@ -1,3 +1,487 @@
 <div class="container">
-  <h2>ARMOR PAGE STILL UNDER CONSTRUCTION <i class="fas fa-warning ms-1"></i></h2>
+  <div class="row g-2 mt-2">
+
+    <div class="col-12">
+      <div class="panel">
+        <div class="header">Armors</div>
+        <div class="content">
+          <div class="row g-2">
+
+            <div class="col-12">
+              <table style="width: 100%;">
+                <tr>
+                  <td style="width: 100%;">
+                    <input id="search_bar" type="text" class="form-control" placeholder="Enter Search Keyword...">
+                  </td>
+                  <td style="min-width: 180px;" class="text-end d-none">
+                    <button id="btnAdvFilterArm" onclick="toggle_arm_adv_filter()" class="btn btn-outline-warning"
+                      style="width: calc(100% - 6px);">
+                      <i class="fas fa-filter me-2"></i>Adv. Filters
+                      <div id="adv_filter_active_counter" class="counter-badge top-right">0</div>
+                    </button>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div id="arm_adv_filter_container" class="col-12 d-none">
+              <div class="panel">
+                <div class="header mini"><small>Advanced Filter for Armors</small></div>
+                <div class="content">
+                  <!-- HIDDEN INPUT TO STORE THE FILTER VALUE -->
+                  <input type="hidden" id="armf_hi_rarity" value="all">
+                  <input type="hidden" id="armf_hi_year" value="all">
+                  <input type="hidden" id="armf_hi_effects" value="all">
+                  <!-- FILTER TOGGLE TO DISPLAY ACTIVE VALUE -->
+                  <div class="mb-1">Rarity :</div>
+                  <div class="d-inline-block">
+                    <div onclick="taaf_badge(`rarity`,`all`)"
+                      class="armf_g_rarity all clickable badge bg-warning text-dark px-2 py-1">ALL</div>
+                    <div onclick="taaf_badge(`rarity`,`LR`)"
+                      class="armf_g_rarity LR clickable badge bg-secondary px-2 py-1">LR</div>
+                    <div onclick="taaf_badge(`rarity`,`UR`)"
+                      class="armf_g_rarity UR clickable badge bg-secondary px-2 py-1">UR</div>
+                    <div onclick="taaf_badge(`rarity`,`SR`)"
+                      class="armf_g_rarity SR clickable badge bg-secondary px-2 py-1">SR</div>
+                    <div onclick="taaf_badge(`rarity`,`R`)"
+                      class="armf_g_rarity R clickable badge bg-secondary px-2 py-1">R</div>
+                    <div onclick="taaf_badge(`rarity`,`N`)"
+                      class="armf_g_rarity N clickable badge bg-secondary px-2 py-1">N</div>
+                  </div>
+                </div>
+                <div class="footer">
+                  <div class="mb-1">Year :</div>
+                  <div class="d-inline-block">
+                    <div onclick="taaf_badge(`year`,`all`)"
+                      class="armf_g_year all clickable badge bg-warning text-dark px-2 py-1">ALL</div>
+                    <div onclick="taaf_badge(`year`, 2021)"
+                      class="armf_g_year 2021 clickable badge bg-secondary px-2 py-1">2021
+                    </div>
+                    <div onclick="taaf_badge(`year`, 2022)"
+                      class="armf_g_year 2022 clickable badge bg-secondary px-2 py-1">2022
+                    </div>
+                    <div onclick="taaf_badge(`year`, 2023)"
+                      class="armf_g_year 2023 clickable badge bg-secondary px-2 py-1">2023
+                    </div>
+                    <div onclick="taaf_badge(`year`, 2024)"
+                      class="armf_g_year 2024 clickable badge bg-secondary px-2 py-1">2024
+                    </div>
+                    <div onclick="taaf_badge(`year`, 2025)"
+                      class="armf_g_year 2025 clickable badge bg-secondary px-2 py-1">2025
+                    </div>
+                  </div>
+                </div>
+                <div class="footer">
+                  <div class="mb-1">Effects :</div>
+                  <div class="d-inline-block">
+                    <div onclick="taaf_badge(`effects`,`all`)"
+                      class="armf_g_effects all clickable badge bg-warning text-dark px-2 py-1">ALL
+                    </div>
+                    <div onclick="taaf_badge(`effects`, `buff_only`)"
+                      class="armf_g_effects buff_only clickable badge bg-secondary px-2 py-1">Buff Only
+                    </div>
+                    <div onclick="taaf_badge(`effects`, `debuff_only`)"
+                      class="armf_g_effects debuff_only clickable badge bg-secondary px-2 py-1">Debuff Only
+                    </div>
+                    <div onclick="taaf_badge(`effects`, `buff_and_debuff`)"
+                      class="armf_g_effects buff_and_debuff clickable badge bg-secondary px-2 py-1">Both Buff and Debuff
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <table id="armTable" class="custom_datatable" style="width:100%">
+                <thead>
+                  <tr>
+                    <th>Armors</th>
+                    <th>Name</th>
+                    <th>Set Name</th>
+                    <th>Rarity</th>
+                    <th>Posted On</th>
+                  </tr>
+                </thead>
+                <tbody class="row g-2 justify-content-center">
+                  <!-- Data will be populated dynamically -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
+
+<script>
+  var arm_datatable = null;
+  var arm_adv_filter_counter = 0;
+
+  var arm_img_scale = 1;
+  var arm_img = $("#fullscreen_image");
+
+  $('#arm_adv_filter_container').hide();
+
+  function check_arm_adv_filter_counter() {
+    // if there's non `all` value, increase counter by 1
+    arm_adv_filter_counter = 0;
+    if ($('#armf_hi_rarity').val() != 'all') arm_adv_filter_counter++;
+    if ($('#armf_hi_year').val() != 'all') arm_adv_filter_counter++;
+    if ($('#armf_hi_effects').val() != 'all') arm_adv_filter_counter++;
+
+    // if counter > 0, display badge on arm adv filter button
+    if (arm_adv_filter_counter > 0) {
+      $('#adv_filter_active_counter')
+        .html(arm_adv_filter_counter)
+        .addClass('shown');
+    } else {
+      $('#adv_filter_active_counter')
+        .html(arm_adv_filter_counter)
+        .removeClass('shown');
+    }
+  }
+
+  function toggle_arm_adv_filter() {
+    let arm_adv_filter_container = $('#arm_adv_filter_container');
+    if (arm_adv_filter_container.hasClass('shown')) {
+      arm_adv_filter_container.removeClass('shown').slideUp();
+    } else {
+      arm_adv_filter_container.addClass('shown').slideDown();
+    }
+  }
+
+  function taaf_badge(section, value) {
+    toggle_arm_adv_filter_badge(section, value);
+  }
+
+  function toggle_arm_adv_filter_badge(section = null, value = null) {
+    if (!section || !value) return;
+
+    const sectionMap = {
+      'rarity': { groupClass: '.armf_g_rarity', hiddenInput: '#armf_hi_rarity', columnIndex: 3 },
+      'year': { groupClass: '.armf_g_year', hiddenInput: '#armf_hi_year', columnIndex: 6 },
+      'effects': { groupClass: '.armf_g_effects', hiddenInput: '#armf_hi_effects', columnIndex: 8 }
+    };
+
+    if (!(section in sectionMap)) return;
+
+    let { groupClass, hiddenInput, columnIndex } = sectionMap[section];
+
+    // Set display toggle
+    $(groupClass).removeClass('bg-warning text-dark bg-secondary').addClass('bg-secondary');
+    $(`${groupClass}.${value}`).addClass('bg-warning text-dark');
+
+    // Set hidden input value
+    $(hiddenInput).val(value);
+
+    // Refresh DataTable
+    if (arm_datatable) {
+      // regular search
+      // let searched_value = (value === 'all') ? '' : value;
+      // arm_datatable.column(columnIndex).search(searched_value).draw();
+
+      // exact value search (using regex)
+      let searched_value = (value === 'all') ? '' : '^' + value + '$';
+      arm_datatable.column(columnIndex).search(searched_value, true, false).draw();
+    }
+
+    check_arm_adv_filter_counter();
+  }
+
+  function init_arm_img_zoom() {
+    $(".explain_image").click(function () {
+      arm_img_scale = 1;
+      let imgSrc = $(this).attr("src");
+      $("#fullscreen_image").attr("src", imgSrc);
+      $("#fullscreen_container").addClass('show').show();
+    });
+
+    $(".close-btn").click(function () {
+      $("#fullscreen_container").removeClass('show').hide()
+    });
+
+    $("#fullscreen_container").click(function (e) {
+      if (e.target.id === "fullscreen_container") {
+        $(this).hide();
+      }
+    });
+
+    $("#fullscreen_container").on("wheel", function (e) {
+      e.preventDefault(); // Prevent page scroll
+
+      let zoomFactor = 0.1;
+
+      // Adjust scale
+      if (e.originalEvent.deltaY < 0) {
+        arm_img_scale += zoomFactor; // Zoom in
+      } else {
+        arm_img_scale -= zoomFactor; // Zoom out
+        if (arm_img_scale < 1) arm_img_scale = 1; // Prevent zooming out too much
+      }
+
+      // Apply zoom with center origin
+      arm_img.css({
+        "transform": `scale(${arm_img_scale})`,
+        "transform-origin": "center center" // Always zoom from center
+      });
+    });
+  }
+
+  $(document).ready(function () {
+    // Initialize DataTable
+    arm_datatable = $('#armTable').DataTable({
+      ajax: function (data, callback, settings) {
+        $.ajax({
+          url: './data/armors.json', // Path to JSON file
+          type: 'GET',
+          dataType: 'json',
+          success: function (response) {
+            // Pass the data to DataTables
+            callback(response);
+          },
+          error: function (xhr, status, error) {
+            // Display the error in the console
+            show_notify('error', status + ' - ' + error);
+          }
+        });
+      },
+      order: [[4, 'desc']],
+      createdRow: function (row, data, dataIndex) {
+        // Add a class to the <tr> based on some condition
+        $(row).addClass('col-12 col-xl-6');
+      },
+      columns: [
+        {
+          data: 'id', // index 0
+          className: '',
+          render: function (data, type, row) {
+            let html_icon = '';
+            let html_content = '';
+
+            console.log(row);
+
+            /// |----------------------------------------
+            /// | CREATING ICON
+            /// |----------------------------------------
+            let img_url_male = (row.male_icon != null) ? './assets/images/' + row.male_icon : './assets/images/default.jpg';
+            let img_url_female = (row.female_icon != null) ? './assets/images/' + row.female_icon : './assets/images/default.jpg';
+            let img_url_set = (row.set_preview != null) ? './assets/images/' + row.set_preview : './assets/images/default.jpg';
+
+            let html_fullset = (row.set_preview != null)
+              ? '<div class="icon_block" style="height: auto;">' +
+              '<sub>FULL SET</sub>' +
+              '<img class="explain_image" src="' + img_url_set + '" alt="fullset_preview">' +
+              '</div>'
+              : '';
+
+            html_icon = '<div>' +
+
+              '<div class="icon_block" style="height: auto;">' +
+              '<sub>MALE</sub>' +
+              '<img class="explain_image" src="' + img_url_male + '" alt="male_ver">' +
+              '</div>' +
+
+              '<div class="icon_block" style="height: auto;">' +
+              '<sub>FEMALE</sub>' +
+              '<img class="explain_image" src="' + img_url_female + '" alt="female_ver">' +
+              '</div>' +
+
+              html_fullset +
+
+              '</div>';
+
+            /// |----------------------------------------
+            /// | CREATING CONTENT
+            /// |----------------------------------------
+            // rarity badge
+            let rarity_badge = (row.rarity != null) ? get_rarity_badge(row.rarity) : '';
+
+            // name
+            let item_name = (row.name != null)
+              ? '<h4 class="mt-1" style="width: 100%;">' + rarity_badge + row.name + '</h4>'
+              : '<h4 class="mt-1" style="width: 100%;">- Unset Item Name -</h4>';
+
+            // set name
+            let set_name = (row.set_name != null)
+              ? '<div><small>' + row.set_name + '</small></div>'
+              : '';
+
+            item_name = set_name + item_name;
+
+            // base section
+            let base_data = row.base;
+            let base_stats = '<div class="text-center">UNKNOWN</div>';
+            let base_ability = '<div class="text-center">UNKNOWN</div>';
+
+            // base stat
+            if (base_data.stats != null) {
+              let cur_array = base_data.stats;
+              base_stats = '<ul>';
+              cur_array.forEach(text_val => {
+                base_stats += '<li>' + text_val + '</li>';
+              });
+              base_stats += '</ul>';
+            }
+
+            // base ability
+            if (base_data.ability != null) {
+              let cur_array = base_data.ability;
+              base_ability = '<ul>';
+              cur_array.forEach(text_val => {
+                base_ability += '<li>' + text_val + '</li>';
+              });
+              base_ability += '</ul>';
+            }
+
+            // flb section
+            let flb_data = row.flb;
+            let flb_stats = '<div class="text-center">UNKNOWN</div>';
+            let flb_ability = '<div class="text-center">UNKNOWN</div>';
+
+            // flb stat
+            if (flb_data.stats != null) {
+              let cur_array = flb_data.stats;
+              flb_stats = '<ul>';
+              cur_array.forEach(text_val => {
+                flb_stats += '<li>' + text_val + '</li>';
+              });
+              flb_stats += '</ul>';
+            }
+
+            // flb ability
+            if (flb_data.ability != null) {
+              let cur_array = flb_data.ability;
+              flb_ability = '<ul>';
+              cur_array.forEach(text_val => {
+                flb_ability += '<li>' + text_val + '</li>';
+              });
+              flb_ability += '</ul>';
+            }
+
+            // table comparison
+            let table_stats = '<table class="regular_table table table-sm table-hover" style="font-size: 0.75rem;">' +
+
+              '<tbody>' +
+              '<tr class="stats">' +
+              '<th colspan="2">STATS</th>' +
+              '</tr>' +
+              '<tr class="stats">' +
+              '<th>BASE</th>' +
+              '<th>FLB<div><sup>Fully Limit Broken</sup></div></th>' +
+              '</tr>' +
+
+              '<tr class="stats">' +
+              '<td style="width: 50%;">' + base_stats + '</td>' +
+              '<td style="width: 50%;">' + flb_stats + '</td>' +
+              '</tr>' +
+              '</tbody>' +
+
+              '</table>';
+
+            let table_ability = '<table class="regular_table table table-sm table-hover" style="font-size: 0.75rem;">' +
+
+              '<tbody>' +
+              '<tr class="ability">' +
+              '<th colspan="2">ABILITY</th>' +
+              '</tr>' +
+              '<tr class="ability">' +
+              '<th>BASE</th>' +
+              '<th>FLB<div><sup>Fully Limit Broken</sup></div></th>' +
+              '</tr>' +
+
+              '<tr class="ability">' +
+              '<td style="width: 50%;">' + base_ability + '</td>' +
+              '<td style="width: 50%;">' + flb_ability + '</td>' +
+              '</tr>' +
+              '</tbody>' +
+
+              '</table>';
+
+            html_content = '<div class="text_block">' +
+              '<div>' + table_stats + '</div>' +
+              '<div>' + table_ability + '</div>' +
+              '</div>';
+
+            return '<div>' + item_name + '</div>' +
+              '<div class="d-flex justify-content-start align-items-top">' + html_icon + html_content + '</div>';
+          }
+        },
+        {
+          data: 'name', // index 1
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'set_name', // index 2
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'rarity', // index 3
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        },
+        {
+          data: 'posted_on', // index 4
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
+        }
+      ],
+      dom: '<"row g-2"' +
+        '<"col-12.text-center"i>' +
+        '<"col-12"t>' +
+        '<"col-12.col-md-6"l>' +
+        '<"col-12.col-md-6"p>' +
+        '>',
+      drawCallback: function (settings) {
+        init_arm_img_zoom();
+      },
+      initComplete: function () {
+        // redraw length selectbox
+        let length_select = $('.custom-select.custom-select-sm.form-control.form-control-sm');
+        length_select.addClass('form-select form-select-sm');
+
+        // use datatable api for data filtering
+        let api = this.api();
+
+        // Text search inputs for Name only
+        // api.columns([1]).every(function () { // Name (1)
+        //   let column = this;
+        //   let input = $('#search_bar');
+        //   input.on('input', function () {
+        //     column.search($(this).val()).draw();
+        //   })
+        // });
+
+        let input = $('#search_bar');
+
+        input.on('input', function () {
+          let keyword = $(this).val().toLowerCase();
+
+          api.rows().every(function () {
+            let row_data = this.data();
+            let name = (row_data.name || '').toLowerCase();
+            let set_name = (row_data.set_name || '').toLowerCase();
+
+            if (name.includes(keyword) || set_name.includes(keyword)) {
+              $(this.node()).show();
+            } else {
+              $(this.node()).hide();
+            }
+          });
+        });
+      }
+    });
+  });
+</script>

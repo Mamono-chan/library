@@ -140,7 +140,7 @@ table.custom_datatable {
 					display: block;
 					position: relative;
 					width: 80px;
-					height: 80px;
+					height: auto;
 					overflow: hidden;
 					margin: 2px;
 					border-radius: 4px;
@@ -155,6 +155,7 @@ table.custom_datatable {
 					display: block;
 					position: relative;
 					word-break: break-word;
+					width: 100%;
 					height: auto;
 					padding: 5px 10px;
 
@@ -162,6 +163,53 @@ table.custom_datatable {
 						margin: 0 0 10px 0;
 					}
 				}
+			}
+		}
+	}
+}
+
+table.regular_table {
+	thead {
+		display: auto;
+	}
+	tbody {
+		tr {
+			height: auto;
+			background-color: #00000034;
+
+			th {
+				display: table-cell;
+				vertical-align: middle;
+				background-color: #00000077;
+				text-align: center;
+				border: 1px solid #a1d9ff49;
+				border-radius: 4px;
+				font-size: 1rem;
+				padding: 8px 10px;
+				height: auto;
+				color: #efefef;
+			}
+
+			td {
+				display: table-cell;
+				border: 1px solid #a1d9ff49;
+				border-radius: 4px;
+				padding: 8px 10px;
+				height: auto;
+				color: #efefef;
+			}
+
+			&:hover td,
+			&:hover th {
+				color: #efefef;
+			}
+
+			&.ability {
+				background-color: #370b5834;
+			}
+
+			&.stats {
+				background-color: #074e4634;
 			}
 		}
 	}
