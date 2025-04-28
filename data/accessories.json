@@ -4446,9 +4446,9 @@
 		},
 		{
 			"id": "soul_necklace",
-			"name": "Sould Necklace",
+			"name": "Soul Necklace",
 			"posted_on": "2025-04-25 12:01:47",
-			"update_on": null,
+			"update_on": "2025-04-28 09:37:00",
 			"rarity": "UR",
 			"effects": "buff_only",
 			"buff": [
@@ -5008,6 +5008,122 @@
 			"additional_info": null,
 			"year": 2025,
 			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "prudent_necklace",
+			"name": "Prudent Necklace",
+			"posted_on": "2025-04-28 09:32:00",
+			"update_on": null,
+			"rarity": "UR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["MATK +10,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["ATK -20,000"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "abatement_necklace",
+			"name": "Abatement Necklace",
+			"posted_on": "2025-04-28 09:41:00",
+			"update_on": null,
+			"rarity": "UR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["ATK +50%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["MDEF -200%"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_red.png"
+		},
+		{
+			"id": "m_wind_necklace",
+			"name": "M: Wind Necklace",
+			"posted_on": "2025-04-28 09:43:00",
+			"update_on": null,
+			"rarity": "UR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["Wind DEF +400"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["Fire DEF -200", "Water DEF -200", "Earth DEF -200"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
+		},
+		{
+			"id": "m_water_necklace",
+			"name": "M: Water Necklace",
+			"posted_on": "2025-04-28 09:47:00",
+			"update_on": null,
+			"rarity": "UR",
+			"effects": "buff_and_debuff",
+			"buff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["Water DEF +400"],
+					"condition": "Effective immediately"
+				}
+			],
+			"debuff": [
+				{
+					"id": 1,
+					"name": "Passive",
+					"desc": null,
+					"list": ["Fire DEF -200", "Wind DEF -200", "Earth DEF -200"],
+					"condition": "Effective immediately"
+				}
+			],
+			"additional_info": null,
+			"year": null,
+			"icon": "heart_neck_green.png"
 		}
 	]
 }
