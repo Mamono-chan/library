@@ -3136,7 +3136,7 @@
 			"id": "dual_curse_earrings",
 			"name": "Dual Curse Earrings",
 			"posted_on": "2025-04-25 12:01:11",
-			"update_on": null,
+			"update_on": "2025-05-07 10:22:24",
 			"rarity": "LR",
 			"effects": "buff_and_debuff",
 			"buff": [
@@ -3155,8 +3155,8 @@
 					"name": null,
 					"desc": null,
 					"list": [
-						"Single Enemy Damage Taken increase (value not specified)",
-						"(Debuff) Your Damage Taken increase (value not specified)"
+						"Single Enemy Damage Taken increase by 15%",
+						"(Debuff) Your Damage Taken increase by 100%"
 					],
 					"condition": "20% chance to activate when using a debuff skill"
 				}
