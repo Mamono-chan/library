@@ -76,8 +76,8 @@
             <a id="pg_weapon" class="clickable nav-link" onclick="wip()">Weapons</a>
           </li>
           <li class="nav-item">
-            <a id="pg_armor" class="clickable nav-link" onclick="wip()">Armors</a>
-            <!-- <a id="pg_armor" class="clickable nav-link" href="./?category=armors">Armors</a> -->
+            <!-- <a id="pg_armor" class="clickable nav-link" onclick="wip()">Armors</a> -->
+            <a id="pg_armor" class="clickable nav-link" href="./?category=armors">Armors</a>
           </li>
           <li class="nav-item">
             <a id="pg_acc" class="clickable nav-link" href="./?category=accessories">Accessories</a>
@@ -193,10 +193,10 @@
         navigate_to('pg_home');
         break;
       }
-      // case 'armors': {
-      //   navigate_to('pg_armor');
-      //   break;
-      // }
+      case 'armors': {
+        navigate_to('pg_armor');
+        break;
+      }
       case 'accessories': {
         navigate_to('pg_acc');
         break;

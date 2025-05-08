@@ -318,22 +318,12 @@
 
             // base stat
             if (base_data.stats != null) {
-              let cur_array = base_data.stats;
-              base_stats = '<ul>';
-              cur_array.forEach(text_val => {
-                base_stats += '<li>' + text_val + '</li>';
-              });
-              base_stats += '</ul>';
+              base_stats = output_as_list(base_data.stats);
             }
 
             // base ability
             if (base_data.ability != null) {
-              let cur_array = base_data.ability;
-              base_ability = '<ul>';
-              cur_array.forEach(text_val => {
-                base_ability += '<li>' + text_val + '</li>';
-              });
-              base_ability += '</ul>';
+              base_ability = output_as_list(base_data.ability);
             }
 
             // flb section
@@ -343,62 +333,62 @@
 
             // flb stat
             if (flb_data.stats != null) {
-              let cur_array = flb_data.stats;
-              flb_stats = '<ul>';
-              cur_array.forEach(text_val => {
-                flb_stats += '<li>' + text_val + '</li>';
-              });
-              flb_stats += '</ul>';
+              flb_stats = output_as_list(flb_data.stats);
             }
 
             // flb ability
             if (flb_data.ability != null) {
-              let cur_array = flb_data.ability;
-              flb_ability = '<ul>';
-              cur_array.forEach(text_val => {
-                flb_ability += '<li>' + text_val + '</li>';
-              });
-              flb_ability += '</ul>';
+              flb_ability = output_as_list(flb_data.ability);
             }
 
             // table comparison
-            let table_stats = '<table class="regular_table table table-sm table-hover" style="font-size: 0.75rem;">' +
+            let table_stats = '';
+            if (base_data.stats != null || flb_data.stats != null) {
+              table_stats = '<table class="regular_table table table-sm table-hover mb-1 mt-2">' +
 
-              '<tbody>' +
-              '<tr class="stats">' +
-              '<th colspan="2">STATS</th>' +
-              '</tr>' +
-              '<tr class="stats">' +
-              '<th>BASE</th>' +
-              '<th>FLB<div><sup>Fully Limit Broken</sup></div></th>' +
-              '</tr>' +
+                '<tbody>' +
+                '<tr class="stats">' +
+                '<th colspan="2">STATS</th>' +
+                '</tr>' +
+                '<tr class="stats">' +
+                '<th>BASE</th>' +
+                '<th>FLB<div><sup>(Fully Limit Broken)</sup></div></th>' +
+                '</tr>' +
 
-              '<tr class="stats">' +
-              '<td style="width: 50%;">' + base_stats + '</td>' +
-              '<td style="width: 50%;">' + flb_stats + '</td>' +
-              '</tr>' +
-              '</tbody>' +
+                '<tr class="stats">' +
+                '<td style="width: 50%;">' + base_stats + '</td>' +
+                '<td style="width: 50%;">' + flb_stats + '</td>' +
+                '</tr>' +
+                '</tbody>' +
 
-              '</table>';
+                '</table>';
+            } else {
+              table_stats = '<div class="text-center mb-1 mt-2"><i class="fas fa-info-circle me-1"></i>No Stats Data</div>';
+            }
 
-            let table_ability = '<table class="regular_table table table-sm table-hover" style="font-size: 0.75rem;">' +
+            let table_ability = '';
+            if (flb_data.stats != null || flb_data.ability != null) {
+              table_ability = '<table class="regular_table table table-sm table-hover mb-1 mt-2">' +
 
-              '<tbody>' +
-              '<tr class="ability">' +
-              '<th colspan="2">ABILITY</th>' +
-              '</tr>' +
-              '<tr class="ability">' +
-              '<th>BASE</th>' +
-              '<th>FLB<div><sup>Fully Limit Broken</sup></div></th>' +
-              '</tr>' +
+                '<tbody>' +
+                '<tr class="ability">' +
+                '<th colspan="2">ABILITY</th>' +
+                '</tr>' +
+                '<tr class="ability">' +
+                '<th>BASE</th>' +
+                '<th>FLB<div><sup>(Fully Limit Broken)</sup></div></th>' +
+                '</tr>' +
 
-              '<tr class="ability">' +
-              '<td style="width: 50%;">' + base_ability + '</td>' +
-              '<td style="width: 50%;">' + flb_ability + '</td>' +
-              '</tr>' +
-              '</tbody>' +
+                '<tr class="ability">' +
+                '<td style="width: 50%;">' + base_ability + '</td>' +
+                '<td style="width: 50%;">' + flb_ability + '</td>' +
+                '</tr>' +
+                '</tbody>' +
 
-              '</table>';
+                '</table>';
+            } else {
+              table_ability = '<div class="text-center mb-1 mt-2"><i class="fas fa-info-circle me-1"></i>No Ability Data</div>';
+            }
 
             html_content = '<div class="text_block">' +
               '<div>' + table_stats + '</div>' +

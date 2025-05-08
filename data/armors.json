@@ -6,6 +6,7 @@
 			"set_name": "Gerumi Fanclub Series",
 			"posted_on": "2025-04-28 10:26:00",
 			"update_on": null,
+			"gear_slot": "head",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +524", "DEF +37", "MDEF +91", "Fire DEF +50"],
@@ -19,6 +20,9 @@
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
+			"is_ability_armor": true,
+			"ability_buff": ["Fire ATK", "Damage Factor"],
+			"ability_debuff": null,
 			"male_icon": "konomi_rg_cape_male.png",
 			"female_icon": "konomi_rg_cape_female.png",
 			"set_preview": "konomi_rg_preview.png"
@@ -29,9 +33,10 @@
 			"set_name": "Gerumi Fanclub Series",
 			"posted_on": "2025-04-28 10:37:00",
 			"update_on": null,
+			"gear_slot": "top",
 			"rarity": "UR",
 			"base": {
-				"stats": ["HP +1126", "DEF +95", "MDEF +175", "Fire DEF +50"],
+				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Fire DEF +50"],
 				"ability": null
 			},
 			"flb": {
@@ -42,6 +47,9 @@
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
+			"is_ability_armor": true,
+			"ability_buff": ["Fire ATK", "Damage Factor"],
+			"ability_debuff": null,
 			"male_icon": "konomi_rg_jacket_male.png",
 			"female_icon": "konomi_rg_jacket_female.png",
 			"set_preview": "konomi_rg_preview.png"
@@ -52,6 +60,7 @@
 			"set_name": "Gerumi Fanclub Series",
 			"posted_on": "2025-04-28 10:41:00",
 			"update_on": null,
+			"gear_slot": "bottom",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +997", "DEF +99", "MDEF +243", "Fire DEF +50"],
@@ -65,8 +74,57 @@
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
+			"is_ability_armor": true,
+			"ability_buff": ["Fire ATK", "Damage Factor"],
+			"ability_debuff": null,
 			"male_icon": "konomi_rg_boots_male.png",
 			"female_icon": "konomi_rg_boots_female.png",
+			"set_preview": "konomi_rg_preview.png"
+		},
+		{
+			"id": "konomi_rg_bag",
+			"name": "SR Konomi Bag RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 10:45:00",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "konomi_rg_sr_bag.png",
+			"female_icon": "konomi_rg_sr_bag.png",
+			"set_preview": "konomi_rg_preview.png"
+		},
+		{
+			"id": "konomi_rg_plushie",
+			"name": "SR Konomi Plushie RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 10:49:00",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "konomi_rg_sr_plushie.png",
+			"female_icon": "konomi_rg_sr_plushie.png",
 			"set_preview": "konomi_rg_preview.png"
 		}
 	]
