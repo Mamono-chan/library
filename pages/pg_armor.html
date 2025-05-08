@@ -454,22 +454,53 @@
         //   })
         // });
 
-        let input = $('#search_bar');
+        // let input = $('#search_bar');
 
-        input.on('input', function () {
-          let keyword = $(this).val().toLowerCase();
+        // input.on('input', function () {
+        //   let keyword = $(this).val().toLowerCase();
 
-          api.rows().every(function () {
-            let row_data = this.data();
-            let name = (row_data.name || '').toLowerCase();
-            let set_name = (row_data.set_name || '').toLowerCase();
+        //   api.rows().every(function () {
+        //     let row_data = this.data();
+        //     let name = (row_data.name || '').toLowerCase();
+        //     let set_name = (row_data.set_name || '').toLowerCase();
 
-            if (name.includes(keyword) || set_name.includes(keyword)) {
-              $(this.node()).show();
-            } else {
-              $(this.node()).hide();
+        //     if (name.includes(keyword) || set_name.includes(keyword)) {
+        //       $(this.node()).show();
+        //     } else {
+        //       $(this.node()).hide();
+        //     }
+        //   });
+        // });
+
+        // Set up custom search functionality
+        $('#search_bar').on('input', function () {
+          let searchValue = $(this).val();
+
+          // Create a custom search function that searches both name and set_name
+          $.fn.dataTable.ext.search.push(function (settings, data, dataIndex, row) {
+            // data[1] is the name column, data[2] is the set_name column
+            let name = row.name || '';
+            let setName = row.set_name || '';
+
+            if (searchValue === '') {
+              return true; // Show all rows when search is empty
             }
+
+            // Case-insensitive search in both name and set_name
+            if (name.toLowerCase().includes(searchValue.toLowerCase()) ||
+              setName.toLowerCase().includes(searchValue.toLowerCase())) {
+              return true;
+            }
+
+            return false;
           });
+
+          // Redraw the table with the new search function applied
+          api.draw();
+
+          // Remove the custom search function after drawing
+          // This prevents it from stacking up with multiple searches
+          $.fn.dataTable.ext.search.pop();
         });
       }
     });

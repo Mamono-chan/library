@@ -126,6 +126,387 @@
 			"male_icon": "konomi_rg_sr_plushie.png",
 			"female_icon": "konomi_rg_sr_plushie.png",
 			"set_preview": "konomi_rg_preview.png"
+		},
+		{
+			"id": "gerumi_rg_cape",
+			"name": "UR Gerumi Cape RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:15:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +524", "DEF +37", "MDEF +91", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Water Base ATK +120",
+					"Water ATK +15%",
+					"Convert 0.01% Water ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Water ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "gerumi_rg_cape_male.png",
+			"female_icon": "gerumi_rg_cape_female.png",
+			"set_preview": "gerumi_rg_preview.png"
+		},
+		{
+			"id": "gerumi_rg_jacket",
+			"name": "UR Gerumi Jacket RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:15:02",
+			"update_on": null,
+			"gear_slot": "top",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Water Base ATK +120",
+					"Water ATK +15%",
+					"Convert 0.01% Water ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Water ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "gerumi_rg_jacket_male.png",
+			"female_icon": "gerumi_rg_jacket_female.png",
+			"set_preview": "gerumi_rg_preview.png"
+		},
+		{
+			"id": "gerumi_rg_boots",
+			"name": "UR Gerumi Boots RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:15:03",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +997", "DEF +99", "MDEF +243", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Water Base ATK +120",
+					"Water ATK +15%",
+					"Convert 0.01% Water ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Water ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "gerumi_rg_boots_male.png",
+			"female_icon": "gerumi_rg_boots_female.png",
+			"set_preview": "gerumi_rg_preview.png"
+		},
+		{
+			"id": "gerumi_rg_bag",
+			"name": "SR Gerumi Bag RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:15:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "gerumi_rg_sr_bag.png",
+			"female_icon": "gerumi_rg_sr_bag.png",
+			"set_preview": "gerumi_rg_preview.png"
+		},
+		{
+			"id": "gerumi_rg_plushie",
+			"name": "SR Gerumi Plushie RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:15:05",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "gerumi_rg_sr_plushie.png",
+			"female_icon": "gerumi_rg_sr_plushie.png",
+			"set_preview": "gerumi_rg_preview.png"
+		},
+		{
+			"id": "chocomi_rg_cape",
+			"name": "UR Chocomi Cape RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:23:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +524", "DEF +37", "MDEF +91", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Earth Base ATK +120",
+					"Earth ATK +15%",
+					"Convert 0.01% Earth ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Earth ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "chocomi_rg_cape_male.png",
+			"female_icon": "chocomi_rg_cape_female.png",
+			"set_preview": "chocomi_rg_preview.png"
+		},
+		{
+			"id": "chocomi_rg_jacket",
+			"name": "UR Chocomi Jacket RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:23:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Earth Base ATK +120",
+					"Earth ATK +15%",
+					"Convert 0.01% Earth ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Earth ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "chocomi_rg_jacket_male.png",
+			"female_icon": "chocomi_rg_jacket_female.png",
+			"set_preview": "chocomi_rg_preview.png"
+		},
+		{
+			"id": "chocomi_rg_boots",
+			"name": "UR Chocomi Boots RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:23:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +997", "DEF +99", "MDEF +243", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Earth Base ATK +120",
+					"Earth ATK +15%",
+					"Convert 0.01% Earth ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Earth ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "chocomi_rg_boots_male.png",
+			"female_icon": "chocomi_rg_boots_female.png",
+			"set_preview": "chocomi_rg_preview.png"
+		},
+		{
+			"id": "chocomi_rg_bag",
+			"name": "SR Chocomi Bag RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:23:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "chocomi_rg_sr_bag.png",
+			"female_icon": "chocomi_rg_sr_bag.png",
+			"set_preview": "chocomi_rg_preview.png"
+		},
+		{
+			"id": "chocomi_rg_plushie",
+			"name": "SR Chocomi Plushie RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:23:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "chocomi_rg_sr_plushie.png",
+			"female_icon": "chocomi_rg_sr_plushie.png",
+			"set_preview": "chocomi_rg_preview.png"
+		},
+		{
+			"id": "frostimi_rg_cape",
+			"name": "UR Frostimi Cape RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:44:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +524", "DEF +37", "MDEF +91", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Wind Base ATK +120",
+					"Wind ATK +15%",
+					"Convert 0.01% Wind ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Wind ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "frostimi_rg_cape_male.png",
+			"female_icon": "frostimi_rg_cape_female.png",
+			"set_preview": "frostimi_rg_preview.png"
+		},
+		{
+			"id": "frostimi_rg_jacket",
+			"name": "UR Frostimi Jacket RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:44:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Wind Base ATK +120",
+					"Wind ATK +15%",
+					"Convert 0.01% Wind ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Wind ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "frostimi_rg_jacket_male.png",
+			"female_icon": "frostimi_rg_jacket_female.png",
+			"set_preview": "frostimi_rg_preview.png"
+		},
+		{
+			"id": "frostimi_rg_boots",
+			"name": "UR Frostimi Boots RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:44:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +997", "DEF +99", "MDEF +243", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Wind Base ATK +120",
+					"Wind ATK +15%",
+					"Convert 0.01% Wind ATK to Damage Factor (max: 15%)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Wind ATK", "Damage Factor"],
+			"ability_debuff": null,
+			"male_icon": "frostimi_rg_boots_male.png",
+			"female_icon": "frostimi_rg_boots_female.png",
+			"set_preview": "frostimi_rg_preview.png"
+		},
+		{
+			"id": "frostimi_rg_bag",
+			"name": "SR Frostimi Bag RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:44:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "frostimi_rg_sr_bag.png",
+			"female_icon": "frostimi_rg_sr_bag.png",
+			"set_preview": "frostimi_rg_preview.png"
+		},
+		{
+			"id": "frostimi_rg_plushie",
+			"name": "SR Frostimi Plushie RG",
+			"set_name": "Gerumi Fanclub Series",
+			"posted_on": "2025-05-08 11:44:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "frostimi_rg_sr_plushie.png",
+			"female_icon": "frostimi_rg_sr_plushie.png",
+			"set_preview": "frostimi_rg_preview.png"
 		}
 	]
 }
