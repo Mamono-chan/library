@@ -7,6 +7,7 @@
 			"posted_on": "2025-04-28 10:26:00",
 			"update_on": null,
 			"gear_slot": "head",
+			"element": "Fire",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +524", "DEF +37", "MDEF +91", "Fire DEF +50"],
@@ -34,6 +35,7 @@
 			"posted_on": "2025-04-28 10:37:00",
 			"update_on": null,
 			"gear_slot": "top",
+			"element": "Fire",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Fire DEF +50"],
@@ -61,6 +63,7 @@
 			"posted_on": "2025-04-28 10:41:00",
 			"update_on": null,
 			"gear_slot": "bottom",
+			"element": "Fire",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +997", "DEF +99", "MDEF +243", "Fire DEF +50"],
@@ -88,6 +91,7 @@
 			"posted_on": "2025-05-08 10:45:00",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Fire",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
@@ -111,6 +115,7 @@
 			"posted_on": "2025-05-08 10:49:00",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Fire",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
@@ -134,6 +139,7 @@
 			"posted_on": "2025-05-08 11:15:00",
 			"update_on": null,
 			"gear_slot": "head",
+			"element": "Water",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +524", "DEF +37", "MDEF +91", "Water DEF +50"],
@@ -161,6 +167,7 @@
 			"posted_on": "2025-05-08 11:15:02",
 			"update_on": null,
 			"gear_slot": "top",
+			"element": "Water",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Water DEF +50"],
@@ -188,6 +195,7 @@
 			"posted_on": "2025-05-08 11:15:03",
 			"update_on": null,
 			"gear_slot": "bottom",
+			"element": "Water",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +997", "DEF +99", "MDEF +243", "Water DEF +50"],
@@ -215,6 +223,7 @@
 			"posted_on": "2025-05-08 11:15:04",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Water",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
@@ -238,6 +247,7 @@
 			"posted_on": "2025-05-08 11:15:05",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Water",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
@@ -261,6 +271,7 @@
 			"posted_on": "2025-05-08 11:23:00",
 			"update_on": null,
 			"gear_slot": "head",
+			"element": "Earth",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +524", "DEF +37", "MDEF +91", "Earth DEF +50"],
@@ -288,6 +299,7 @@
 			"posted_on": "2025-05-08 11:23:01",
 			"update_on": null,
 			"gear_slot": "top",
+			"element": "Earth",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Earth DEF +50"],
@@ -315,6 +327,7 @@
 			"posted_on": "2025-05-08 11:23:02",
 			"update_on": null,
 			"gear_slot": "bottom",
+			"element": "Earth",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +997", "DEF +99", "MDEF +243", "Earth DEF +50"],
@@ -342,6 +355,7 @@
 			"posted_on": "2025-05-08 11:23:03",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Earth",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
@@ -365,6 +379,7 @@
 			"posted_on": "2025-05-08 11:23:04",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Earth",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
@@ -388,6 +403,7 @@
 			"posted_on": "2025-05-08 11:44:00",
 			"update_on": null,
 			"gear_slot": "head",
+			"element": "Earth",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +524", "DEF +37", "MDEF +91", "Wind DEF +50"],
@@ -415,6 +431,7 @@
 			"posted_on": "2025-05-08 11:44:01",
 			"update_on": null,
 			"gear_slot": "top",
+			"element": "Wind",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +1,126", "DEF +95", "MDEF +175", "Wind DEF +50"],
@@ -442,6 +459,7 @@
 			"posted_on": "2025-05-08 11:44:02",
 			"update_on": null,
 			"gear_slot": "bottom",
+			"element": "Wind",
 			"rarity": "UR",
 			"base": {
 				"stats": ["HP +997", "DEF +99", "MDEF +243", "Wind DEF +50"],
@@ -469,6 +487,7 @@
 			"posted_on": "2025-05-08 11:44:03",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Wind",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
@@ -492,6 +511,7 @@
 			"posted_on": "2025-05-08 11:44:04",
 			"update_on": null,
 			"gear_slot": "accessories",
+			"element": "Wind",
 			"rarity": "SR",
 			"base": {
 				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
@@ -507,6 +527,558 @@
 			"male_icon": "frostimi_rg_sr_plushie.png",
 			"female_icon": "frostimi_rg_sr_plushie.png",
 			"set_preview": "frostimi_rg_preview.png"
+		},
+		{
+			"id": "choco_mage_hat_w",
+			"name": "UR Choco Mage Hat W",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 09:57:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +359", "DEF +75", "MDEF +88", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Water ATK to Damage Factor (max: 10%) (Need 1,000 Base Water ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_w_head_male.png",
+			"female_icon": "choco_mage_w_head_female.png",
+			"set_preview": "choco_mage_w_preview.png"
+		},
+		{
+			"id": "choco_mage_top_w",
+			"name": "UR Choco Mage Top W",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:08:00",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +770", "DEF +194", "MDEF +171", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Water ATK to Damage Factor (max: 10%) (Need 1,000 Base Water ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_w_top_male.png",
+			"female_icon": "choco_mage_w_top_female.png",
+			"set_preview": "choco_mage_w_preview.png"
+		},
+		{
+			"id": "choco_mage_bottoms_w",
+			"name": "UR Choco Mage Bottoms W",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:12:00",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +682", "DEF +203", "MDEF +237", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Water ATK to Damage Factor (max: 10%) (Need 1,000 Base Water ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_w_bottom_male.png",
+			"female_icon": "choco_mage_w_bottom_female.png",
+			"set_preview": "choco_mage_w_preview.png"
+		},
+		{
+			"id": "choco_mage_staff_w",
+			"name": "SR Choco Mage Staff W",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:15:00",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_w_staff.png",
+			"female_icon": "choco_mage_w_staff.png",
+			"set_preview": "choco_mage_w_preview.png"
+		},
+		{
+			"id": "choco_mage_plushie_w",
+			"name": "SR Choco Mage Plushie W",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:17:00",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_w_plushie.png",
+			"female_icon": "choco_mage_w_plushie.png",
+			"set_preview": "choco_mage_w_preview.png"
+		},
+		{
+			"id": "choco_mage_hat_b",
+			"name": "UR Choco Mage Hat B",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:26:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +359", "DEF +75", "MDEF +88", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Earth ATK to Damage Factor (max: 10%) (Need 1,000 Base Earth ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_b_head_male.png",
+			"female_icon": "choco_mage_b_head_female.png",
+			"set_preview": "choco_mage_b_preview.png"
+		},
+		{
+			"id": "choco_mage_top_b",
+			"name": "UR Choco Mage Top B",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:26:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +770", "DEF +194", "MDEF +171", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Earth ATK to Damage Factor (max: 10%) (Need 1,000 Base Earth ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_b_top_male.png",
+			"female_icon": "choco_mage_b_top_female.png",
+			"set_preview": "choco_mage_b_preview.png"
+		},
+		{
+			"id": "choco_mage_bottoms_b",
+			"name": "UR Choco Mage Bottoms B",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:26:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +682", "DEF +203", "MDEF +237", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Earth ATK to Damage Factor (max: 10%) (Need 1,000 Base Earth ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_b_bottom_male.png",
+			"female_icon": "choco_mage_b_bottom_female.png",
+			"set_preview": "choco_mage_b_preview.png"
+		},
+		{
+			"id": "choco_mage_staff_b",
+			"name": "SR Choco Mage Staff B",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:26:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_b_staff.png",
+			"female_icon": "choco_mage_b_staff.png",
+			"set_preview": "choco_mage_b_preview.png"
+		},
+		{
+			"id": "choco_mage_plushie_b",
+			"name": "SR Choco Mage Plushie B",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:26:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_b_plushie.png",
+			"female_icon": "choco_mage_b_plushie.png",
+			"set_preview": "choco_mage_b_preview.png"
+		},
+		{
+			"id": "choco_mage_hat_g",
+			"name": "UR Choco Mage Hat G",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:31:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +359", "DEF +75", "MDEF +88", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Wind ATK to Damage Factor (max: 10%) (Need 1,000 Base Wind ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_g_head_male.png",
+			"female_icon": "choco_mage_g_head_female.png",
+			"set_preview": "choco_mage_g_preview.png"
+		},
+		{
+			"id": "choco_mage_top_g",
+			"name": "UR Choco Mage Top G",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:31:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +770", "DEF +194", "MDEF +171", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Wind ATK to Damage Factor (max: 10%) (Need 1,000 Base Wind ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_g_top_male.png",
+			"female_icon": "choco_mage_g_top_female.png",
+			"set_preview": "choco_mage_g_preview.png"
+		},
+		{
+			"id": "choco_mage_bottoms_g",
+			"name": "UR Choco Mage Bottoms G",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:31:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +682", "DEF +203", "MDEF +237", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Wind ATK to Damage Factor (max: 10%) (Need 1,000 Base Wind ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_g_bottom_male.png",
+			"female_icon": "choco_mage_g_bottom_female.png",
+			"set_preview": "choco_mage_g_preview.png"
+		},
+		{
+			"id": "choco_mage_staff_g",
+			"name": "SR Choco Mage Staff G",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:31:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_g_staff.png",
+			"female_icon": "choco_mage_g_staff.png",
+			"set_preview": "choco_mage_g_preview.png"
+		},
+		{
+			"id": "choco_mage_plushie_g",
+			"name": "SR Choco Mage Plushie G",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:31:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_g_plushie.png",
+			"female_icon": "choco_mage_g_plushie.png",
+			"set_preview": "choco_mage_g_preview.png"
+		},
+		{
+			"id": "choco_mage_hat_p",
+			"name": "UR Choco Mage Hat P",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:41:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +359", "DEF +75", "MDEF +88", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Fire ATK to Damage Factor (max: 10%) (Need 1,000 Base Fire ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_p_head_male.png",
+			"female_icon": "choco_mage_p_head_female.png",
+			"set_preview": "choco_mage_p_preview.png"
+		},
+		{
+			"id": "choco_mage_top_p",
+			"name": "UR Choco Mage Top P",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:41:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +770", "DEF +194", "MDEF +171", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Fire ATK to Damage Factor (max: 10%) (Need 1,000 Base Fire ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_p_top_male.png",
+			"female_icon": "choco_mage_p_top_female.png",
+			"set_preview": "choco_mage_p_preview.png"
+		},
+		{
+			"id": "choco_mage_bottoms_p",
+			"name": "UR Choco Mage Bottoms P",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:41:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +682", "DEF +203", "MDEF +237", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"MATK +50%",
+					"Convert 1% Base Fire ATK to Damage Factor (max: 10%) (Need 1,000 Base Fire ATK to reach max)",
+					"Convert 1,000% Base MATK to Damage Upper Limit (max: 900,000) (Need 90,000 Base MATK to reach max)",
+					"(Debuff) ATK -50%",
+					"(Debuff) DEF -1,500"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
+			"ability_debuff": ["ATK", "DEF"],
+			"male_icon": "choco_mage_p_bottom_male.png",
+			"female_icon": "choco_mage_p_bottom_female.png",
+			"set_preview": "choco_mage_p_preview.png"
+		},
+		{
+			"id": "choco_mage_staff_p",
+			"name": "SR Choco Mage Staff P",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:41:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_p_staff.png",
+			"female_icon": "choco_mage_p_staff.png",
+			"set_preview": "choco_mage_p_preview.png"
+		},
+		{
+			"id": "choco_mage_plushie_p",
+			"name": "SR Choco Mage Plushie P",
+			"set_name": "Melty Chocourt Mage Series",
+			"posted_on": "2025-05-09 10:41:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "choco_mage_p_plushie.png",
+			"female_icon": "choco_mage_p_plushie.png",
+			"set_preview": "choco_mage_p_preview.png"
 		}
 	]
 }

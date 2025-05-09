@@ -309,7 +309,12 @@
               ? '<div><small>' + row.set_name + '</small></div>'
               : '';
 
-            item_name = set_name + item_name;
+            // element
+            let element_icon = (row.element != null)
+              ? '<div><sup>Element : ' + output_element_icon(row.element) + row.element + '</sup></div>'
+              : '';
+
+            item_name = set_name + item_name + element_icon;
 
             // base section
             let base_data = row.base;
@@ -318,12 +323,12 @@
 
             // base stat
             if (base_data.stats != null) {
-              base_stats = output_as_list(base_data.stats);
+              base_stats = output_as_list(base_data.stats, true, false, true);
             }
 
             // base ability
             if (base_data.ability != null) {
-              base_ability = output_as_list(base_data.ability);
+              base_ability = output_as_list(base_data.ability, true, false, true);
             }
 
             // flb section
@@ -333,12 +338,12 @@
 
             // flb stat
             if (flb_data.stats != null) {
-              flb_stats = output_as_list(flb_data.stats);
+              flb_stats = output_as_list(flb_data.stats, true, false, true);
             }
 
             // flb ability
             if (flb_data.ability != null) {
-              flb_ability = output_as_list(flb_data.ability);
+              flb_ability = output_as_list(flb_data.ability, true, false, true);
             }
 
             // table comparison

@@ -269,7 +269,7 @@
     return result;
   }
 
-  function output_as_list(data, use_small_tag = true) {
+  function output_as_list(data, use_small_tag = true, buff_color = false, debuff_color = false) {
     let small_opener = (use_small_tag) ? '<small>' : '';
     let small_closer = (use_small_tag) ? '</small>' : '';
 
@@ -280,10 +280,40 @@
       // If it's an array, create an unordered list
       let listHtml = small_opener + '<ul class="mb-0">';
       data.forEach(item => {
-        listHtml += `<li>${item}</li>`;
+        let debuff_state = is_debuff(item);
+        if (debuff_state && debuff_color) {
+          listHtml += `<li class="debuff-text">${item}</li>`;
+        } else {
+          listHtml += (buff_color) ? `<li class="buff-text">${item}</li>` : `<li>${item}</li>`;
+        }
       });
       listHtml += '</ul>' + small_closer;
       return listHtml;
+    }
+  }
+
+  function output_element_icon(element = "None") {
+    switch (element) {
+      case "Fire": {
+        return '<i class="fas fa-fire mx-1" style="color: #FF8888;"></i>';
+        break;
+      }
+      case "Water": {
+        return '<i class="fas fa-tint mx-1" style="color: #6699FF;"></i>';
+        break;
+      }
+      case "Earth": {
+        return '<i class="fas fa-mountain mx-1" style="color: #F08B33;"></i>';
+        break;
+      }
+      case "Wind": {
+        return '<i class="fas fa-wind mx-1" style="color: #57E35F;"></i>';
+        break;
+      }
+      default: {
+        return '<i class="fas fa-circle mx-1" style="color: #D3D3D3;"></i>';
+        break;
+      }
     }
   }
 
