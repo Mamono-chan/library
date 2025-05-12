@@ -24,8 +24,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Fire ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "konomi_rg_cape_male.png",
-			"female_icon": "konomi_rg_cape_female.png",
+			"male_icon": "konomi_rg_cape_m.png",
+			"female_icon": "konomi_rg_cape_f.png",
 			"set_preview": "konomi_rg_preview.png"
 		},
 		{
@@ -52,8 +52,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Fire ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "konomi_rg_jacket_male.png",
-			"female_icon": "konomi_rg_jacket_female.png",
+			"male_icon": "konomi_rg_jacket_m.png",
+			"female_icon": "konomi_rg_jacket_f.png",
 			"set_preview": "konomi_rg_preview.png"
 		},
 		{
@@ -80,8 +80,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Fire ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "konomi_rg_boots_male.png",
-			"female_icon": "konomi_rg_boots_female.png",
+			"male_icon": "konomi_rg_boots_m.png",
+			"female_icon": "konomi_rg_boots_f.png",
 			"set_preview": "konomi_rg_preview.png"
 		},
 		{
@@ -156,8 +156,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Water ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "gerumi_rg_cape_male.png",
-			"female_icon": "gerumi_rg_cape_female.png",
+			"male_icon": "gerumi_rg_cape_m.png",
+			"female_icon": "gerumi_rg_cape_f.png",
 			"set_preview": "gerumi_rg_preview.png"
 		},
 		{
@@ -184,8 +184,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Water ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "gerumi_rg_jacket_male.png",
-			"female_icon": "gerumi_rg_jacket_female.png",
+			"male_icon": "gerumi_rg_jacket_m.png",
+			"female_icon": "gerumi_rg_jacket_f.png",
 			"set_preview": "gerumi_rg_preview.png"
 		},
 		{
@@ -212,8 +212,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Water ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "gerumi_rg_boots_male.png",
-			"female_icon": "gerumi_rg_boots_female.png",
+			"male_icon": "gerumi_rg_boots_m.png",
+			"female_icon": "gerumi_rg_boots_f.png",
 			"set_preview": "gerumi_rg_preview.png"
 		},
 		{
@@ -288,8 +288,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Earth ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "chocomi_rg_cape_male.png",
-			"female_icon": "chocomi_rg_cape_female.png",
+			"male_icon": "chocomi_rg_cape_m.png",
+			"female_icon": "chocomi_rg_cape_f.png",
 			"set_preview": "chocomi_rg_preview.png"
 		},
 		{
@@ -316,8 +316,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Earth ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "chocomi_rg_jacket_male.png",
-			"female_icon": "chocomi_rg_jacket_female.png",
+			"male_icon": "chocomi_rg_jacket_m.png",
+			"female_icon": "chocomi_rg_jacket_f.png",
 			"set_preview": "chocomi_rg_preview.png"
 		},
 		{
@@ -344,8 +344,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Earth ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "chocomi_rg_boots_male.png",
-			"female_icon": "chocomi_rg_boots_female.png",
+			"male_icon": "chocomi_rg_boots_m.png",
+			"female_icon": "chocomi_rg_boots_f.png",
 			"set_preview": "chocomi_rg_preview.png"
 		},
 		{
@@ -420,8 +420,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Wind ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "frostimi_rg_cape_male.png",
-			"female_icon": "frostimi_rg_cape_female.png",
+			"male_icon": "frostimi_rg_cape_m.png",
+			"female_icon": "frostimi_rg_cape_f.png",
 			"set_preview": "frostimi_rg_preview.png"
 		},
 		{
@@ -448,8 +448,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Wind ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "frostimi_rg_jacket_male.png",
-			"female_icon": "frostimi_rg_jacket_female.png",
+			"male_icon": "frostimi_rg_jacket_m.png",
+			"female_icon": "frostimi_rg_jacket_f.png",
 			"set_preview": "frostimi_rg_preview.png"
 		},
 		{
@@ -476,8 +476,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["Wind ATK", "Damage Factor"],
 			"ability_debuff": null,
-			"male_icon": "frostimi_rg_boots_male.png",
-			"female_icon": "frostimi_rg_boots_female.png",
+			"male_icon": "frostimi_rg_boots_m.png",
+			"female_icon": "frostimi_rg_boots_f.png",
 			"set_preview": "frostimi_rg_preview.png"
 		},
 		{
@@ -554,8 +554,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_w_head_male.png",
-			"female_icon": "choco_mage_w_head_female.png",
+			"male_icon": "choco_mage_w_head_m.png",
+			"female_icon": "choco_mage_w_head_f.png",
 			"set_preview": "choco_mage_w_preview.png"
 		},
 		{
@@ -584,8 +584,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_w_top_male.png",
-			"female_icon": "choco_mage_w_top_female.png",
+			"male_icon": "choco_mage_w_top_m.png",
+			"female_icon": "choco_mage_w_top_f.png",
 			"set_preview": "choco_mage_w_preview.png"
 		},
 		{
@@ -614,8 +614,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_w_bottom_male.png",
-			"female_icon": "choco_mage_w_bottom_female.png",
+			"male_icon": "choco_mage_w_bottom_m.png",
+			"female_icon": "choco_mage_w_bottom_f.png",
 			"set_preview": "choco_mage_w_preview.png"
 		},
 		{
@@ -692,8 +692,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_b_head_male.png",
-			"female_icon": "choco_mage_b_head_female.png",
+			"male_icon": "choco_mage_b_head_m.png",
+			"female_icon": "choco_mage_b_head_f.png",
 			"set_preview": "choco_mage_b_preview.png"
 		},
 		{
@@ -722,8 +722,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_b_top_male.png",
-			"female_icon": "choco_mage_b_top_female.png",
+			"male_icon": "choco_mage_b_top_m.png",
+			"female_icon": "choco_mage_b_top_f.png",
 			"set_preview": "choco_mage_b_preview.png"
 		},
 		{
@@ -752,8 +752,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_b_bottom_male.png",
-			"female_icon": "choco_mage_b_bottom_female.png",
+			"male_icon": "choco_mage_b_bottom_m.png",
+			"female_icon": "choco_mage_b_bottom_f.png",
 			"set_preview": "choco_mage_b_preview.png"
 		},
 		{
@@ -830,8 +830,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_g_head_male.png",
-			"female_icon": "choco_mage_g_head_female.png",
+			"male_icon": "choco_mage_g_head_m.png",
+			"female_icon": "choco_mage_g_head_f.png",
 			"set_preview": "choco_mage_g_preview.png"
 		},
 		{
@@ -860,8 +860,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_g_top_male.png",
-			"female_icon": "choco_mage_g_top_female.png",
+			"male_icon": "choco_mage_g_top_m.png",
+			"female_icon": "choco_mage_g_top_f.png",
 			"set_preview": "choco_mage_g_preview.png"
 		},
 		{
@@ -890,8 +890,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_g_bottom_male.png",
-			"female_icon": "choco_mage_g_bottom_female.png",
+			"male_icon": "choco_mage_g_bottom_m.png",
+			"female_icon": "choco_mage_g_bottom_f.png",
 			"set_preview": "choco_mage_g_preview.png"
 		},
 		{
@@ -968,8 +968,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_p_head_male.png",
-			"female_icon": "choco_mage_p_head_female.png",
+			"male_icon": "choco_mage_p_head_m.png",
+			"female_icon": "choco_mage_p_head_f.png",
 			"set_preview": "choco_mage_p_preview.png"
 		},
 		{
@@ -998,8 +998,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_p_top_male.png",
-			"female_icon": "choco_mage_p_top_female.png",
+			"male_icon": "choco_mage_p_top_m.png",
+			"female_icon": "choco_mage_p_top_f.png",
 			"set_preview": "choco_mage_p_preview.png"
 		},
 		{
@@ -1028,8 +1028,8 @@
 			"is_ability_armor": true,
 			"ability_buff": ["MATK", "Damage Factor", "Damage Upper Limit"],
 			"ability_debuff": ["ATK", "DEF"],
-			"male_icon": "choco_mage_p_bottom_male.png",
-			"female_icon": "choco_mage_p_bottom_female.png",
+			"male_icon": "choco_mage_p_bottom_m.png",
+			"female_icon": "choco_mage_p_bottom_f.png",
 			"set_preview": "choco_mage_p_preview.png"
 		},
 		{
@@ -1079,6 +1079,558 @@
 			"male_icon": "choco_mage_p_plushie.png",
 			"female_icon": "choco_mage_p_plushie.png",
 			"set_preview": "choco_mage_p_preview.png"
+		},
+		{
+			"id": "spring_bear_hat_p",
+			"name": "UR Spring Bear Hat P",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:34:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +540", "DEF +57", "MDEF +76", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_p_head_m.png",
+			"female_icon": "spring_bear_p_head_f.png",
+			"set_preview": "spring_bear_p_preview.png"
+		},
+		{
+			"id": "spring_bear_top_p",
+			"name": "UR Spring Bear Top P",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:42:00",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,160", "DEF +146", "MDEF +146", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_p_top_m.png",
+			"female_icon": "spring_bear_p_top_f.png",
+			"set_preview": "spring_bear_p_preview.png"
+		},
+		{
+			"id": "spring_bear_bottoms_p",
+			"name": "UR Spring Bear Bottoms P",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:43:00",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,026", "DEF +153", "MDEF +202", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_p_bottom_m.png",
+			"female_icon": "spring_bear_p_bottom_f.png",
+			"set_preview": "spring_bear_p_preview.png"
+		},
+		{
+			"id": "spring_bear_plushie_p",
+			"name": "UR Spring Bear Plushie P",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:45:00",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_p_plushie.png",
+			"female_icon": "spring_bear_p_plushie.png",
+			"set_preview": "spring_bear_p_preview.png"
+		},
+		{
+			"id": "spring_bear_backpack_p",
+			"name": "UR Spring Bear Backpack P",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:46:00",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_p_backpack.png",
+			"female_icon": "spring_bear_p_backpack.png",
+			"set_preview": "spring_bear_p_preview.png"
+		},
+		{
+			"id": "spring_bear_hat_l",
+			"name": "UR Spring Bear Hat L",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:49:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +540", "DEF +57", "MDEF +76", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_l_head_m.png",
+			"female_icon": "spring_bear_l_head_f.png",
+			"set_preview": "spring_bear_l_preview.png"
+		},
+		{
+			"id": "spring_bear_top_l",
+			"name": "UR Spring Bear Top L",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:49:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,160", "DEF +146", "MDEF +146", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_l_top_m.png",
+			"female_icon": "spring_bear_l_top_f.png",
+			"set_preview": "spring_bear_l_preview.png"
+		},
+		{
+			"id": "spring_bear_bottoms_l",
+			"name": "UR Spring Bear Bottoms L",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:49:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,026", "DEF +153", "MDEF +202", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_l_bottom_m.png",
+			"female_icon": "spring_bear_l_bottom_f.png",
+			"set_preview": "spring_bear_l_preview.png"
+		},
+		{
+			"id": "spring_bear_plushie_l",
+			"name": "UR Spring Bear Plushie L",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:49:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_l_plushie.png",
+			"female_icon": "spring_bear_l_plushie.png",
+			"set_preview": "spring_bear_l_preview.png"
+		},
+		{
+			"id": "spring_bear_backpack_l",
+			"name": "UR Spring Bear Backpack L",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:49:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_l_backpack.png",
+			"female_icon": "spring_bear_l_backpack.png",
+			"set_preview": "spring_bear_l_preview.png"
+		},
+		{
+			"id": "spring_bear_hat_b",
+			"name": "UR Spring Bear Hat B",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:55:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +540", "DEF +57", "MDEF +76", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_b_head_m.png",
+			"female_icon": "spring_bear_b_head_f.png",
+			"set_preview": "spring_bear_b_preview.png"
+		},
+		{
+			"id": "spring_bear_top_b",
+			"name": "UR Spring Bear Top B",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:55:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,160", "DEF +146", "MDEF +146", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_b_top_m.png",
+			"female_icon": "spring_bear_b_top_f.png",
+			"set_preview": "spring_bear_b_preview.png"
+		},
+		{
+			"id": "spring_bear_bottoms_b",
+			"name": "UR Spring Bear Bottoms B",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:55:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,026", "DEF +153", "MDEF +202", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_b_bottom_m.png",
+			"female_icon": "spring_bear_b_bottom_f.png",
+			"set_preview": "spring_bear_b_preview.png"
+		},
+		{
+			"id": "spring_bear_plushie_b",
+			"name": "UR Spring Bear Plushie B",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:55:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_b_plushie.png",
+			"female_icon": "spring_bear_b_plushie.png",
+			"set_preview": "spring_bear_b_preview.png"
+		},
+		{
+			"id": "spring_bear_backpack_b",
+			"name": "UR Spring Bear Backpack B",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 11:55:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_b_backpack.png",
+			"female_icon": "spring_bear_b_backpack.png",
+			"set_preview": "spring_bear_b_preview.png"
+		},
+		{
+			"id": "spring_bear_hat_g",
+			"name": "UR Spring Bear Hat G",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 12:00:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +540", "DEF +57", "MDEF +76", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_g_head_m.png",
+			"female_icon": "spring_bear_g_head_f.png",
+			"set_preview": "spring_bear_g_preview.png"
+		},
+		{
+			"id": "spring_bear_top_g",
+			"name": "UR Spring Bear Top G",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 12:00:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,160", "DEF +146", "MDEF +146", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_g_top_m.png",
+			"female_icon": "spring_bear_g_top_f.png",
+			"set_preview": "spring_bear_g_preview.png"
+		},
+		{
+			"id": "spring_bear_bottoms_g",
+			"name": "UR Spring Bear Bottoms G",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 12:00:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +1,026", "DEF +153", "MDEF +202", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"ATK +50%",
+					"Convert 1,500% Base ATK to Damage Upper Limit (max: 2,000,000) (need 134,000 Base ATK to reach max)",
+					"Damage Factor increases by 1% for each action in battle (max: 20%)",
+					"(Debuff) MATK -50%",
+					"(Debuff) MDEF -300"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["ATK", "Damage Upper Limit", "Damage Factor"],
+			"ability_debuff": ["MATK", "MDEF"],
+			"male_icon": "spring_bear_g_bottom_m.png",
+			"female_icon": "spring_bear_g_bottom_f.png",
+			"set_preview": "spring_bear_g_preview.png"
+		},
+		{
+			"id": "spring_bear_plushie_g",
+			"name": "UR Spring Bear Plushie G",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 12:00:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_g_plushie.png",
+			"female_icon": "spring_bear_g_plushie.png",
+			"set_preview": "spring_bear_g_preview.png"
+		},
+		{
+			"id": "spring_bear_backpack_g",
+			"name": "UR Spring Bear Backpack G",
+			"set_name": "Spring Breeze Bear Series",
+			"posted_on": "2025-05-12 12:00:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "spring_bear_g_backpack.png",
+			"female_icon": "spring_bear_g_backpack.png",
+			"set_preview": "spring_bear_g_preview.png"
 		}
 	]
 }
