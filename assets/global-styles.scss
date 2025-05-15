@@ -209,7 +209,23 @@ table.regular_table {
 			}
 
 			&.stats {
-				background-color: #074e4634;
+				background-color: #00000034;
+
+				&.Fire {
+					background-color: #64080834;
+				}
+
+				&.Water {
+					background-color: #12699834;
+				}
+
+				&.Earth {
+					background-color: #64470834;
+				}
+
+				&.Wind {
+					background-color: #08641d34;
+				}
 			}
 		}
 	}

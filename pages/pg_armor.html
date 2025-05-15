@@ -352,15 +352,15 @@
               table_stats = '<table class="regular_table table table-sm table-hover mb-1 mt-2">' +
 
                 '<tbody>' +
-                '<tr class="stats">' +
+                '<tr class="stats ' + row.element + '">' +
                 '<th colspan="2">STATS</th>' +
                 '</tr>' +
-                '<tr class="stats">' +
+                '<tr class="stats ' + row.element + '">' +
                 '<th>BASE</th>' +
                 '<th>FLB<div><sup>(Fully Limit Broken)</sup></div></th>' +
                 '</tr>' +
 
-                '<tr class="stats">' +
+                '<tr class="stats ' + row.element + '">' +
                 '<td style="width: 50%;">' + base_stats + '</td>' +
                 '<td style="width: 50%;">' + flb_stats + '</td>' +
                 '</tr>' +

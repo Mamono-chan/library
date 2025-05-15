@@ -2183,6 +2183,630 @@
 			"male_icon": "s_gunner_s_pistol.png",
 			"female_icon": "s_gunner_s_pistol.png",
 			"set_preview": "s_gunner_s_preview.png"
+		},
+		{
+			"id": "forest_mechanic_hat_r",
+			"name": "UR Forest Mechanic Hat R",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:32:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +360", "DEF +118", "MDEF +49", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Fire DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Fire DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_r_head_m.png",
+			"female_icon": "forest_mechanic_r_head_f.png",
+			"set_preview": "forest_mechanic_r_preview.png"
+		},
+		{
+			"id": "forest_mechanic_top_r",
+			"name": "UR Forest Mechanic Top R",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:32:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +773", "DEF +304", "MDEF +95", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Fire DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Fire DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_r_top_m.png",
+			"female_icon": "forest_mechanic_r_top_f.png",
+			"set_preview": "forest_mechanic_r_preview.png"
+		},
+		{
+			"id": "f_mechanic_bottoms_r",
+			"name": "UR F Mechanic Bottoms R",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:32:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +684", "DEF +318", "MDEF +131", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Fire DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Fire DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_r_bottom_m.png",
+			"female_icon": "forest_mechanic_r_bottom_f.png",
+			"set_preview": "forest_mechanic_r_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_r1",
+			"name": "SR F Mechanic Wing R1",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:32:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_r_wing_1.png",
+			"female_icon": "forest_mechanic_r_wing_1.png",
+			"set_preview": "forest_mechanic_r_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_r2",
+			"name": "SR F Mechanic Wing R2",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:32:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_r_wing_2.png",
+			"female_icon": "forest_mechanic_r_wing_2.png",
+			"set_preview": "forest_mechanic_r_preview.png"
+		},
+		{
+			"id": "owl_familiar_r",
+			"name": "SR Owl Familiar R",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:32:05",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_r_owl_familiar.png",
+			"female_icon": "forest_mechanic_r_owl_familiar.png",
+			"set_preview": "forest_mechanic_r_preview.png"
+		},
+		{
+			"id": "forest_mechanic_hat_n",
+			"name": "UR Forest Mechanic Hat N",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:56:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +360", "DEF +118", "MDEF +49", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Water DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Water DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_n_head_m.png",
+			"female_icon": "forest_mechanic_n_head_f.png",
+			"set_preview": "forest_mechanic_n_preview.png"
+		},
+		{
+			"id": "forest_mechanic_top_n",
+			"name": "UR Forest Mechanic Top N",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:56:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +773", "DEF +304", "MDEF +95", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Water DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Water DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_n_top_m.png",
+			"female_icon": "forest_mechanic_n_top_f.png",
+			"set_preview": "forest_mechanic_n_preview.png"
+		},
+		{
+			"id": "f_mechanic_bottoms_n",
+			"name": "UR F Mechanic Bottoms N",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:56:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +684", "DEF +318", "MDEF +131", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Water DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Water DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_n_bottom_m.png",
+			"female_icon": "forest_mechanic_n_bottom_f.png",
+			"set_preview": "forest_mechanic_n_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_n1",
+			"name": "SR F Mechanic Wing N1",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:56:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_n_wing_1.png",
+			"female_icon": "forest_mechanic_n_wing_1.png",
+			"set_preview": "forest_mechanic_n_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_n2",
+			"name": "SR F Mechanic Wing N2",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:56:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_n_wing_2.png",
+			"female_icon": "forest_mechanic_n_wing_2.png",
+			"set_preview": "forest_mechanic_n_preview.png"
+		},
+		{
+			"id": "owl_familiar_n",
+			"name": "SR Owl Familiar N",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 15:56:05",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_n_owl_familiar.png",
+			"female_icon": "forest_mechanic_n_owl_familiar.png",
+			"set_preview": "forest_mechanic_n_preview.png"
+		},
+		{
+			"id": "forest_mechanic_hat_b",
+			"name": "UR Forest Mechanic Hat B",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:02:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +360", "DEF +118", "MDEF +49", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Earth DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Earth DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_b_head_m.png",
+			"female_icon": "forest_mechanic_b_head_f.png",
+			"set_preview": "forest_mechanic_b_preview.png"
+		},
+		{
+			"id": "forest_mechanic_top_b",
+			"name": "UR Forest Mechanic Top B",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:02:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +773", "DEF +304", "MDEF +95", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Earth DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Earth DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_b_top_m.png",
+			"female_icon": "forest_mechanic_b_top_f.png",
+			"set_preview": "forest_mechanic_b_preview.png"
+		},
+		{
+			"id": "f_mechanic_bottoms_b",
+			"name": "UR F Mechanic Bottoms B",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:02:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +684", "DEF +318", "MDEF +131", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Earth DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Earth DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_b_bottom_m.png",
+			"female_icon": "forest_mechanic_b_bottom_f.png",
+			"set_preview": "forest_mechanic_b_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_b1",
+			"name": "SR F Mechanic Wing B1",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:02:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_b_wing_1.png",
+			"female_icon": "forest_mechanic_b_wing_1.png",
+			"set_preview": "forest_mechanic_b_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_b2",
+			"name": "SR F Mechanic Wing B2",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:02:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_b_wing_2.png",
+			"female_icon": "forest_mechanic_b_wing_2.png",
+			"set_preview": "forest_mechanic_b_preview.png"
+		},
+		{
+			"id": "owl_familiar_b",
+			"name": "SR Owl Familiar B",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:02:05",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_b_owl_familiar.png",
+			"female_icon": "forest_mechanic_b_owl_familiar.png",
+			"set_preview": "forest_mechanic_b_preview.png"
+		},
+		{
+			"id": "forest_mechanic_hat_w",
+			"name": "UR Forest Mechanic Hat W",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:18:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +360", "DEF +118", "MDEF +49", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Wind DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Wind DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_w_head_m.png",
+			"female_icon": "forest_mechanic_w_head_f.png",
+			"set_preview": "forest_mechanic_w_preview.png"
+		},
+		{
+			"id": "forest_mechanic_top_w",
+			"name": "UR Forest Mechanic Top W",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:18:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +773", "DEF +304", "MDEF +95", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Wind DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Wind DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_w_top_m.png",
+			"female_icon": "forest_mechanic_w_top_f.png",
+			"set_preview": "forest_mechanic_w_preview.png"
+		},
+		{
+			"id": "f_mechanic_bottoms_w",
+			"name": "UR F Mechanic Bottoms W",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:18:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +684", "DEF +318", "MDEF +131", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% of current HP to DEF (max: 2,500) (need 25,000 HP to reach max)",
+					"Convert 15% of Base DEF to Wind DEF (max: 800) (need 5,334 Base DEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["HP", "DEF", "Wind DEF"],
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_w_bottom_m.png",
+			"female_icon": "forest_mechanic_w_bottom_f.png",
+			"set_preview": "forest_mechanic_w_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_w1",
+			"name": "SR F Mechanic Wing W1",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:18:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_w_wing_1.png",
+			"female_icon": "forest_mechanic_w_wing_1.png",
+			"set_preview": "forest_mechanic_w_preview.png"
+		},
+		{
+			"id": "f_mechanic_wing_w2",
+			"name": "SR F Mechanic Wing W2",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:18:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_w_wing_2.png",
+			"female_icon": "forest_mechanic_w_wing_2.png",
+			"set_preview": "forest_mechanic_w_preview.png"
+		},
+		{
+			"id": "owl_familiar_w",
+			"name": "SR Owl Familiar W",
+			"set_name": "Machine Crafters",
+			"posted_on": "2025-05-15 16:18:05",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "forest_mechanic_w_owl_familiar.png",
+			"female_icon": "forest_mechanic_w_owl_familiar.png",
+			"set_preview": "forest_mechanic_w_preview.png"
 		}
 	]
 }

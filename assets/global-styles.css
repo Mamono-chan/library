@@ -203,7 +203,19 @@ table.regular_table tbody tr.ability {
   background-color: rgba(55, 11, 88, 0.2039215686);
 }
 table.regular_table tbody tr.stats {
-  background-color: rgba(7, 78, 70, 0.2039215686);
+  background-color: rgba(0, 0, 0, 0.2039215686);
+}
+table.regular_table tbody tr.stats.Fire {
+  background-color: rgba(100, 8, 8, 0.2039215686);
+}
+table.regular_table tbody tr.stats.Water {
+  background-color: rgba(18, 105, 152, 0.2039215686);
+}
+table.regular_table tbody tr.stats.Earth {
+  background-color: rgba(100, 71, 8, 0.2039215686);
+}
+table.regular_table tbody tr.stats.Wind {
+  background-color: rgba(8, 100, 29, 0.2039215686);
 }
 
 .buff-text {
