@@ -1631,6 +1631,558 @@
 			"male_icon": "spring_bear_g_backpack.png",
 			"female_icon": "spring_bear_g_backpack.png",
 			"set_preview": "spring_bear_g_preview.png"
+		},
+		{
+			"id": "s_gunner_headgear_n",
+			"name": "UR S Gunner Headgear N",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:35:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +411", "DEF +76", "MDEF +80", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Fire DEF +200",
+					"Convert 6% of current HP to Fire DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Water DEF -1,000",
+					"(Debuff) Wind DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Fire DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Water DEF", "Wind DEF"],
+			"male_icon": "s_gunner_n_head_m.png",
+			"female_icon": "s_gunner_n_head_f.png",
+			"set_preview": "s_gunner_n_preview.png"
+		},
+		{
+			"id": "s_gunner_top_n",
+			"name": "UR S Gunner Top N",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:35:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +884", "DEF +195", "MDEF +155", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Fire DEF +200",
+					"Convert 6% of current HP to Fire DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Water DEF -1,000",
+					"(Debuff) Wind DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Fire DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Water DEF", "Wind DEF"],
+			"male_icon": "s_gunner_n_top_m.png",
+			"female_icon": "s_gunner_n_top_f.png",
+			"set_preview": "s_gunner_n_preview.png"
+		},
+		{
+			"id": "s_gunner_bottoms_n",
+			"name": "UR S Gunner Bottoms N",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:35:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +782", "DEF +204", "MDEF +214", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Fire DEF +200",
+					"Convert 6% of current HP to Fire DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Water DEF -1,000",
+					"(Debuff) Wind DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Fire DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Water DEF", "Wind DEF"],
+			"male_icon": "s_gunner_n_bottom_m.png",
+			"female_icon": "s_gunner_n_bottom_f.png",
+			"set_preview": "s_gunner_n_preview.png"
+		},
+		{
+			"id": "s_gunner_rifle_n",
+			"name": "SR S Gunner Rifle N",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:35:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_n_rifle.png",
+			"female_icon": "s_gunner_n_rifle.png",
+			"set_preview": "s_gunner_n_preview.png"
+		},
+		{
+			"id": "s_gunner_pistol_n",
+			"name": "SR S Gunner Pistol N",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:35:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_n_pistol.png",
+			"female_icon": "s_gunner_n_pistol.png",
+			"set_preview": "s_gunner_n_preview.png"
+		},
+		{
+			"id": "s_gunner_headgear_m",
+			"name": "UR S Gunner Headgear M",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:48:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +411", "DEF +76", "MDEF +80", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Water DEF +200",
+					"Convert 6% of current HP to Water DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Fire DEF -1,000",
+					"(Debuff) Earth DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Water DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Fire DEF", "Earth DEF"],
+			"male_icon": "s_gunner_m_head_m.png",
+			"female_icon": "s_gunner_m_head_f.png",
+			"set_preview": "s_gunner_m_preview.png"
+		},
+		{
+			"id": "s_gunner_top_m",
+			"name": "UR S Gunner Top M",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:48:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +884", "DEF +195", "MDEF +155", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Water DEF +200",
+					"Convert 6% of current HP to Water DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Fire DEF -1,000",
+					"(Debuff) Earth DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Water DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Fire DEF", "Earth DEF"],
+			"male_icon": "s_gunner_m_top_m.png",
+			"female_icon": "s_gunner_m_top_f.png",
+			"set_preview": "s_gunner_m_preview.png"
+		},
+		{
+			"id": "s_gunner_bottoms_m",
+			"name": "UR S Gunner Bottoms M",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:48:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +782", "DEF +204", "MDEF +214", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Water DEF +200",
+					"Convert 6% of current HP to Water DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Fire DEF -1,000",
+					"(Debuff) Earth DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Water DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Fire DEF", "Earth DEF"],
+			"male_icon": "s_gunner_m_bottom_m.png",
+			"female_icon": "s_gunner_m_bottom_f.png",
+			"set_preview": "s_gunner_m_preview.png"
+		},
+		{
+			"id": "s_gunner_rifle_m",
+			"name": "SR S Gunner Rifle M",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:48:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_m_rifle.png",
+			"female_icon": "s_gunner_m_rifle.png",
+			"set_preview": "s_gunner_m_preview.png"
+		},
+		{
+			"id": "s_gunner_pistol_n",
+			"name": "SR S Gunner Pistol M",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 14:48:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_m_pistol.png",
+			"female_icon": "s_gunner_m_pistol.png",
+			"set_preview": "s_gunner_m_preview.png"
+		},
+		{
+			"id": "s_gunner_headgear_f",
+			"name": "UR S Gunner Headgear F",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:05:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +411", "DEF +76", "MDEF +80", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Earth DEF +200",
+					"Convert 6% of current HP to Earth DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Wind DEF -1,000",
+					"(Debuff) Fire DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Earth DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Wind DEF", "Fire DEF"],
+			"male_icon": "s_gunner_f_head_m.png",
+			"female_icon": "s_gunner_f_head_f.png",
+			"set_preview": "s_gunner_f_preview.png"
+		},
+		{
+			"id": "s_gunner_top_f",
+			"name": "UR S Gunner Top F",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:05:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +884", "DEF +195", "MDEF +155", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Earth DEF +200",
+					"Convert 6% of current HP to Earth DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Wind DEF -1,000",
+					"(Debuff) Fire DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Earth DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Wind DEF", "Fire DEF"],
+			"male_icon": "s_gunner_f_top_m.png",
+			"female_icon": "s_gunner_f_top_f.png",
+			"set_preview": "s_gunner_f_preview.png"
+		},
+		{
+			"id": "s_gunner_bottoms_f",
+			"name": "UR S Gunner Bottoms F",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:05:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +782", "DEF +204", "MDEF +214", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Earth DEF +200",
+					"Convert 6% of current HP to Earth DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Wind DEF -1,000",
+					"(Debuff) Fire DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Earth DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Wind DEF", "Fire DEF"],
+			"male_icon": "s_gunner_f_bottom_m.png",
+			"female_icon": "s_gunner_f_bottom_f.png",
+			"set_preview": "s_gunner_f_preview.png"
+		},
+		{
+			"id": "s_gunner_rifle_f",
+			"name": "SR S Gunner Rifle F",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:05:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_f_rifle.png",
+			"female_icon": "s_gunner_f_rifle.png",
+			"set_preview": "s_gunner_f_preview.png"
+		},
+		{
+			"id": "s_gunner_pistol_f",
+			"name": "SR S Gunner Pistol F",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:05:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_f_pistol.png",
+			"female_icon": "s_gunner_f_pistol.png",
+			"set_preview": "s_gunner_f_preview.png"
+		},
+		{
+			"id": "s_gunner_headgear_s",
+			"name": "UR S Gunner Headgear S",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:10:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +411", "DEF +76", "MDEF +80", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Wind DEF +200",
+					"Convert 6% of current HP to Wind DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Earth DEF -1,000",
+					"(Debuff) Water DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Wind DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Earth DEF", "Water DEF"],
+			"male_icon": "s_gunner_s_head_m.png",
+			"female_icon": "s_gunner_s_head_f.png",
+			"set_preview": "s_gunner_s_preview.png"
+		},
+		{
+			"id": "s_gunner_top_s",
+			"name": "UR S Gunner Top S",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:10:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +884", "DEF +195", "MDEF +155", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Wind DEF +200",
+					"Convert 6% of current HP to Wind DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Earth DEF -1,000",
+					"(Debuff) Water DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Wind DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Earth DEF", "Water DEF"],
+			"male_icon": "s_gunner_s_top_m.png",
+			"female_icon": "s_gunner_s_top_f.png",
+			"set_preview": "s_gunner_s_preview.png"
+		},
+		{
+			"id": "s_gunner_bottoms_s",
+			"name": "UR S Gunner Bottoms S",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:10:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +782", "DEF +204", "MDEF +214", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Wind DEF +200",
+					"Convert 6% of current HP to Wind DEF (max: 600) (need 10,000 HP to reach max)",
+					"Convert 6% of Damage Dealt to Damage Upper Limit (max: 1,200,000) (need to deal 20,000,000 Damage to reach max)",
+					"(Debuff) Earth DEF -1,000",
+					"(Debuff) Water DEF -1,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Wind DEF", "Damage Upper Limit"],
+			"ability_debuff": ["Earth DEF", "Water DEF"],
+			"male_icon": "s_gunner_s_bottom_m.png",
+			"female_icon": "s_gunner_s_bottom_f.png",
+			"set_preview": "s_gunner_s_preview.png"
+		},
+		{
+			"id": "s_gunner_rifle_s",
+			"name": "SR S Gunner Rifle S",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:10:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_s_rifle.png",
+			"female_icon": "s_gunner_s_rifle.png",
+			"set_preview": "s_gunner_s_preview.png"
+		},
+		{
+			"id": "s_gunner_pistol_s",
+			"name": "SR S Gunner Pistol S",
+			"set_name": "High School Gunners",
+			"posted_on": "2025-05-15 15:10:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "s_gunner_s_pistol.png",
+			"female_icon": "s_gunner_s_pistol.png",
+			"set_preview": "s_gunner_s_preview.png"
 		}
 	]
 }
