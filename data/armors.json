@@ -3,7 +3,7 @@
 		{
 			"id": "konomi_rg_cape",
 			"name": "UR Konomi Cape RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-04-28 10:26:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -31,7 +31,7 @@
 		{
 			"id": "konomi_rg_jacket",
 			"name": "UR Konomi Jacket RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-04-28 10:37:00",
 			"update_on": null,
 			"gear_slot": "top",
@@ -59,7 +59,7 @@
 		{
 			"id": "konomi_rg_boots",
 			"name": "UR Konomi Boots RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-04-28 10:41:00",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -87,7 +87,7 @@
 		{
 			"id": "konomi_rg_bag",
 			"name": "SR Konomi Bag RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 10:45:00",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -111,7 +111,7 @@
 		{
 			"id": "konomi_rg_plushie",
 			"name": "SR Konomi Plushie RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 10:49:00",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -135,7 +135,7 @@
 		{
 			"id": "gerumi_rg_cape",
 			"name": "UR Gerumi Cape RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:15:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -163,7 +163,7 @@
 		{
 			"id": "gerumi_rg_jacket",
 			"name": "UR Gerumi Jacket RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:15:02",
 			"update_on": null,
 			"gear_slot": "top",
@@ -191,7 +191,7 @@
 		{
 			"id": "gerumi_rg_boots",
 			"name": "UR Gerumi Boots RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:15:03",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -219,7 +219,7 @@
 		{
 			"id": "gerumi_rg_bag",
 			"name": "SR Gerumi Bag RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:15:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -243,7 +243,7 @@
 		{
 			"id": "gerumi_rg_plushie",
 			"name": "SR Gerumi Plushie RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:15:05",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -267,7 +267,7 @@
 		{
 			"id": "chocomi_rg_cape",
 			"name": "UR Chocomi Cape RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:23:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -295,7 +295,7 @@
 		{
 			"id": "chocomi_rg_jacket",
 			"name": "UR Chocomi Jacket RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:23:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -323,7 +323,7 @@
 		{
 			"id": "chocomi_rg_boots",
 			"name": "UR Chocomi Boots RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:23:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -351,7 +351,7 @@
 		{
 			"id": "chocomi_rg_bag",
 			"name": "SR Chocomi Bag RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:23:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -375,7 +375,7 @@
 		{
 			"id": "chocomi_rg_plushie",
 			"name": "SR Chocomi Plushie RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:23:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -399,7 +399,7 @@
 		{
 			"id": "frostimi_rg_cape",
 			"name": "UR Frostimi Cape RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:44:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -427,7 +427,7 @@
 		{
 			"id": "frostimi_rg_jacket",
 			"name": "UR Frostimi Jacket RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:44:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -455,7 +455,7 @@
 		{
 			"id": "frostimi_rg_boots",
 			"name": "UR Frostimi Boots RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:44:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -483,7 +483,7 @@
 		{
 			"id": "frostimi_rg_bag",
 			"name": "SR Frostimi Bag RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:44:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -507,7 +507,7 @@
 		{
 			"id": "frostimi_rg_plushie",
 			"name": "SR Frostimi Plushie RG",
-			"set_name": "Gerumi Fanclub Series",
+			"set_name": "Gerumi Fanclub",
 			"posted_on": "2025-05-08 11:44:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -531,7 +531,7 @@
 		{
 			"id": "choco_mage_hat_w",
 			"name": "UR Choco Mage Hat W",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 09:57:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -561,7 +561,7 @@
 		{
 			"id": "choco_mage_top_w",
 			"name": "UR Choco Mage Top W",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:08:00",
 			"update_on": null,
 			"gear_slot": "top",
@@ -591,7 +591,7 @@
 		{
 			"id": "choco_mage_bottoms_w",
 			"name": "UR Choco Mage Bottoms W",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:12:00",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -621,7 +621,7 @@
 		{
 			"id": "choco_mage_staff_w",
 			"name": "SR Choco Mage Staff W",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:15:00",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -645,7 +645,7 @@
 		{
 			"id": "choco_mage_plushie_w",
 			"name": "SR Choco Mage Plushie W",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:17:00",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -669,7 +669,7 @@
 		{
 			"id": "choco_mage_hat_b",
 			"name": "UR Choco Mage Hat B",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:26:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -699,7 +699,7 @@
 		{
 			"id": "choco_mage_top_b",
 			"name": "UR Choco Mage Top B",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:26:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -729,7 +729,7 @@
 		{
 			"id": "choco_mage_bottoms_b",
 			"name": "UR Choco Mage Bottoms B",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:26:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -759,7 +759,7 @@
 		{
 			"id": "choco_mage_staff_b",
 			"name": "SR Choco Mage Staff B",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:26:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -783,7 +783,7 @@
 		{
 			"id": "choco_mage_plushie_b",
 			"name": "SR Choco Mage Plushie B",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:26:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -807,7 +807,7 @@
 		{
 			"id": "choco_mage_hat_g",
 			"name": "UR Choco Mage Hat G",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:31:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -837,7 +837,7 @@
 		{
 			"id": "choco_mage_top_g",
 			"name": "UR Choco Mage Top G",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:31:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -867,7 +867,7 @@
 		{
 			"id": "choco_mage_bottoms_g",
 			"name": "UR Choco Mage Bottoms G",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:31:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -897,7 +897,7 @@
 		{
 			"id": "choco_mage_staff_g",
 			"name": "SR Choco Mage Staff G",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:31:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -921,7 +921,7 @@
 		{
 			"id": "choco_mage_plushie_g",
 			"name": "SR Choco Mage Plushie G",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:31:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -945,7 +945,7 @@
 		{
 			"id": "choco_mage_hat_p",
 			"name": "UR Choco Mage Hat P",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:41:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -975,7 +975,7 @@
 		{
 			"id": "choco_mage_top_p",
 			"name": "UR Choco Mage Top P",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:41:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -1005,7 +1005,7 @@
 		{
 			"id": "choco_mage_bottoms_p",
 			"name": "UR Choco Mage Bottoms P",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:41:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -1035,7 +1035,7 @@
 		{
 			"id": "choco_mage_staff_p",
 			"name": "SR Choco Mage Staff P",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:41:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1059,7 +1059,7 @@
 		{
 			"id": "choco_mage_plushie_p",
 			"name": "SR Choco Mage Plushie P",
-			"set_name": "Melty Chocourt Mage Series",
+			"set_name": "Melty Chocourt Mage",
 			"posted_on": "2025-05-09 10:41:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1083,7 +1083,7 @@
 		{
 			"id": "spring_bear_hat_p",
 			"name": "UR Spring Bear Hat P",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:34:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -1113,7 +1113,7 @@
 		{
 			"id": "spring_bear_top_p",
 			"name": "UR Spring Bear Top P",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:42:00",
 			"update_on": null,
 			"gear_slot": "top",
@@ -1143,7 +1143,7 @@
 		{
 			"id": "spring_bear_bottoms_p",
 			"name": "UR Spring Bear Bottoms P",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:43:00",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -1173,7 +1173,7 @@
 		{
 			"id": "spring_bear_plushie_p",
 			"name": "UR Spring Bear Plushie P",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:45:00",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1197,7 +1197,7 @@
 		{
 			"id": "spring_bear_backpack_p",
 			"name": "UR Spring Bear Backpack P",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:46:00",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1221,7 +1221,7 @@
 		{
 			"id": "spring_bear_hat_l",
 			"name": "UR Spring Bear Hat L",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:49:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -1251,7 +1251,7 @@
 		{
 			"id": "spring_bear_top_l",
 			"name": "UR Spring Bear Top L",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:49:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -1281,7 +1281,7 @@
 		{
 			"id": "spring_bear_bottoms_l",
 			"name": "UR Spring Bear Bottoms L",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:49:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -1311,7 +1311,7 @@
 		{
 			"id": "spring_bear_plushie_l",
 			"name": "UR Spring Bear Plushie L",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:49:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1335,7 +1335,7 @@
 		{
 			"id": "spring_bear_backpack_l",
 			"name": "UR Spring Bear Backpack L",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:49:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1359,7 +1359,7 @@
 		{
 			"id": "spring_bear_hat_b",
 			"name": "UR Spring Bear Hat B",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:55:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -1389,7 +1389,7 @@
 		{
 			"id": "spring_bear_top_b",
 			"name": "UR Spring Bear Top B",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:55:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -1419,7 +1419,7 @@
 		{
 			"id": "spring_bear_bottoms_b",
 			"name": "UR Spring Bear Bottoms B",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:55:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -1449,7 +1449,7 @@
 		{
 			"id": "spring_bear_plushie_b",
 			"name": "UR Spring Bear Plushie B",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:55:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1473,7 +1473,7 @@
 		{
 			"id": "spring_bear_backpack_b",
 			"name": "UR Spring Bear Backpack B",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:55:04",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1497,7 +1497,7 @@
 		{
 			"id": "spring_bear_hat_g",
 			"name": "UR Spring Bear Hat G",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 12:00:00",
 			"update_on": null,
 			"gear_slot": "head",
@@ -1527,7 +1527,7 @@
 		{
 			"id": "spring_bear_top_g",
 			"name": "UR Spring Bear Top G",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 12:00:01",
 			"update_on": null,
 			"gear_slot": "top",
@@ -1557,7 +1557,7 @@
 		{
 			"id": "spring_bear_bottoms_g",
 			"name": "UR Spring Bear Bottoms G",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 12:00:02",
 			"update_on": null,
 			"gear_slot": "bottom",
@@ -1587,7 +1587,7 @@
 		{
 			"id": "spring_bear_plushie_g",
 			"name": "UR Spring Bear Plushie G",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 12:00:03",
 			"update_on": null,
 			"gear_slot": "accessories",
@@ -1611,7 +1611,7 @@
 		{
 			"id": "spring_bear_backpack_g",
 			"name": "UR Spring Bear Backpack G",
-			"set_name": "Spring Breeze Bear Series",
+			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 12:00:04",
 			"update_on": null,
 			"gear_slot": "accessories",

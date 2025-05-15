@@ -306,7 +306,7 @@
 
             // set name
             let set_name = (row.set_name != null)
-              ? '<div><small>' + row.set_name + '</small></div>'
+              ? '<div><small>Set : <b>' + row.set_name + '</b></small></div>'
               : '';
 
             // element
@@ -449,33 +449,6 @@
 
         // use datatable api for data filtering
         let api = this.api();
-
-        // Text search inputs for Name only
-        // api.columns([1]).every(function () { // Name (1)
-        //   let column = this;
-        //   let input = $('#search_bar');
-        //   input.on('input', function () {
-        //     column.search($(this).val()).draw();
-        //   })
-        // });
-
-        // let input = $('#search_bar');
-
-        // input.on('input', function () {
-        //   let keyword = $(this).val().toLowerCase();
-
-        //   api.rows().every(function () {
-        //     let row_data = this.data();
-        //     let name = (row_data.name || '').toLowerCase();
-        //     let set_name = (row_data.set_name || '').toLowerCase();
-
-        //     if (name.includes(keyword) || set_name.includes(keyword)) {
-        //       $(this.node()).show();
-        //     } else {
-        //       $(this.node()).hide();
-        //     }
-        //   });
-        // });
 
         // Set up custom search functionality
         $('#search_bar').on('input', function () {
