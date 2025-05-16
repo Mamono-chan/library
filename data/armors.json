@@ -1172,7 +1172,7 @@
 		},
 		{
 			"id": "spring_bear_plushie_p",
-			"name": "UR Spring Bear Plushie P",
+			"name": "SR Spring Bear Plushie P",
 			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:45:00",
 			"update_on": null,
@@ -1310,7 +1310,7 @@
 		},
 		{
 			"id": "spring_bear_plushie_l",
-			"name": "UR Spring Bear Plushie L",
+			"name": "SR Spring Bear Plushie L",
 			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:49:03",
 			"update_on": null,
@@ -1448,7 +1448,7 @@
 		},
 		{
 			"id": "spring_bear_plushie_b",
-			"name": "UR Spring Bear Plushie B",
+			"name": "SR Spring Bear Plushie B",
 			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 11:55:03",
 			"update_on": null,
@@ -1586,7 +1586,7 @@
 		},
 		{
 			"id": "spring_bear_plushie_g",
-			"name": "UR Spring Bear Plushie G",
+			"name": "SR Spring Bear Plushie G",
 			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 12:00:03",
 			"update_on": null,
@@ -1610,7 +1610,7 @@
 		},
 		{
 			"id": "spring_bear_backpack_g",
-			"name": "UR Spring Bear Backpack G",
+			"name": "SR Spring Bear Backpack G",
 			"set_name": "Spring Breeze Bear",
 			"posted_on": "2025-05-12 12:00:04",
 			"update_on": null,
@@ -2807,6 +2807,678 @@
 			"male_icon": "forest_mechanic_w_owl_familiar.png",
 			"female_icon": "forest_mechanic_w_owl_familiar.png",
 			"set_preview": "forest_mechanic_w_preview.png"
+		},
+		{
+			"id": "phoenix_headgear_c",
+			"name": "UR Phoenix Headgear C",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 09:52:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +384", "DEF +61", "MDEF +97", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Water ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Water ATK to reach max)",
+					"Convert 20% of Base MDEF to Water ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Water ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_c_head_m.png",
+			"female_icon": "phoenix_c_head_f.png",
+			"set_preview": "phoenix_c_preview.png"
+		},
+		{
+			"id": "phoenix_top_c",
+			"name": "UR Phoenix Top C",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 09:52:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +825", "DEF +158", "MDEF +188", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Water ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Water ATK to reach max)",
+					"Convert 20% of Base MDEF to Water ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Water ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_c_top_m.png",
+			"female_icon": "phoenix_c_top_f.png",
+			"set_preview": "phoenix_c_preview.png"
+		},
+		{
+			"id": "phoenix_bottoms_c",
+			"name": "UR Phoenix Bottoms C",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 09:52:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +731", "DEF +165", "MDEF +261", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Water ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Water ATK to reach max)",
+					"Convert 20% of Base MDEF to Water ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Water ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_c_bottom_m.png",
+			"female_icon": "phoenix_c_bottom_f.png",
+			"set_preview": "phoenix_c_preview.png"
+		},
+		{
+			"id": "phoenix_plushie_c",
+			"name": "SR Phoenix Plushie C",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 09:52:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_c_plushie.png",
+			"female_icon": "phoenix_c_plushie.png",
+			"set_preview": "phoenix_c_preview.png"
+		},
+		{
+			"id": "phoenix_wings_c",
+			"name": "SR Phoenix Wings C",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 09:52:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_c_wings.png",
+			"female_icon": "phoenix_c_wings.png",
+			"set_preview": "phoenix_c_preview.png"
+		},
+		{
+			"id": "phoenix_headgear_n",
+			"name": "UR Phoenix Headgear N",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:27:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +384", "DEF +61", "MDEF +97", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Earth ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Earth ATK to reach max)",
+					"Convert 20% of Base MDEF to Earth ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Earth ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_n_head_m.png",
+			"female_icon": "phoenix_n_head_f.png",
+			"set_preview": "phoenix_n_preview.png"
+		},
+		{
+			"id": "phoenix_top_n",
+			"name": "UR Phoenix Top N",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:27:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +825", "DEF +158", "MDEF +188", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Earth ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Earth ATK to reach max)",
+					"Convert 20% of Base MDEF to Earth ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Earth ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_n_top_m.png",
+			"female_icon": "phoenix_n_top_f.png",
+			"set_preview": "phoenix_n_preview.png"
+		},
+		{
+			"id": "phoenix_bottoms_n",
+			"name": "UR Phoenix Bottoms N",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:27:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +731", "DEF +165", "MDEF +261", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Earth ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Earth ATK to reach max)",
+					"Convert 20% of Base MDEF to Earth ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Earth ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_n_bottom_m.png",
+			"female_icon": "phoenix_n_bottom_f.png",
+			"set_preview": "phoenix_n_preview.png"
+		},
+		{
+			"id": "phoenix_plushie_n",
+			"name": "SR Phoenix Plushie N",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:27:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_n_plushie.png",
+			"female_icon": "phoenix_n_plushie.png",
+			"set_preview": "phoenix_n_preview.png"
+		},
+		{
+			"id": "phoenix_wings_n",
+			"name": "SR Phoenix Wings N",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:27:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_n_wings.png",
+			"female_icon": "phoenix_n_wings.png",
+			"set_preview": "phoenix_n_preview.png"
+		},
+		{
+			"id": "phoenix_headgear_b",
+			"name": "UR Phoenix Headgear B",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:40:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +384", "DEF +61", "MDEF +97", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Wind ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Wind ATK to reach max)",
+					"Convert 20% of Base MDEF to Wind ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Wind ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_b_head_m.png",
+			"female_icon": "phoenix_b_head_f.png",
+			"set_preview": "phoenix_b_preview.png"
+		},
+		{
+			"id": "phoenix_top_b",
+			"name": "UR Phoenix Top B",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:40:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +825", "DEF +158", "MDEF +188", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Wind ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Wind ATK to reach max)",
+					"Convert 20% of Base MDEF to Wind ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Wind ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_b_top_m.png",
+			"female_icon": "phoenix_b_top_f.png",
+			"set_preview": "phoenix_b_preview.png"
+		},
+		{
+			"id": "phoenix_bottoms_b",
+			"name": "UR Phoenix Bottoms B",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:40:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +731", "DEF +165", "MDEF +261", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Wind ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Wind ATK to reach max)",
+					"Convert 20% of Base MDEF to Wind ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Wind ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_b_bottom_m.png",
+			"female_icon": "phoenix_b_bottom_f.png",
+			"set_preview": "phoenix_b_preview.png"
+		},
+		{
+			"id": "phoenix_plushie_b",
+			"name": "SR Phoenix Plushie B",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:40:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_b_plushie.png",
+			"female_icon": "phoenix_b_plushie.png",
+			"set_preview": "phoenix_b_preview.png"
+		},
+		{
+			"id": "phoenix_wings_b",
+			"name": "SR Phoenix Wings B",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 10:40:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_b_wings.png",
+			"female_icon": "phoenix_b_wings.png",
+			"set_preview": "phoenix_b_preview.png"
+		},
+		{
+			"id": "phoenix_headgear_w",
+			"name": "UR Phoenix Headgear W",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 11:16:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +384", "DEF +61", "MDEF +97", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Fire ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Fire ATK to reach max)",
+					"Convert 20% of Base MDEF to Fire ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Fire ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_w_head_m.png",
+			"female_icon": "phoenix_w_head_f.png",
+			"set_preview": "phoenix_w_preview.png"
+		},
+		{
+			"id": "phoenix_top_w",
+			"name": "UR Phoenix Top W",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 11:16:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +825", "DEF +158", "MDEF +188", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Fire ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Fire ATK to reach max)",
+					"Convert 20% of Base MDEF to Fire ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Fire ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_w_top_m.png",
+			"female_icon": "phoenix_w_top_f.png",
+			"set_preview": "phoenix_w_preview.png"
+		},
+		{
+			"id": "phoenix_bottoms_w",
+			"name": "UR Phoenix Bottoms W",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 11:16:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +731", "DEF +165", "MDEF +261", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"Base Fire ATK +100",
+					"Base Water ATK +100",
+					"Base Earth ATK +100",
+					"Base Wind ATK +100",
+					"Convert 40,000% of Base Fire ATK to Damage Upper Limit (max: 800,000) (need 2,000 Base Fire ATK to reach max)",
+					"Convert 20% of Base MDEF to Fire ATK (max: 300) (need 1,500 Base MDEF to reach max)",
+					"(Debuff) ATK -3,000",
+					"(Debuff) MATK -3,000"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": [
+				"Base Fire ATK",
+				"Base Water ATK",
+				"Base Earth ATK",
+				"Base Wind ATK",
+				"Damage Upper Limit",
+				"Fire ATK"
+			],
+			"ability_debuff": ["ATK", "MATK"],
+			"male_icon": "phoenix_w_bottom_m.png",
+			"female_icon": "phoenix_w_bottom_f.png",
+			"set_preview": "phoenix_w_preview.png"
+		},
+		{
+			"id": "phoenix_plushie_w",
+			"name": "SR Phoenix Plushie W",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 11:16:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_w_plushie.png",
+			"female_icon": "phoenix_w_plushie.png",
+			"set_preview": "phoenix_w_preview.png"
+		},
+		{
+			"id": "phoenix_wings_w",
+			"name": "SR Phoenix Wings W",
+			"set_name": "Phoenix of Dawn",
+			"posted_on": "2025-05-16 11:16:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "phoenix_w_wings.png",
+			"female_icon": "phoenix_w_wings.png",
+			"set_preview": "phoenix_w_preview.png"
 		}
 	]
 }
