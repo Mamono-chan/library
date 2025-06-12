@@ -3479,6 +3479,534 @@
 			"male_icon": "phoenix_w_wings.png",
 			"female_icon": "phoenix_w_wings.png",
 			"set_preview": "phoenix_w_preview.png"
+		},
+		{
+			"id": "s_runners_headgear_L",
+			"name": "UR S Runners Headgear L",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:30:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +413", "DEF +43", "MDEF +111", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Fire DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Fire DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_L_head_M.png",
+			"female_icon": "shadow_runners_L_head_F.png",
+			"set_preview": "shadow_runners_L_preview.png"
+		},
+		{
+			"id": "s_runners_top_L",
+			"name": "UR S Runners Top L",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:30:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +887", "DEF +110", "MDEF +215", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Fire DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Fire DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_L_top_M.png",
+			"female_icon": "shadow_runners_L_top_F.png",
+			"set_preview": "shadow_runners_L_preview.png"
+		},
+		{
+			"id": "s_runners_bottoms_L",
+			"name": "UR S Runners Bottoms L",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:30:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Fire",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +785", "DEF +115", "MDEF +298", "Fire DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Fire DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Fire DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_L_bottom_M.png",
+			"female_icon": "shadow_runners_L_bottom_F.png",
+			"set_preview": "shadow_runners_L_preview.png"
+		},
+		{
+			"id": "s_runners_hacking_tool_L",
+			"name": "SR Hacking Tool L",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:30:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_L_hacking_tool.png",
+			"female_icon": "shadow_runners_L_hacking_tool.png",
+			"set_preview": "shadow_runners_L_preview.png"
+		},
+		{
+			"id": "s_runners_extension_L",
+			"name": "SR S Runners Extension L",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:30:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Fire",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Fire DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_L_runners_extension.png",
+			"female_icon": "shadow_runners_L_runners_extension.png",
+			"set_preview": "shadow_runners_L_preview.png"
+		},
+		{
+			"id": "s_runners_headgear_M",
+			"name": "UR S Runners Headgear M",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:49:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +413", "DEF +43", "MDEF +111", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Water DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Water DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_M_head_M.png",
+			"female_icon": "shadow_runners_M_head_F.png",
+			"set_preview": "shadow_runners_M_preview.png"
+		},
+		{
+			"id": "s_runners_top_M",
+			"name": "UR S Runners Top M",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:49:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +887", "DEF +110", "MDEF +215", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Water DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Water DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_M_top_M.png",
+			"female_icon": "shadow_runners_M_top_F.png",
+			"set_preview": "shadow_runners_M_preview.png"
+		},
+		{
+			"id": "s_runners_bottoms_M",
+			"name": "UR S Runners Bottoms M",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:49:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Water",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +785", "DEF +115", "MDEF +298", "Water DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Water DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Water DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_M_bottom_M.png",
+			"female_icon": "shadow_runners_M_bottom_F.png",
+			"set_preview": "shadow_runners_M_preview.png"
+		},
+		{
+			"id": "s_runners_hacking_tool_M",
+			"name": "SR Hacking Tool M",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:49:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_M_hacking_tool.png",
+			"female_icon": "shadow_runners_M_hacking_tool.png",
+			"set_preview": "shadow_runners_M_preview.png"
+		},
+		{
+			"id": "s_runners_extension_M",
+			"name": "SR S Runners Extension M",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:49:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Water",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Water DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_M_runners_extension.png",
+			"female_icon": "shadow_runners_M_runners_extension.png",
+			"set_preview": "shadow_runners_M_preview.png"
+		},
+		{
+			"id": "s_runners_headgear_K",
+			"name": "UR S Runners Headgear K",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:57:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +413", "DEF +43", "MDEF +111", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Earth DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Earth DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_K_head_M.png",
+			"female_icon": "shadow_runners_K_head_F.png",
+			"set_preview": "shadow_runners_K_preview.png"
+		},
+		{
+			"id": "s_runners_top_K",
+			"name": "UR S Runners Top K",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:57:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +887", "DEF +110", "MDEF +215", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Earth DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Earth DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_K_top_M.png",
+			"female_icon": "shadow_runners_K_top_F.png",
+			"set_preview": "shadow_runners_K_preview.png"
+		},
+		{
+			"id": "s_runners_bottoms_K",
+			"name": "UR S Runners Bottoms K",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:57:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Earth",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +785", "DEF +115", "MDEF +298", "Earth DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Earth DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Earth DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_K_bottom_M.png",
+			"female_icon": "shadow_runners_K_bottom_F.png",
+			"set_preview": "shadow_runners_K_preview.png"
+		},
+		{
+			"id": "s_runners_hacking_tool_K",
+			"name": "SR Hacking Tool K",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:57:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_K_hacking_tool.png",
+			"female_icon": "shadow_runners_K_hacking_tool.png",
+			"set_preview": "shadow_runners_K_preview.png"
+		},
+		{
+			"id": "s_runners_extension_K",
+			"name": "SR S Runners Extension K",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 09:57:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Earth",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Earth DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_K_runners_extension.png",
+			"female_icon": "shadow_runners_K_runners_extension.png",
+			"set_preview": "shadow_runners_K_preview.png"
+		},
+		{
+			"id": "s_runners_headgear_S",
+			"name": "UR S Runners Headgear S",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 10:02:00",
+			"update_on": null,
+			"gear_slot": "head",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +413", "DEF +43", "MDEF +111", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Wind DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Wind DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_S_head_M.png",
+			"female_icon": "shadow_runners_S_head_F.png",
+			"set_preview": "shadow_runners_S_preview.png"
+		},
+		{
+			"id": "s_runners_top_S",
+			"name": "UR S Runners Top S",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 10:02:01",
+			"update_on": null,
+			"gear_slot": "top",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +887", "DEF +110", "MDEF +215", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Wind DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Wind DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_S_top_M.png",
+			"female_icon": "shadow_runners_S_top_F.png",
+			"set_preview": "shadow_runners_S_preview.png"
+		},
+		{
+			"id": "s_runners_bottoms_S",
+			"name": "UR S Runners Bottoms S",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 10:02:02",
+			"update_on": null,
+			"gear_slot": "bottom",
+			"element": "Wind",
+			"rarity": "UR",
+			"base": {
+				"stats": ["HP +785", "DEF +115", "MDEF +298", "Wind DEF +50"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": [
+					"HP +4,000",
+					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 15% Base MDEF to Wind DEF (max: 800) (need 5,334 Base MDEF to reach max)"
+				]
+			},
+			"is_ability_armor": true,
+			"ability_buff": ["Max HP", "MDEF", "Wind DEF"],
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_S_bottom_M.png",
+			"female_icon": "shadow_runners_S_bottom_F.png",
+			"set_preview": "shadow_runners_S_preview.png"
+		},
+		{
+			"id": "s_runners_hacking_tool_S",
+			"name": "SR Hacking Tool S",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 10:02:03",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "DEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_S_hacking_tool.png",
+			"female_icon": "shadow_runners_S_hacking_tool.png",
+			"set_preview": "shadow_runners_S_preview.png"
+		},
+		{
+			"id": "s_runners_extension_S",
+			"name": "SR S Runners Extension S",
+			"set_name": "Shadow Runners",
+			"posted_on": "2025-06-12 10:02:04",
+			"update_on": null,
+			"gear_slot": "accessories",
+			"element": "Wind",
+			"rarity": "SR",
+			"base": {
+				"stats": ["HP +30", "MDEF +15", "Wind DEF +15"],
+				"ability": null
+			},
+			"flb": {
+				"stats": null,
+				"ability": null
+			},
+			"is_ability_armor": false,
+			"ability_buff": null,
+			"ability_debuff": null,
+			"male_icon": "shadow_runners_S_runners_extension.png",
+			"female_icon": "shadow_runners_S_runners_extension.png",
+			"set_preview": "shadow_runners_S_preview.png"
 		}
 	]
 }
