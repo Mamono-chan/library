@@ -130,6 +130,36 @@ body {
   text-shadow: 0px 1px 2px rgb(0, 0, 0);
 }
 
+label.tags {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: #6c757d;
+  color: white;
+}
+label.tags input[type=checkbox] {
+  display: none;
+}
+label.tags input[type=checkbox]:checked + span {
+  background-color: #ffc107;
+  color: #343434;
+}
+label.tags span {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+}
+
 table.custom_datatable thead {
   display: none;
 }

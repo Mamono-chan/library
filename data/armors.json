@@ -16,13 +16,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Fire Base ATK +120",
+					"Base Fire ATK +120",
 					"Fire ATK +15%",
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Fire ATK", "Damage Factor"],
+			"ability_buff": ["Base Fire ATK", "Fire ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "konomi_rg_cape_m.png",
 			"female_icon": "konomi_rg_cape_f.png",
@@ -44,13 +44,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Fire Base ATK +120",
+					"Base Fire ATK +120",
 					"Fire ATK +15%",
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Fire ATK", "Damage Factor"],
+			"ability_buff": ["Base Fire ATK", "Fire ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "konomi_rg_jacket_m.png",
 			"female_icon": "konomi_rg_jacket_f.png",
@@ -72,13 +72,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Fire Base ATK +120",
+					"Base Fire ATK +120",
 					"Fire ATK +15%",
 					"Convert 0.01% Fire ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Fire ATK", "Damage Factor"],
+			"ability_buff": ["Base Fire ATK", "Fire ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "konomi_rg_boots_m.png",
 			"female_icon": "konomi_rg_boots_f.png",
@@ -148,13 +148,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Water Base ATK +120",
+					"Base Water ATK +120",
 					"Water ATK +15%",
 					"Convert 0.01% Water ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Water ATK", "Damage Factor"],
+			"ability_buff": ["Base Water ATK", "Water ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "gerumi_rg_cape_m.png",
 			"female_icon": "gerumi_rg_cape_f.png",
@@ -176,13 +176,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Water Base ATK +120",
+					"Base Water ATK +120",
 					"Water ATK +15%",
 					"Convert 0.01% Water ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Water ATK", "Damage Factor"],
+			"ability_buff": ["Base Water ATK", "Water ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "gerumi_rg_jacket_m.png",
 			"female_icon": "gerumi_rg_jacket_f.png",
@@ -204,13 +204,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Water Base ATK +120",
+					"Base Water ATK +120",
 					"Water ATK +15%",
 					"Convert 0.01% Water ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Water ATK", "Damage Factor"],
+			"ability_buff": ["Base Water ATK", "Water ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "gerumi_rg_boots_m.png",
 			"female_icon": "gerumi_rg_boots_f.png",
@@ -280,13 +280,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Earth Base ATK +120",
+					"Base Earth ATK +120",
 					"Earth ATK +15%",
 					"Convert 0.01% Earth ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Earth ATK", "Damage Factor"],
+			"ability_buff": ["Base Earth ATK", "Earth ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "chocomi_rg_cape_m.png",
 			"female_icon": "chocomi_rg_cape_f.png",
@@ -308,13 +308,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Earth Base ATK +120",
+					"Base Earth ATK +120",
 					"Earth ATK +15%",
 					"Convert 0.01% Earth ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Earth ATK", "Damage Factor"],
+			"ability_buff": ["Base Earth ATK", "Earth ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "chocomi_rg_jacket_m.png",
 			"female_icon": "chocomi_rg_jacket_f.png",
@@ -336,13 +336,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Earth Base ATK +120",
+					"Base Earth ATK +120",
 					"Earth ATK +15%",
 					"Convert 0.01% Earth ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Earth ATK", "Damage Factor"],
+			"ability_buff": ["Base Earth ATK", "Earth ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "chocomi_rg_boots_m.png",
 			"female_icon": "chocomi_rg_boots_f.png",
@@ -412,13 +412,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Wind Base ATK +120",
+					"Base Wind ATK +120",
 					"Wind ATK +15%",
 					"Convert 0.01% Wind ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Wind ATK", "Damage Factor"],
+			"ability_buff": ["Base Wind ATK", "Wind ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "frostimi_rg_cape_m.png",
 			"female_icon": "frostimi_rg_cape_f.png",
@@ -440,13 +440,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Wind Base ATK +120",
+					"Base Wind ATK +120",
 					"Wind ATK +15%",
 					"Convert 0.01% Wind ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Wind ATK", "Damage Factor"],
+			"ability_buff": ["Base Wind ATK", "Wind ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "frostimi_rg_jacket_m.png",
 			"female_icon": "frostimi_rg_jacket_f.png",
@@ -468,13 +468,13 @@
 			"flb": {
 				"stats": null,
 				"ability": [
-					"Wind Base ATK +120",
+					"Base Wind ATK +120",
 					"Wind ATK +15%",
 					"Convert 0.01% Wind ATK to Damage Factor (max: 15%)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Wind ATK", "Damage Factor"],
+			"ability_buff": ["Base Wind ATK", "Wind ATK", "Damage Factor"],
 			"ability_debuff": null,
 			"male_icon": "frostimi_rg_boots_m.png",
 			"female_icon": "frostimi_rg_boots_f.png",
@@ -3497,12 +3497,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Fire DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Fire DEF"],
+			"ability_buff": ["HP", "MDEF", "Fire DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_L_head_M.png",
 			"female_icon": "shadow_runners_L_head_F.png",
@@ -3525,12 +3525,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Fire DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Fire DEF"],
+			"ability_buff": ["HP", "MDEF", "Fire DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_L_top_M.png",
 			"female_icon": "shadow_runners_L_top_F.png",
@@ -3553,12 +3553,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Fire DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Fire DEF"],
+			"ability_buff": ["HP", "MDEF", "Fire DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_L_bottom_M.png",
 			"female_icon": "shadow_runners_L_bottom_F.png",
@@ -3629,12 +3629,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Water DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Water DEF"],
+			"ability_buff": ["HP", "MDEF", "Water DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_M_head_M.png",
 			"female_icon": "shadow_runners_M_head_F.png",
@@ -3657,12 +3657,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Water DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Water DEF"],
+			"ability_buff": ["HP", "MDEF", "Water DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_M_top_M.png",
 			"female_icon": "shadow_runners_M_top_F.png",
@@ -3685,12 +3685,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Water DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Water DEF"],
+			"ability_buff": ["HP", "MDEF", "Water DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_M_bottom_M.png",
 			"female_icon": "shadow_runners_M_bottom_F.png",
@@ -3761,12 +3761,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Earth DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Earth DEF"],
+			"ability_buff": ["HP", "MDEF", "Earth DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_K_head_M.png",
 			"female_icon": "shadow_runners_K_head_F.png",
@@ -3789,12 +3789,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Earth DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Earth DEF"],
+			"ability_buff": ["HP", "MDEF", "Earth DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_K_top_M.png",
 			"female_icon": "shadow_runners_K_top_F.png",
@@ -3817,12 +3817,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Earth DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Earth DEF"],
+			"ability_buff": ["HP", "MDEF", "Earth DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_K_bottom_M.png",
 			"female_icon": "shadow_runners_K_bottom_F.png",
@@ -3893,12 +3893,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Wind DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Wind DEF"],
+			"ability_buff": ["HP", "MDEF", "Wind DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_S_head_M.png",
 			"female_icon": "shadow_runners_S_head_F.png",
@@ -3921,12 +3921,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Wind DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Wind DEF"],
+			"ability_buff": ["HP", "MDEF", "Wind DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_S_top_M.png",
 			"female_icon": "shadow_runners_S_top_F.png",
@@ -3949,12 +3949,12 @@
 				"stats": null,
 				"ability": [
 					"HP +4,000",
-					"Convert 10% Max HP to MDEF (max: 2,500) (need 25,000 Max HP to reach max)",
+					"Convert 10% HP to MDEF (max: 2,500) (need 25,000 HP to reach max)",
 					"Convert 15% Base MDEF to Wind DEF (max: 800) (need 5,334 Base MDEF to reach max)"
 				]
 			},
 			"is_ability_armor": true,
-			"ability_buff": ["Max HP", "MDEF", "Wind DEF"],
+			"ability_buff": ["HP", "MDEF", "Wind DEF"],
 			"ability_debuff": null,
 			"male_icon": "shadow_runners_S_bottom_M.png",
 			"female_icon": "shadow_runners_S_bottom_F.png",

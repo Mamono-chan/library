@@ -13,7 +13,7 @@
                   <td style="width: 100%;">
                     <input id="search_bar" type="text" class="form-control" placeholder="Enter Search Keyword...">
                   </td>
-                  <td style="min-width: 180px;" class="text-end d-none">
+                  <td style="min-width: 180px;" class="text-end">
                     <button id="btnAdvFilterArm" onclick="toggle_arm_adv_filter()" class="btn btn-outline-warning"
                       style="width: calc(100% - 6px);">
                       <i class="fas fa-filter me-2"></i>Adv. Filters
@@ -24,15 +24,14 @@
               </table>
             </div>
 
-            <div id="arm_adv_filter_container" class="col-12 d-none">
+            <div id="arm_adv_filter_container" class="col-12">
+              <!-- HIDDEN INPUT TO STORE THE FILTER VALUE -->
+              <input type="hidden" id="armf_hi_rarity" value="all">
+              <input type="hidden" id="armf_hi_element" value="all">
               <div class="panel">
                 <div class="header mini"><small>Advanced Filter for Armors</small></div>
                 <div class="content">
-                  <!-- HIDDEN INPUT TO STORE THE FILTER VALUE -->
-                  <input type="hidden" id="armf_hi_rarity" value="all">
-                  <input type="hidden" id="armf_hi_year" value="all">
-                  <input type="hidden" id="armf_hi_effects" value="all">
-                  <!-- FILTER TOGGLE TO DISPLAY ACTIVE VALUE -->
+                  <!-- RARITY FILTER -->
                   <div class="mb-1">Rarity :</div>
                   <div class="d-inline-block">
                     <div onclick="taaf_badge(`rarity`,`all`)"
@@ -49,43 +48,158 @@
                       class="armf_g_rarity N clickable badge bg-secondary px-2 py-1">N</div>
                   </div>
                 </div>
+                <!-- ELEMENT FILTER -->
                 <div class="footer">
-                  <div class="mb-1">Year :</div>
+                  <div class="mb-1">Element :</div>
                   <div class="d-inline-block">
-                    <div onclick="taaf_badge(`year`,`all`)"
-                      class="armf_g_year all clickable badge bg-warning text-dark px-2 py-1">ALL</div>
-                    <div onclick="taaf_badge(`year`, 2021)"
-                      class="armf_g_year 2021 clickable badge bg-secondary px-2 py-1">2021
+                    <div onclick="taaf_badge(`element`,`all`)"
+                      class="armf_g_element all clickable badge bg-warning text-dark px-2 py-1">
+                      ALL</div>
+                    <div onclick="taaf_badge(`element`,`Neutral`)"
+                      class="armf_g_element Neutral clickable badge bg-secondary px-2 py-1">Neutral
                     </div>
-                    <div onclick="taaf_badge(`year`, 2022)"
-                      class="armf_g_year 2022 clickable badge bg-secondary px-2 py-1">2022
+                    <div onclick="taaf_badge(`element`,`Fire`)"
+                      class="armf_g_element Fire clickable badge bg-secondary px-2 py-1">Fire
                     </div>
-                    <div onclick="taaf_badge(`year`, 2023)"
-                      class="armf_g_year 2023 clickable badge bg-secondary px-2 py-1">2023
+                    <div onclick="taaf_badge(`element`,`Water`)"
+                      class="armf_g_element Water clickable badge bg-secondary px-2 py-1">Water
                     </div>
-                    <div onclick="taaf_badge(`year`, 2024)"
-                      class="armf_g_year 2024 clickable badge bg-secondary px-2 py-1">2024
+                    <div onclick="taaf_badge(`element`,`Earth`)"
+                      class="armf_g_element Earth clickable badge bg-secondary px-2 py-1">Earth
                     </div>
-                    <div onclick="taaf_badge(`year`, 2025)"
-                      class="armf_g_year 2025 clickable badge bg-secondary px-2 py-1">2025
+                    <div onclick="taaf_badge(`element`,`Wind`)"
+                      class="armf_g_element Wind clickable badge bg-secondary px-2 py-1">Wind
                     </div>
                   </div>
                 </div>
+                <!-- ABILITY STATS FILTER -->
                 <div class="footer">
-                  <div class="mb-1">Effects :</div>
-                  <div class="d-inline-block">
-                    <div onclick="taaf_badge(`effects`,`all`)"
-                      class="armf_g_effects all clickable badge bg-warning text-dark px-2 py-1">ALL
-                    </div>
-                    <div onclick="taaf_badge(`effects`, `buff_only`)"
-                      class="armf_g_effects buff_only clickable badge bg-secondary px-2 py-1">Buff Only
-                    </div>
-                    <div onclick="taaf_badge(`effects`, `debuff_only`)"
-                      class="armf_g_effects debuff_only clickable badge bg-secondary px-2 py-1">Debuff Only
-                    </div>
-                    <div onclick="taaf_badge(`effects`, `buff_and_debuff`)"
-                      class="armf_g_effects buff_and_debuff clickable badge bg-secondary px-2 py-1">Both Buff and Debuff
-                    </div>
+                  <div class="mb-1">Ability :</div>
+                  <div id="ability_filter" class="mb-2">
+
+                    <!-- Offensive Stats -->
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base ATK">
+                      <span>Base ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="ATK">
+                      <span>ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base MATK">
+                      <span>Base MATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="MATK">
+                      <span>MATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Damage Upper Limit">
+                      <span>DUL (Damage Upper Limit)</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Damage Factor">
+                      <span>DF (Damage Factor)</span>
+                    </label>
+
+                    <!-- Defensive Stats -->
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base HP">
+                      <span>Base HP</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="HP">
+                      <span>HP</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base DEF">
+                      <span>Base DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="DEF">
+                      <span>DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base MDEF">
+                      <span>Base MDEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="MDEF">
+                      <span>MDEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Resillience">
+                      <span>RES (Resillience)</span>
+                    </label>
+
+                    <!-- Elemental ATK -->
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Fire ATK">
+                      <span>Base Fire ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Fire ATK">
+                      <span>Fire ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Water ATK">
+                      <span>Base Water ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Water ATK">
+                      <span>Water ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Earth ATK">
+                      <span>Base Earth ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Earth ATK">
+                      <span>Earth ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Wind ATK">
+                      <span>Base Wind ATK</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Wind ATK">
+                      <span>Wind ATK</span>
+                    </label>
+
+                    <!-- Elemental DEF -->
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Fire DEF">
+                      <span>Base Fire DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Fire DEF">
+                      <span>Fire DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Water DEF">
+                      <span>Base Water DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Water DEF">
+                      <span>Water DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Earth DEF">
+                      <span>Base Earth DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Earth DEF">
+                      <span>Earth DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Base Wind DEF">
+                      <span>Base Wind DEF</span>
+                    </label>
+                    <label class="me-1 mb-1 tags">
+                      <input type="checkbox" class="me-1" value="Wind DEF">
+                      <span>Wind DEF</span>
+                    </label>
                   </div>
                 </div>
               </div>
@@ -100,6 +214,7 @@
                     <th>Set Name</th>
                     <th>Rarity</th>
                     <th>Posted On</th>
+                    <th>Element</th>
                   </tr>
                 </thead>
                 <tbody class="row g-2 justify-content-center">
@@ -129,8 +244,16 @@
     // if there's non `all` value, increase counter by 1
     arm_adv_filter_counter = 0;
     if ($('#armf_hi_rarity').val() != 'all') arm_adv_filter_counter++;
-    if ($('#armf_hi_year').val() != 'all') arm_adv_filter_counter++;
-    if ($('#armf_hi_effects').val() != 'all') arm_adv_filter_counter++;
+    if ($('#armf_hi_element').val() != 'all') arm_adv_filter_counter++;
+
+    // console.log('rarity value: ' + $('#armf_hi_rarity').val());
+    // console.log('element value: ' + $('#armf_hi_element').val());
+
+    let ability_checked = $('#ability_filter input[type="checkbox"]:checked').length;
+    arm_adv_filter_counter += ability_checked;
+
+    // console.log('total ability checked: ' + ability_checked);
+    // console.log('total adv counter: ' + arm_adv_filter_counter);
 
     // if counter > 0, display badge on arm adv filter button
     if (arm_adv_filter_counter > 0) {
@@ -143,6 +266,10 @@
         .removeClass('shown');
     }
   }
+
+  $('#ability_filter label.tags').on('click', function () {
+    check_arm_adv_filter_counter();
+  })
 
   function toggle_arm_adv_filter() {
     let arm_adv_filter_container = $('#arm_adv_filter_container');
@@ -162,8 +289,7 @@
 
     const sectionMap = {
       'rarity': { groupClass: '.armf_g_rarity', hiddenInput: '#armf_hi_rarity', columnIndex: 3 },
-      'year': { groupClass: '.armf_g_year', hiddenInput: '#armf_hi_year', columnIndex: 6 },
-      'effects': { groupClass: '.armf_g_effects', hiddenInput: '#armf_hi_effects', columnIndex: 8 }
+      'element': { groupClass: '.armf_g_element', hiddenInput: '#armf_hi_element', columnIndex: 5 }
     };
 
     if (!(section in sectionMap)) return;
@@ -260,8 +386,6 @@
           render: function (data, type, row) {
             let html_icon = '';
             let html_content = '';
-
-            console.log(row);
 
             /// |----------------------------------------
             /// | CREATING ICON
@@ -431,6 +555,13 @@
           render: function (data, type, row) {
             return data;
           }
+        },
+        {
+          data: 'element', // index 5
+          className: 'd-none',
+          render: function (data, type, row) {
+            return data;
+          }
         }
       ],
       dom: '<"row g-2"' +
@@ -450,35 +581,46 @@
         // use datatable api for data filtering
         let api = this.api();
 
-        // Set up custom search functionality
-        $('#search_bar').on('input', function () {
-          let searchValue = $(this).val();
+        let selectedTags = [];
+        let searchValue = '';
 
-          // Create a custom search function that searches both name and set_name
-          $.fn.dataTable.ext.search.push(function (settings, data, dataIndex, row) {
-            // data[1] is the name column, data[2] is the set_name column
-            let name = row.name || '';
-            let setName = row.set_name || '';
+        // Persistent filter for tags
+        function tagFilter(settings, data, dataIndex, rowData) {
+          if (selectedTags.length === 0) return true;
 
-            if (searchValue === '') {
-              return true; // Show all rows when search is empty
-            }
+          if (!Array.isArray(rowData.ability_buff)) return false;
 
-            // Case-insensitive search in both name and set_name
-            if (name.toLowerCase().includes(searchValue.toLowerCase()) ||
-              setName.toLowerCase().includes(searchValue.toLowerCase())) {
-              return true;
-            }
+          return selectedTags.every(tag => rowData.ability_buff.includes(tag));
+        }
 
-            return false;
-          });
+        // Persistent filter for search
+        function keywordFilter(settings, data, dataIndex, rowData) {
+          if (!rowData) return false;
 
-          // Redraw the table with the new search function applied
+          let name = rowData.name || '';
+          let setName = rowData.set_name || '';
+
+          if (searchValue === '') return true;
+
+          return name.toLowerCase().includes(searchValue.toLowerCase()) ||
+            setName.toLowerCase().includes(searchValue.toLowerCase());
+        }
+
+        // Register both filters once
+        $.fn.dataTable.ext.search.push(tagFilter);
+        $.fn.dataTable.ext.search.push(keywordFilter);
+
+        // Tag checkbox handler
+        $('#ability_filter input[type="checkbox"]').on('change', function () {
+          selectedTags = $('#ability_filter input[type="checkbox"]:checked')
+            .map(function () { return $(this).val(); }).get();
           api.draw();
+        });
 
-          // Remove the custom search function after drawing
-          // This prevents it from stacking up with multiple searches
-          $.fn.dataTable.ext.search.pop();
+        // Search input handler
+        $('#search_bar').on('input', function () {
+          searchValue = $(this).val();
+          api.draw();
         });
       }
     });
